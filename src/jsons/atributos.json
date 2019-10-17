@@ -1,48 +1,4 @@
-{
-    "atributos": [
-        {
-            "key": "0",
-            "text": "0",
-            "value": 0,
-            "disabled": false
-        },
-        {
-            "key": "1",
-            "text": "8",
-            "value": 8,
-            "disabled": false
-        },
-        {
-            "key": "2",
-            "text": "10",
-            "value": 10,
-            "disabled": false
-        },
-        {
-            "key": "3",
-            "text": "12",
-            "value": 12,
-            "disabled": false
-        },
-        {
-            "key": "4",
-            "text": "13",
-            "value": 13,
-            "disabled": false
-        },
-        {
-            "key": "5",
-            "text": "15",
-            "value": 15,
-            "disabled": false
-        },
-        {
-            "key": "6",
-            "text": "17",
-            "value": 17,
-            "disabled": false
-        }
-    ],
+{    
     "detalhes": {
         "0":{
             "nome": "FORÇA",

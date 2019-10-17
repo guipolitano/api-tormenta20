@@ -1,0 +1,96 @@
+{
+    "alta_arcana": {
+        "id": "1",
+        "nome": "Alta Arcana",
+        "descricao": {
+            "0": "No 20 º nível, seu domínio das artes arcanas é total. O custo em PM de suas magias(incluindo aprimoramentos) é reduzido à metade."
+        },
+        "classe": "arcanista"
+    },
+    "caminhos_da_magia": {
+        "id": "2",
+        "nome": "Caminhos da Magia",
+        "descricao": {
+            "0": "A magia é um poder incrível, capaz de realizar os maiores feitos. Esse poder tem origens distintas, e cada uma opera conforme suas próprias regras. Você deve escolher uma das opções a seguir.",
+            "1": "Bruxo - Você lança magias através de um objeto encantado, como uma varinha, cajado, chapéu ou amuleto.Se não estiver segurando seu foco em uma das mãos, precisa fazer um teste de Misticismo sempre que lançar uma magia, com CD 20 + o custo em PM da magia. Se falhar, a magia não funciona, mas você gasta os PM mesmo assim. O foco tem resistência a dano 10 e PV máximos iguais à metade dos seus. Se for danificado, é restaurado na próxima vez que você recuperar seus PM.Se for destruído (reduzido a 0 PV), você fica atordoado por 1d4 rodadas. Você pode reconstruir um foco destruído ou perdido com uma semana de trabalho e 100 T$. Seu atributo-chave para magias é Inteligência",
+            "2": "Feiticeiro - Você lança magias através de um poder inato que corre em seu sangue. Você não depende de nenhum item ou estudo, mas sua capacidade de aprender magias é limitada — você aprende uma magia nova a cada nível ímpar(3º, 5º, 7º, etc.), em vez de a cada nível. Seu atributo-chave para magias é Carisma.",
+            "3": "Mago - Você lança magias através do estudo e memorização de fórmulas arcanas. No início de cada dia, precisa estudar seu grimório por uma hora. Ao fim do estudo, escolha metade das magias que conhece, arredondado para cima (por exemplo, se conhece 7 magias, escolhe 3). Essas serão suas magias memorizadas para aquele dia. Você só pode lançar magias memorizadas; suas outras magias não podem ser lançadas, mesmo que você tenha pontos de mana para tal. Caso perca seu grimório, poderá memorizar  apenas um número de magias igual ao seu bônus de Inteligência. Caso não consiga estudar, não poderá lançar magias. Um grimório tem as mesmas estatísticas de um foco (veja acima) e pode ser reconstruído da mesma forma. Você começa com uma magia adicional (para um total de 4) e aprende uma magia adicional a cada nível ímpar (ou seja, em níveis ímpares você aprende um total de duas magias). Seu atributo-chave para magias é Inteligência."
+        },
+        "classe": "arcanista"
+    },
+    "furia": {
+        "id": "3",
+        "nome": "Fúria",
+        "descricao": {
+            "0": "Você pode gastar 3 PM para invocar uma fúria selvagem, tornando-se temível em combate.Você recebe + 2 nos testes de ataque e rolagens de dano corpo a corpo, mas não pode executar nenhuma ação que exige paciência ou concentração (como usar a perícia Furtividade ou lançar magias). Para cada 3 PM extras que você gastar, o bônus nos testes de ataque e rolagens de dano corpo a corpo aumenta em + 1. A fúria termina no fim da cena ou se você passar uma rodada inteira sem atacar uma criatura e sem sofrer dano "
+        },
+        "classe": "barbaro"
+    },
+    "furia_titanica": {
+        "id": "4",
+        "4": {
+            "nome": "Fúria Titânica",
+            "descricao": {
+                "0": "No 20º nível, o bônus que você recebe nos testes de ataque e rolagens de dano quando usa fúria é dobrado. Por exemplo, se pagar 12 PM, em vez de um bônus de +5, recebe um bônus de +10."
+            }
+        },
+        "classe": "barbaro"
+    },
+    "instinto_selvagem": {
+        "id": "5",
+        "nome": "Instinto Selvagem",
+        "descricao": {
+            "0": "No 3º nível, você recebe +1 em testes de Percepção e Reflexos. A cada seis níveis, esse bônus aumenta em + 1."
+        },
+        "classe": "barbaro"
+    },
+    "poder_arcano": {
+        "id": "6",
+        "nome": "Poder Arcano",
+        "descricao": {
+            "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+            "1": "Arcano de Batalha - Você soma o bônus de seu atributo-chave nas rolagens de dano para magias.",
+            "2": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+            "3": "Conhecimento Mágico - Você aprende duas magias de qualquer círculo que possa lançar.Você pode escolher este benefício quantas vezes quiser.",
+            "4": "Contramágica Aprimorada - Você é um mestre em desmantelar magias.Você pode fazer uma contramágica apenas gastando PM necessários para lançar uma magia do mesmo círculo da magia que quer anular. Pré-requisito. : Dissipar Magia, 6 º nível.",
+            "5": "Foco em Escola - Escolha uma escola de magia. Suas magias dessa escola têm CD + 2 para resistir. Você pode escolher este benefício quantas vezes quiser.A cada vez, ele se aplica a uma escola diferente.",
+            "6": "Familiar - Você possui um animal de estimação mágico. Vocês podem se comunicar telepaticamente em alcance médio e ele obedece a suas ordens, mas ainda está limitado ao que um animal pode fazer. Ele funciona como um aliado iniciante, escolhido entre conselheiro, perseguidor ou vigilante (veja no Capítulo 5).Se o familiar morrer em uma situação dramática, você fica atordoado por 1d4 rodadas.Nesse caso você pode invocar um novo familiar com um ritual que exige um dia e 100 T$ em ingredientes.Animais típicos escolhidos como familiares incluem cobras, corujas, corvos, falcões, gatos, morcegos, ratos e sapos.",
+            "7": "Mestre em Escola - Escolha uma escola de magia com a qual possua Foco em Escola. O custo para lançar magias dessa escola diminui em 2 PM (mínimo 1 PM). Pré-requisitos: Foco em Escola, 8º nível de arcanista.",
+            "8": "Poder Mágico - Você recebe +1 ponto de mana por nível de personagem.Quando sobe de nível, os PM que recebe por este benefício aumentam de acordo.Por exemplo, se escolher este benefício no 4º nível, recebe 4 PM.Quando subir para o 5º nível, recebe +1 PM, e assim por diante.Você pode escolher este benefício uma segunda vez, para receber um total de +2 PM por nível.",
+            "9": "Raio Arcano - Escolha um tipo de energia, entre ácido, eletricidade, fogo, frio, trevas ou trovão. Você pode gastar uma ação padrão para disparar um raio num alvo em alcance curto que causa 1d6 pontos de dano do tipo de energia escolhida. O alvo pode fazer um teste de Reflexos (CD atributo-chave) para reduzir o dano à metade. Você pode gastar PM quando lança um raio arcano, aumentando o dano em +1d6 para cada PM gasto.",
+            "10": "Raio Elemental - Se falhar no teste de Reflexos, o alvo de seu raio arcano sofre um efeito adicional, de acordo com o tipo de energia do raio. Ácido: –2 na CA por uma rodada. Eletricidade: ofuscado por uma rodada. Fogo: pega fogo. Frio: lento por uma rodada. Trevas: não pode ser curado por uma rodada. Trovão: –2 em testes de ataque por uma rodada. Pré-Requisito: Raio arcano.",
+            "11": "Raio Longínquo - Seu raio arcano passa a ter alcance longo. Pré-Requisito: Raio arcano.",
+            "12": "Raio Poderoso - O dado de dano do seu raio arcano aumenta para d8. Pré-Requisito: Raio arcano.",
+            "13": "Raio Versátil - Sempre que lança um raio arcano, você pode escolher um tipo diferente de energia. Pré-Requisito: Raio arcano.",
+            "14": "Teórico Arcano - O custo de aprimoramentos de magia diminui em 1 PM (mínimo 1 PM)."
+        },
+        "classe": "arcanista"
+    },
+    "poder_primal": {
+        "id": "7",
+        "nome": "Poder Primal",
+        "descricao": {
+            "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+            "1": "Aprimoramento - Você recebe +1 em um atributo à sua escolha.Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+            "2": "Brado Assustador. Você pode gastar uma ação padrão e 1 PM para soltar um berro feroz.Todos os inimigos em alcance curto devem fazer um teste de Vontade(CD Car).Um inimigo que falhe fica abalado até o fim da cena.Um inimigo bem - sucedido se torna imune a esta habilidade até o fim do dia.Pré - requisito. Treinado em Intimidação.",
+            "3": "Corrida - Seu deslocamento aumenta em +3m.",
+            "4": "Crítico Brutal - Seu multiplicador de crítico com ataques corpo a corpo aumenta em +1. Por exemplo, se fizer um crítico com um machado de batalha, seu multiplicador será x4, em vez de x3.",
+            "5": "Esquiva Sobrenatural - Seus instintos ficam tão apurados que você consegue reagir ao perigo antes que seus sentidos percebam. Você nunca fica surpreso.",
+            "6": "Força Indomável - Você pode gastar 1 PM para somar seu nível em um teste de Força ou de Atletismo. Você pode usar esta habilidade depois de rolar o dado, mas deve usá-la antes do mestre dizer se você foi bemsucedido ou não.",
+            "7": "Frenesi - Se estiver em fúria e usar a ação padrão ataque para fazer um ataque corpo a corpo, você pode gastar 2 PM para fazer um ataque adicional.",
+            "8": "Golpe Poderoso - Ao acertar um ataque corpo a corpo, você pode gastar 1 PM para aumentar o dano do ataque em mais um dado do mesmo tipo(por exemplo, com uma espada grande, causa 3d6, em vez de 2d6; com um machado grande, causa 2d12, em vez de 1d12).",
+            "9": "Pele Rígida - Você recebe um bônus de +2 na classe de armadura, mas apenas se não estiver usando armadura pesada. Você pode escolher este benefício quantas vezes quiser. Seus efeitos são cumulativos.",
+            "10": "Superstição - Você odeia magia, o que faz com que seja mais resistente a ela. Você recebe + 5 em testes de resistência contra magias.",
+            "11": "Vigor Primal - Você pode gastar uma ação de movimento e 1 PM para recuperar 1d12 pontos de vida.Para cada 2 PM extras que você gastar, cura +1d12 PV (ou seja, pode gastar 3 PM para recuperar 2d12 PV, 5 PM para recuperar 3d12 PV e assim por diante)."
+        },
+        "classe": "barbaro"
+    },
+    "resistencia_a_dano": {
+        "id": "8",
+        "nome": "Resistência a Dano",
+        "descricao": {
+            "0": "A partir do 5º nível, graças a seu vigor e força de vontade, você ignora parte de seus ferimentos.Você recebe resistência a dano 2 (todo o dano que sofre é reduzido em 2). A cada níveis, sua RD aumenta em 2, até um máximo de RD 10 no 17 º nível."
+        },
+        "classe": "barbaro"
+    }
+}
