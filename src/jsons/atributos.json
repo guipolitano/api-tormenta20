@@ -1,0 +1,72 @@
+{
+    "atributos": [
+        {
+            "key": "0",
+            "text": "0",
+            "value": 0,
+            "disabled": false
+        },
+        {
+            "key": "1",
+            "text": "8",
+            "value": 8,
+            "disabled": false
+        },
+        {
+            "key": "2",
+            "text": "10",
+            "value": 10,
+            "disabled": false
+        },
+        {
+            "key": "3",
+            "text": "12",
+            "value": 12,
+            "disabled": false
+        },
+        {
+            "key": "4",
+            "text": "13",
+            "value": 13,
+            "disabled": false
+        },
+        {
+            "key": "5",
+            "text": "15",
+            "value": 15,
+            "disabled": false
+        },
+        {
+            "key": "6",
+            "text": "17",
+            "value": 17,
+            "disabled": false
+        }
+    ],
+    "detalhes": {
+        "0":{
+            "nome": "FORÇA",
+            "descricao": "A Força mede seu poder muscular, sua força física. O modificador de Força é aplicado em testes de Atletismo e Luta; rolagens de dano corpo a corpo ou com armas de arremesso, e testes de Força para levantar peso, quebrar objetos e atos similares."
+        },
+        "1":{
+            "nome": "DESTREZA",
+            "descricao": "A Destreza mede agilidade, reflexos, equilíbrio e coordenação motora. O modificador de Destreza é aplicado na classe de armadura e em testes de Acrobacia, Cavalgar, Furtividade, Iniciativa, Ladinagem, Pontaria e Reflexos."
+        },
+        "2":{
+            "nome": "CONSTITUIÇÃO",
+            "descricao": "A saúde e vigor físico do herói são representados pela Constituição. Seu modificador é aplicado a seus pontos de vida iniciais e por nível e em testes de Fortitude. Se o seu modificador de Constituição muda, seus pontos de vida aumentam ou diminuem de acordo."
+        },
+        "3":{
+            "nome": "INTELIGÊNCIA",
+            "descricao": "A capacidade de raciocinar e resolver problemas é medida pela Inteligência.Você aplica o modificador de Inteligência em testes de Conhecimento, Guerra, Misticismo, Nobreza e Ofício. Além disso, recebe um número de perícias treinadas adicionais igual ao seu bônus de Inteligência. Essas perícias não precisam ser da sua classe."
+        },
+        "4":{
+            "nome": "SABEDORIA",
+            "descricao": "A Sabedoria representa a percepção e força de vontade, além de bom senso e intuição. O modificador de Sabedoria é aplicado em testes de Cura, Intuição, Navegação, Percepção, Religião, Sobrevivência e Vontade."
+        },
+        "5":{
+            "nome": "CARISMA",
+            "descricao": "Carisma mede sua força de personalidade, magnetismo pessoal, charme, simpatia, capacidade de persuasão e beleza física. Seu modificador de Carisma será aplicado em testes de Adestramento, Atuação, Diplomacia, Enganação, Intimidação, Jogatina e Malandragem."
+        }
+    }
+}

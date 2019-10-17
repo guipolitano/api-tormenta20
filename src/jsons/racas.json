@@ -1,0 +1,63 @@
+{
+    "opcoes": [{
+            "value": 0,
+            "text": "Selecione",
+            "key": "",
+            "disabled": true
+        },
+        {
+            "value": 1,
+            "text": "Anão",
+            "key": "1"
+        },
+        {
+            "value": 2,
+            "text": "Dahllan",
+            "key": "2"
+        },
+        {
+            "value": 3,
+            "text": "Elfo",
+            "key": "3"
+        },
+        {
+            "value": 4,
+            "text": "Goblin",
+            "key": "4"
+        },
+        {
+            "value": 5,
+            "text": "Humano",
+            "key": "5"
+        },
+        {
+            "value": 6,
+            "text": "Lefou",
+            "key": "6"
+        },
+        {
+            "value": 7,
+            "text": "Minotauro",
+            "key": "7"
+        },
+        {
+            "value": 8,
+            "text": "Qareen",
+            "key": "8"
+        }
+    ],
+    "racas": {
+        "Anao": {
+            "id": 1,
+            "bonus": {
+                "car": 0,
+                "sab": 2,
+                "int": 0,
+                "con": 4,
+                "des": -2,
+                "for": 0
+            },
+            "ca": 0
+        }
+    }
+}
