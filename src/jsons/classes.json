@@ -118,7 +118,8 @@
             "0": {
                 "nome": "Fúria",
                 "descricao": {
-                    "0": "Você pode gastar 3 PM para invocar uma fúria selvagem, tornando-se temível em combate.Você recebe + 2 nos testes de ataque e rolagens de dano corpo a corpo, mas não pode executar nenhuma ação que exige paciência ou concentração (como usar a perícia Furtividade ou lançar magias). Para cada 3 PM extras que você gastar, o bônus nos testes de ataque e rolagens de dano corpo a corpo aumenta em + 1. A fúria termina no fim da cena ou se você passar uma rodada inteira sem atacar uma criatura e sem sofrer dano "
+                    "0": "Você pode gastar 3 PM para invocar uma fúria selvagem, tornando-se temível em combate. Você recebe +2 nos testes de ataque e rolagens de dano corpo a corpo, mas só pode realizar as ações ataque, manobra de combate e investida, além de ações de movimento e livres. Para cada 3 PM extras que você gastar, o bônus nos testes de ataque e rolagens de dano corpo a corpo aumenta em +1.",
+                    "1": "A fúria termina no fim da cena ou se você passar uma rodada inteira sem atacar uma criatura e sem sofrer dano."
                 }
             },
             "1": {
@@ -502,6 +503,399 @@
             "17": "Poder do caçador",
             "18": "Explorador, poder do caçador",
             "19": "Mestre caçador, poder do caçador"
+        }
+    },
+
+    "cavaleiro": {
+        "nome": "Cavaleiro",
+        "id": "6",
+        "pv": {
+            "base": 20,
+            "bonus": 5
+        },
+        "pm": 3,
+        "pericias": {
+            "qnt": 4,
+            "opcoes": {
+                "0": "Adestramento (Car)",               
+                "1": "Atletismo (For)",               
+                "2": "Cavalgar (Des)",               
+                "3": "Diplomacia (Car)",               
+                "4": "Fortitude (Con)",               
+                "5": "Guerra (Int)",               
+                "6": "Iniciativa (Des)",               
+                "7": "Intimidação (Car)",               
+                "8": "Luta (For)",               
+                "9": "Nobreza (Int)",               
+                "10": "Percepção (Sab)",               
+                "11": "Vontade (Sab)"      
+            }
+        },
+        "proeficiencias": "Armas marciais, armaduras pesadas e escudos.",
+        "habilidades": {
+            "0": {
+                "nome": "Código de Honra",
+                "descricao": {
+                    "0": "Cavaleiros distinguem-se de meros combatentes por seguir um código de conduta. Fazem isto para mostrar que estão acima dos mercenários e bandoleiros que infestam os campos de batalha. Você não pode atacar um oponente pelas costas(em termos de regras, não pode se beneficiar do bônus flanquear), caído, desarmado ou desprevenido. Se violar o código, você perde todos os seus PM(mas recupera-os normalmente com descanso). Rebaixar-se ao nível dos covardes e desesperados abala a autoconfiança que eleva o cavaleiro."
+                }
+            },
+            "1": {
+                "nome": "Baluarte",
+                "descricao": {
+                    "0": "Você pode gastar 1 PM para receber +2 na classe de armadura e nos testes de resistência até o início do seu próximo turno.Para cada PM extra que gastar, o bônus aumenta em + 2.",
+                    "1": "A partir do 7º nível, quando usa esta habilidade, você pode gastar 2 PM adicionais para fornecer o mesmo bônus a todos os aliados adjacentes. Por exemplo, pode gastar 7 PM ao todo para receber + 10 na classe de armadura e nos testes de resistência e fornecer este mesmo bônus a todos os aliados adjacentes.A partir do 15 º nível, você pode gastar 5 PM adicionais para fornecer o mesmo bônus a todos os aliados em alcance curto."
+                }
+            },
+            "2": {
+                "nome": "Duelo",
+                "descricao": {
+                    "0": "A partir do 2º nível, você pode gastar 2 PM para escolher um inimigo em alcance curto e receber +1 nos testes de ataque e rolagens de dano contra ele até o fim da cena.Se atacar outro inimigo, o bônus termina imediatamente.Para cada 2 PM extras que você gastar, o bônus aumenta em + 1."         
+                }
+            },
+            "3": {
+                "nome": "Poder da Honra",
+                "descricao": {
+                    "0": "Aprimoramento - Você recebe +1 em um atributo à sua escolha.Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "1": "Estandarte - Seu estandarte se torna tão reconhecido que se torna um símbolo de inspiração para seus aliados. No início de cada cena, você e todos os aliados que possam ver seu estandarte recuperam um número de pontos de mana igual ao seu bônus de Carisma. Esta habilidade só afeta personagens que estejam com metade ou menos de seus PM máximos. Pré-requisito: Título.",
+                    "2": "Etiqueta - Você pode gastar 1 PM para rolar novamente um teste recém realizado de Conhecimento (nobreza) ou Diplomacia.",
+                    "3": "Investida Destruidora - Quando faz a ação investida, você pode gastar 2 PM. Se fizer isso, causa +1d8 pontos de dano. Para cada 2 PM extras que você gastar, o dano aumenta em +1d8. Você deve usar esta habilidade antes de rolar o ataque.",
+                    "4": "Postura de Combate: Aríete Implacável - Ao assumir essa postura, você aumenta o bônus de ataque em investidas em +2. Para cada 2 PM adicionais que pagar quando assumir a postura, aumenta o bônus de ataque em +2. Além disso, se fizer uma investida contra um objeto, causa dano dobrado. Você precisa se deslocar todos os turnos para manter essa postura ativa.",
+                    "5": "Postura de Combate: Castigo de Ferro - Essa postura só funciona se você estiver adjacente a um ou mais aliados. Sempre que um aliado adjacente sofrer um ataque corpo a corpo, você pode gastar 1 PM para desferir um ataque na criatura que o atacou.",
+                    "6": "Postura de Combate: Foco de Batalha - Sempre que um inimigo causar dano em você, você recupera 1d6 pontos de mana.",
+                    "7": "Postura de Combate: Provocação Petulante - Enquanto essa postura estiver ativa, todos os inimigos que iniciarem seus turnos dentro de seu alcance curto devem fazer um teste de Vontade(CD Car). Se falharem, devem atacar você nessa rodada.",
+                    "8": "Postura de Combate: Muralha Intransponível - Para assumir essa postura você precisa estar empunhando um escudo. Você recebe +1 na CA. Para cada 2 PM adicionais que pagar quando assumir a postura, aumenta esse bônus em +1. Além disso, soma esse bônus da CA em testes de Reflexos e, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, não sofre nenhum dano se for bem-sucedido. Enquanto mantiver essa postura, seu deslocamento é reduzido para 3 m.",
+                    "9": "Postura de Combate: Torre Inabalável - Você assume uma postura defensiva que o torna imune a qualquer tentativa de tirá-lo do lugar, de forma mundana ou mágica. Enquanto mantiver a postura, você não pode se deslocar, mas recebe um bônus na CA igual a seu bônus de Constituição e pode substituir testes de Reflexos e Vontade por testes de Fortitude.",
+                    "10": "Título - Você adquire um título menor de nobreza e autoridade sobre o povo. Converse com o mestre para definir os detalhes de seu título. Você pode gastar 2 PM para conclamar pessoas comuns a realizar uma tarefa para você. Em termos de regras, você recebe um sucesso automático em um teste de perícia à sua escolha com CD máxima igual ao seu nível +5. O tempo necessário para conclamar as pessoas é o tempo do uso da perícia em questão. Esta habilidade só pode ser usada em locais onde seu título carregue alguma influência(à critério do mestre).Pré-requisito: 10º nível de personagem."
+                }
+            },
+            "4": {
+                "nome": "Caminho do Cavaleiro",
+                "descricao": {
+                    "0": "No 5º nível, escolha entre especialização em armaduras ou montaria.",
+                    "1": "Especialização em Armaduras - Você recebe resistência a dano 2 se estiver usando uma armadura pesada. No 8 º nível, e a cada três níveis, sua RD aumenta em 2, até um máximo de RD 10 no 20º nível.",
+                    "2": "Montaria - Você recebe um cavalo de guerra, com o qual recebe um bônus de +5 em testes de Adestramento e Cavalgar. Ele fornece os benefícios de um aliado iniciante dos tipos montaria e combatente. No 11 º nível, passa a fornecer os benefícios de um aliado veterano e, no 17 º nível, de um aliado mestre. Veja a regra de Aliados no Capítulo 5. Caso o cavalo morra, você pode comprar outro pelo preço normal e treiná-lo, para receber os benefícios desta habilidade, com uma semana de trabalho. De acordo com o mestre, você pode possuir outro tipo de montaria."
+                }
+            },
+            "5": {
+                "nome": "Resoluto",
+                "descricao": {
+                    "0": "A partir do 9º nível, você pode gastar 1 PM para refazer um teste de resistência contra um efeito contínuo(como paralisia, medo, veneno, etc.) que esteja o afetando. O segundo teste recebe um bônus de +5 e, se for bem-sucedido, cancela o efeito.Você só pode usar esta habilidade uma vez por efeito."
+                }
+            },
+            "6": {
+                "nome": "Bravura Final",
+                "descricao": {
+                    "0": "No 20º nível, sua virtude vence a morte. Se chegar a 0 ou menos PV, você pode continuar consciente e agindo normalmente. Se fizer isso, deve gastar 5 PM no início de cada turno.Se não pagar, cai inconsciente ou morto, conforme seus PV atuais."
+                }
+            }
+        },
+        "tabela": {
+            "0": "Baluarte",
+            "1": "Duelo, poder da honra",
+            "2": "Poder da honra",
+            "3": "Poder da honra",
+            "4": "Poder da honra, caminho do cavaleiro",
+            "5": "Poder da honra",
+            "6": "Baluarte(aliados adjacentes), Poder da honra",
+            "7": "Poder da honra",
+            "8": "Poder da honra, Resoluto",
+            "9": "Poder da honra",
+            "10": "Poder da honra",
+            "11": "Poder da honra",
+            "12": "Poder da honra",
+            "13": "Poder da honra",
+            "14": "Baluarte(aliados em alcance curto), Poder da honra",
+            "15": "Poder da honra",
+            "16": "Poder da honra",
+            "17": "Poder da honra",
+            "18": "Poder da honra",
+            "19": "Bravura final, Poder da honra"
+        }
+    },
+
+    "clerigo": {
+        "nome": "Clérigo",
+        "id": "7",
+        "pv": {
+            "base": 16,
+            "bonus": 4
+        },
+        "pm": 5,
+        "pericias": {
+            "qnt": 4,
+            "opcoes": {
+                "0": "Conhecimento(Int)",
+                "1": "Cura(Sab)",
+                "2": "Diplomacia(Car)",
+                "3": "Fortitude(Con)",
+                "4": "Iniciativa(Des)",
+                "5": "Intuição(Sab)",
+                "6": "Luta(For)",
+                "7": "Misticismo(Int)",
+                "8": "Nobreza(Int)",
+                "9": "Ofício(Int)",
+                "10": "Percepção(Sab)",
+                "11": "Religião(Sab)",
+                "12": "Vontade(Sab)"
+            }
+        },
+        "proeficiencias": "Armaduras pesadas e escudos.",
+        "habilidades": {
+            "0": {
+                "nome": "Devoto",
+                "descricao": {
+                    "0": "Você se torna devoto de um deus maior. Você deve obedecer as Obrigações & Restrições de seu deus, mas, em troca, ganha os Poderes Concedidos dele. Veja o Capítulo 2 para a lista de divindades.",
+                    "1": "Como alternativa, você pode cultuar o Panteão como um todo. Não recebe nenhum Poder Concedido, mas sua única Obrigação & Restrição e não usar armas cortantes ou perfurantes(porque essas derramam sangue, algo que clérigos do Panteão consideram proibido).",
+                    "2": "O nome desta habilidade varia de acordo com a divindade escolhida(Devoto de Valkaria, Devoto de Khalmyr...ou Devoto dos Deuses, se escolher cultuar o Panteão como um todo)."
+                }
+            },
+            "1": {
+                "nome": "Magias",
+                "descricao": {
+                    "0": "Você pode lançar magias divinas de 1º círculo. A cada quatro níveis, pode lançar magias de um círculo maior(2º círculo no 5º nível, 3º círculo no 9º nível e assim por diante).",
+                    "1": "Você começa com três magias de 1º círculo. A cada nível, aprende uma magia de qualquer círculo que possa lançar.",
+                    "2": "Seu atributo-chave para lançar magias é Sabedoria, e você soma seu bônus de Sabedoria no seu total de PM. Veja o Capítulo 4 para as regras de magia."
+                }
+            },
+            "2": {
+                "nome": "Poder Divino",
+                "descricao": {
+                    "0": "No 2 º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+                    "1": "Aprimoramento - Você recebe + 1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "2": "Arma Sagrada - Você se torna proficiente na arma favorita de sua divindade. Se estiver empunhando a arma favorita de sua divindade, você pode gastar uma ação de movimento e 3 PM para infundi-la com poder divino. A arma recebe um bônus de + 1 nos testes de ataque e rolagens de dano até o fim da cena.Para cada 3 PM extras que você gastar, esse bônus aumenta em + 1.",
+                    "3": "Canalizar Energia Positiva/Negativa - Você pode gastar uma ação padrão e 2 PM para liberar uma onda de energia positiva ou negativa(de acordo com sua divindade) que afeta todas as criaturas em alcance curto. Energia positiva cura 1d6 pontos de dano em criaturas vivas à sua escolha e causa 1 d6 pontos de dano de luz em mortos-vivos. Energia negativa tem o efeito inverso — causa dano de trevas em criaturas vivas à sua escolha e cura mortos-vivos. Uma criatura que sofra dano desta habilidade tem direito a um teste de Vontade(CD Car) para reduzi-lo à metade. Para cada 2 PM extras que você gastar, a cura ou dano aumenta em +1d6 PV(ou seja, pode gastar 4 PM para curar 2d6 PV, 6 PM para curar 3d6 PV e assim por diante).",
+                    "4": "Canalizar Amplo - Quando você usa a habilidade Canalizar Energia, pode pagar +2 PM para aumentar o alcance dela para longo. Pré-Requisito: Canalizar Energia Positiva ou Negativa.",
+                    "5": "Conhecimento Mágico - Você aprende duas magias de qualquer círculo que possa lançar. Você pode escolher este benefício quantas vezes quiser.",
+                    "6": "Expulsar/Comandar Mortos-Vivos - Você pode usar uma ação padrão e 3 PM para expulsar(se sua divindade canaliza energia positiva) ou comandar(se canaliza energia negativa) todos os mortos-vivos em alcance curto. Mortos-vivos expulsos ficam apavorados por 1d6 rodadas. Mortos-vivos comandados ficam sob suas ordens; entretanto, o nível somado de mortosvivos sob seu comando a qualquer momento não pode exceder o seu próprio nível. Dar uma ordem a mortos-vivos sob seu comando é uma ação de movimento. Mortos-vivos têm direito a um teste de Vontade(CD Car) para evitar qualquer destes efeitos. Pré-Requisito: Canalizar Energia Positiva ou Negativa.",
+                    "7": "Magia Sagrada/Profana - Quando lança uma magia que causa dano, você pode pagar + 1 PM. Se fizer isso, muda o tipo de dano da magia para luz ou trevas (de acordo com a sua divindade).",
+                    "8": "Prece de Combate - Quando lança uma magia com tempo de conjuração de uma ação padrão em si mesmo, você pode pagar +2 PM para lançá-la como uma ação de movimento.",
+                    "9": "Símbolo Sagrado Abençoado - Você pode gastar uma ação de movimento e 1 PM para fazer uma prece e energizar seu símbolo sagrado até o fim da cena. Um símbolo sagrado energizado emite uma luz dourada ou prateada(se sua divindade canaliza energia positiva) ou púrpura ou avermelhada(se canaliza energia negativa) que ilumina como uma tocha. Enquanto estiver empunhando um símbolo sagrado energizado, o custo em PM para lançar suas magias diminui em 1 (mínimo 1 PM)."
+                }
+            },
+            "3": {
+                "nome": "Mão da Divindade",
+                "descricao": {
+                    "0": "No 20º nível, você pode gastar uma ação completa e 15 PM para canalizar a energia de seu deus.Fazer isso gera o efeito de três magias divinas quaisquer, à sua escolha(como se você tivesse lançado as três magias em seu turno, com alvos à sua escolha). Sempre que usa esta habilidade, você perde 1 ponto em um atributo básico permanentemente(role 1d6 para determinar qual, sendo “1” Força, “2” Destreza assim por diante). Corpos mortais simplesmente não foram feitos para lidar com tamanho poder."
+                }
+            }            
+        },
+        "tabela": {
+            "0": "Devoto, magias (1º círculo)",
+            "1": "Poder divino",
+            "2": "Poder divino",
+            "3": "Poder divino",
+            "4": "Magias (2º círculo), poder divino",
+            "5": "Poder divino",
+            "6": "Poder divino",
+            "7": "Poder divino",
+            "8": "Magias (3º círculo), poder divino",
+            "9": "Poder divino",
+            "10": "Poder divino",
+            "11": "Poder divino",
+            "12": "Magias (4º círculo), poder divino",
+            "13": "Poder divino",
+            "14": "Poder divino",
+            "15": "Poder divino",
+            "16": "Magias (5º círculo), poder divino",
+            "17": "Poder divino",
+            "18": "Poder divino",
+            "19": "Mão da divindade, poder divino"
+        }
+    },
+
+    "druida": {
+        "nome": "Druida",
+        "id": "8",
+        "pv": {
+            "base": 16,
+            "bonus": 4
+        },
+        "pm": 4,
+        "pericias": {
+            "qnt": 6,
+            "opcoes": {
+                "0": "Adestramento(Car)",
+                "1": "Atletismo(For)",
+                "2": "Cavalgar(Des)",
+                "3": "Conhecimento(Int)",
+                "4": "Cura(Sab)",
+                "5": "Fortitude(Con)",
+                "6": "Iniciativa(Des)",
+                "7": "Intuição(Sab)",
+                "8": "Luta(For)",
+                "9": "Misticismo(Int)",
+                "10": "Ofício(Int)",
+                "11": "Percepção(Sab)",
+                "12": "Religião(Sab)",
+                "13": "Sobrevivência(Sab)",
+                "14": "Vontade(Sab)"
+            }
+        },
+        "proeficiencias": "Escudos.",
+        "habilidades": {
+            "0": {
+                "nome": "Devoto",
+                "descricao": {
+                    "0": "Você se torna devoto de uma divindade disponível para druidas (Allihanna, Megalokk e Oceano). Você deve obedecer as Obrigações & Restrições de seu deus, mas, em troca, ganha um dos Poderes Concedidos dele à sua escolha. O nome desta habilidade muda de acordo com a divindade escolhida — “Devoto de Allihanna”, “Devoto de Megalokk” ou “Devoto do Grande Oceano”."
+                }
+            },
+            "1": {
+                "nome": "Empatia Selvagem",
+                "descricao": {
+                    "0": "Você pode se comunicar com animais através de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e pedir favores(veja Diplomacia, na página XX) de animais."
+                }
+            },
+            "2": {
+                "nome": "Magias",
+                "descricao": {
+                    "0": "No 2º nível, escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada.Você pode lançar magias divinas de 1 º círculo que pertençam a essas escolas.A cada cinco níveis, pode lançar magias de um círculo maior(2 º círculo no 7 º nível, 3 º círculo no 12 º nível e 4 º círculo no 17 º nível).",
+                    "1": "Você começa com duas magias de 1º círculo. A cada nível ímpar(3 º, 5 º, etc), aprende uma magia de qualquer círculo e escola que possa lançar.",
+                    "2": "Seu atributo-chave para lançar magias é Sabedoria, e você soma seu bônus de Sabedoria no seu total de PM.Veja o CaPítuLo 4 para as regras de magia."
+                }
+            },
+            "3": {
+                "nome": "Poder da Natureza",
+                "descricao": {
+                    "0": "No 2 º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.•Aprimoramento.Você recebe + 1 em um atributo à sua escolha.Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "1": "Companheiro Animal Adicional - Você recebe um companheiro animal adicional de um tipo diferente dos que já tenha.Você pode escolher este benefício diversas vezes. O número máximo de companheiros que você pode ter é igual ao seu modificador de Carisma. Pré-requisito: Carisma 15, 4º nível de druida.",
+                    "2": "Companheiro Animal Aprimorado - Escolha um companheiro animal.Esse animal recebe um segundo tipo diferente, ganhando os bônus equivalentes. Por exemplo, se você tiver um companheiro Guardião, pode adicionar o tipo Feroz à ele, tornando-o um Guardião Feroz que concede CA +2 e +1d8 de dano corpo a corpo. Pré-requisitos: 6º nível de druida.",
+                    "3": "Companheiro Animal Lendário - Escolha um de seus companheiros animais.Ele se torna uma criatura lendária, e passa a dobrar seus bônus concedidos. No caso de companheiros que concedem dados de bônus, o número de dados aumenta em 1. Pré-requisitos: Companheiro Animal, 18º nível de druida.",
+                    "4": "Companheiro Animal Mágico - Você recebe um companheiro animal especial, capaz de usar habilidades mágicas. Escolha entre os tipos de aliado Curandeiro ou Destruidor(veja Aliados, no Capítulo 5).",
+                    "5": "Forma Selvagem - Você pode se transformar em um tipo de animal. Veja o quadro a seguir.Você pode escolher este benefício diversas vezes.A cada vez, aprende uma forma selvagem diferente.",
+                    "6": "Magia Natural - Você pode lançar magias em forma selvagem. Pré-Requisito: Forma Selvagem.",
+                    "7": "Segredos da Natureza - Você aprende duas magias de qualquer círculo que possa lançar.Elas devem pertencer às escolas que você saber usar, mas podem ser arcanas ou divinas.Você pode escolher esta habilidade quantas vezes quiser."
+                }
+            },
+            "4": {
+                "nome": "Caminho dos Ermos",
+                "descricao": "No 3º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
+            },
+            "5": {
+                "nome": "Força da Natureza",
+                "descricao": "No 20º nível, quando você usa a habilidade Forma Selvagem, pode se transformar em uma fera primal, combinando as habilidades de diferentes animais. Você recebe os benefícios de dois tipos de animais(bônus iguais não se acumulam; use o melhor de cada tipo). Caso você não possua a habilidade Forma Selvagem, em vez disso diminui o custo de todas as suas magias em –2 PM(mínimo 1 PM) e aumenta a CD delas em +2 quando estiver em terrenos naturais."
+            }
+        },
+        "tabela": {
+            "0": "Companheiro animal, devoto, empatia selvagem",
+            "1": "Magias(1 º círculo), poder da natureza",
+            "2": "Caminho dos ermos, poder da natureza",
+            "3": "Poder da natureza",
+            "4": "Poder da natureza",
+            "5": "Poder da natureza",
+            "6": "Magias(2 º círculo), poder da natureza",
+            "7": "Poder da natureza",
+            "8": "Poder da natureza",
+            "9": "Poder da natureza",
+            "10": "Poder da natureza",
+            "11": "Magias(3 º círculo), poder da natureza",
+            "12": "Poder da natureza",
+            "13": "Poder da natureza",
+            "14": "Poder da natureza",
+            "15": "Poder da natureza",
+            "16": "Magias(4 º círculo), poder da natureza",
+            "17": "Poder da natureza",
+            "18": "Poder da natureza",
+            "19": "Força da natureza, poder da natureza"
+        }
+    },
+
+    "guerreiro": {
+        "nome": "Guerreiro",
+        "id": "9",
+        "pv": {
+            "base": 20,
+            "bonus": 5
+        },
+        "pm": 3,
+        "pericias": {
+            "qnt": 4,
+            "opcoes": {
+                "0": "Adestramento(Car)",
+                "1": "Atletismo(For)",
+                "2": "Cavalgar(Des)",
+                "3": "Fortitude(Con)",
+                "4": "Guerra(Int)",
+                "5": "Iniciativa(Des)",
+                "6": "Intimidação(Car)",
+                "7": "Luta(For)",
+                "8": "Ofício(Int)",
+                "9": "Percepção(Sab)",
+                "10": "Pontaria(Des)",
+                "11": "Reflexos(Des)"
+            }
+        },
+        "proeficiencias": "Armas marciais, armaduras pesadas e escudos.",
+        "habilidades": {
+            "0": {
+                "nome": "Ataque Especial",
+                "descricao": {
+                    "0": "Quando faz um ataque, você pode gastar 1 PM para receber +2 no teste de ataque ou na rolagem de dano, à sua escolha. Para cada PM extra que gastar, o bônus aumenta em +2. Por exemplo, se gastar 4 PM, você recebe +8 em ataque, +4 em ataque e +4 em dano ou qualquer outra combinação à sua escolha."
+                }
+            },
+            "1": {
+                "nome": "Poder Marcial",
+                "descricao": {
+                    "0": "",
+                    "1": "",
+                    "2": "",
+                    "3": "",
+                    "4": "",
+                    "5": "",
+                    "6": "",
+                    "7": ""
+                }
+            },
+            "2": {
+                "nome": "Magias",
+                "descricao": {
+                    "0": "No 2º nível, escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada.Você pode lançar magias divinas de 1 º círculo que pertençam a essas escolas.A cada cinco níveis, pode lançar magias de um círculo maior(2 º círculo no 7 º nível, 3 º círculo no 12 º nível e 4 º círculo no 17 º nível).",
+                    "1": "Você começa com duas magias de 1º círculo. A cada nível ímpar(3 º, 5 º, etc), aprende uma magia de qualquer círculo e escola que possa lançar.",
+                    "2": "Seu atributo-chave para lançar magias é Sabedoria, e você soma seu bônus de Sabedoria no seu total de PM.Veja o CaPítuLo 4 para as regras de magia."
+                }
+            },
+            "3": {
+                "nome": "Poder da Natureza",
+                "descricao": {
+                    "0": "No 2 º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.•Aprimoramento.Você recebe + 1 em um atributo à sua escolha.Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "1": "Companheiro Animal Adicional - Você recebe um companheiro animal adicional de um tipo diferente dos que já tenha.Você pode escolher este benefício diversas vezes. O número máximo de companheiros que você pode ter é igual ao seu modificador de Carisma. Pré-requisito: Carisma 15, 4º nível de druida.",
+                    "2": "Companheiro Animal Aprimorado - Escolha um companheiro animal.Esse animal recebe um segundo tipo diferente, ganhando os bônus equivalentes. Por exemplo, se você tiver um companheiro Guardião, pode adicionar o tipo Feroz à ele, tornando-o um Guardião Feroz que concede CA +2 e +1d8 de dano corpo a corpo. Pré-requisitos: 6º nível de druida.",
+                    "3": "Companheiro Animal Lendário - Escolha um de seus companheiros animais.Ele se torna uma criatura lendária, e passa a dobrar seus bônus concedidos. No caso de companheiros que concedem dados de bônus, o número de dados aumenta em 1. Pré-requisitos: Companheiro Animal, 18º nível de druida.",
+                    "4": "Companheiro Animal Mágico - Você recebe um companheiro animal especial, capaz de usar habilidades mágicas. Escolha entre os tipos de aliado Curandeiro ou Destruidor(veja Aliados, no Capítulo 5).",
+                    "5": "Forma Selvagem - Você pode se transformar em um tipo de animal. Veja o quadro a seguir.Você pode escolher este benefício diversas vezes.A cada vez, aprende uma forma selvagem diferente.",
+                    "6": "Magia Natural - Você pode lançar magias em forma selvagem. Pré-Requisito: Forma Selvagem.",
+                    "7": "Segredos da Natureza - Você aprende duas magias de qualquer círculo que possa lançar.Elas devem pertencer às escolas que você saber usar, mas podem ser arcanas ou divinas.Você pode escolher esta habilidade quantas vezes quiser."
+                }
+            },
+            "4": {
+                "nome": "Caminho dos Ermos",
+                "descricao": "No 3º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
+            },
+            "5": {
+                "nome": "Força da Natureza",
+                "descricao": "No 20º nível, quando você usa a habilidade Forma Selvagem, pode se transformar em uma fera primal, combinando as habilidades de diferentes animais. Você recebe os benefícios de dois tipos de animais(bônus iguais não se acumulam; use o melhor de cada tipo). Caso você não possua a habilidade Forma Selvagem, em vez disso diminui o custo de todas as suas magias em –2 PM(mínimo 1 PM) e aumenta a CD delas em +2 quando estiver em terrenos naturais."
+            }
+        },
+        "tabela": {
+            "0": "Companheiro animal, devoto, empatia selvagem",
+            "1": "Magias(1 º círculo), poder da natureza",
+            "2": "Caminho dos ermos, poder da natureza",
+            "3": "Poder da natureza",
+            "4": "Poder da natureza",
+            "5": "Poder da natureza",
+            "6": "Magias(2 º círculo), poder da natureza",
+            "7": "Poder da natureza",
+            "8": "Poder da natureza",
+            "9": "Poder da natureza",
+            "10": "Poder da natureza",
+            "11": "Magias(3 º círculo), poder da natureza",
+            "12": "Poder da natureza",
+            "13": "Poder da natureza",
+            "14": "Poder da natureza",
+            "15": "Poder da natureza",
+            "16": "Magias(4 º círculo), poder da natureza",
+            "17": "Poder da natureza",
+            "18": "Poder da natureza",
+            "19": "Força da natureza, poder da natureza"
         }
     }
 }
