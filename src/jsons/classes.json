@@ -399,5 +399,109 @@
             "18": "Esquiva +5, poder da esperteza",
             "19": "Poder da esperteza, Sorte de Nimb"
         }
+    },
+
+    "cacador": {
+        "nome": "Caçador",
+        "id": "5",
+        "pv": {
+            "base": 16,
+            "bonus": 4
+        },
+        "pm": 4,
+        "pericias": {
+            "qnt": 8,
+            "opcoes": {
+                "0": "Adestramento (Car)",               
+                "1": "Atletismo (For)",               
+                "2": "Cavalgar (Des)",               
+                "3": "Cura (Sab)",               
+                "4": "Fortitude (Con)",               
+                "5": "Furtividade (Des)",               
+                "6": "Iniciativa (Des)",               
+                "7": "Luta (For)",               
+                "8": "Ofício (Int)",               
+                "9": "Percepção (Sab)",               
+                "10": "Pontaria (Des)",               
+                "11": "Reflexos (Des)",               
+                "12": "Sobrevivência (Sab)"             
+            }
+        },
+        "proeficiencias": "Armas marciais e escudos",
+        "habilidades": {
+            "0": {
+                "nome": "Marca da Presa",
+                "descricao": {
+                    "0": "Você pode gastar uma ação de movimento e 1 PM para analisar uma criatura em alcance curto. Até o fim da cena, você recebe um bônus de +1d4 nas rolagens de dano contra essa criatura. A cada quatro níveis você pode gastar +1 PM para aumentar o dado de bônus de dano em uma categoria."
+                }
+            },
+            "1": {
+                "nome": "Rastreador",
+                "descricao": {
+                    "0": "Você recebe +2 em testes de Sobrevivência. Além disso, pode se mover com seu deslocamento normal enquanto rastreia sem sofrer penalidades no teste de Sobrevivência."
+                }
+            },
+            "2": {
+                "nome": "Poder da Caçada",
+                "descricao": {
+                    "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+                    "1": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "2": "Armadilha: Arataca - A vítima sofre 2d6 pontos de dano de perfuração e fica presa. Uma criatura presa pode escapar com uma ação padrão e um teste de Acrobacia ou Atletismo (CD Sab).",
+                    "3": "Armadilha: Espinhos - A vítima sofre 6d6 pontos de dano de perfuração. Um teste de Reflexos (CD Sab) reduz o dano à metade.",
+                    "4": "Armadilha: Laço - A vítima deve fazer um teste de Reflexos (CD Sab). Se for bem-sucedida, fica caída. Se falhar, fica agarrada. Uma criatura agarrada pode se soltar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab).",
+                    "5": "Armadilha: Rede - Todas as criaturas na área devem fazer um teste de Reflexos (CD Sab) para não ficarem enredadas. Uma vítima pode se libertar com uma ação padrão e um teste de Acrobacia ou Atletismo (CD 25). Além disso, a área ocupada pela rede é considerada terreno difícil.",
+                    "6": "Arqueiro - Se estiver usando uma arma de ataque à distância, você soma seu bônus de Sabedoria nos testes de ataque e rolagens de dano (limitado pelo seu nível). Pré-requisito: Sab 13.",
+                    "7": "Caçador - Escolha um tipo de criatura entre animal, construto, espírito, monstro ou morto-vivo. Como alternativa, escolha duas raças humanoides (por exemplo, orcs e gnolls, ou elfos e qareen). Quando você usa a habilidade marca da presa contra uma criatura do tipo ou da raça escolhida, recebe dois dados de bônus no dano, em vez de um. O nome desta habilidade varia de acordo com o tipo de criatura escolhida (Caçador de Monstros, Caçador de Mortos-Vivos… ou apenas “Caçador”, se o tipo escolhido for animal, ou Caçador de Recompensas, se escolheu duas raças de criaturas humanoides). Você pode escolher este benefício diversas vezes. A cada vez, escolha outro tipo de criatura ou outras duas raças humanoides.",
+                    "8": "Camuflagem - Você pode gastar 2 PM para usar a perícia Furtividade para se esconder mesmo sem cobertura disponível.",
+                    "9": "Companheiro Animal - Como a habilidade do druida.",
+                    "10": "Corrida. Seu deslocamento aumenta em +3m.",
+                    "11": "Empatia Selvagem - Você pode se comunicar com animais através de linguagem corporal e vocalizações. Você pode fazer testes de Diplomacia com animais (normalmente, só é possível usar essa perícia em criaturas racionais).",
+                    "12": "Ervas Curativas - Você pode gastar uma ação completa e 2 PM para aplicar ervas que curam e desintoxicam em você ou num aliado adjacente. Esta habilidade cura 2d6 +mod. Sab. pontos de vida e remove quaisquer venenos e condições causadas por venenos. Para cada PM extra que você gastar, cura +1d6 PV",
+                    "13": "Espreitar - Quando usa a habilidade Marca da Presa, você recebe um bônus de +1 em testes de perícia contra a criatura marcada. Esse bônus aumenta em +1 para cada PM adicional gasto na habilidade, e também dobra com a habilidade Caçador.",
+                    "14": "Olho do Falcão - Você pode usar a habilidade Marca da Presa em criaturas a alcance longo.",
+                    "15": "Tempestade de Aço - Se estiver usando duas armas (e pelo menos uma delas for leve) e fizer a ação ataque, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre uma penalidade de –2 em ambos os testes de ataque."
+                }
+            },
+            "3": {
+                "nome": "Explorador",
+                "descricao": {
+                    "0": "No 3º nível, escolha um tipo de terreno entre aquático, ártico, deserto, floresta, montanha, pântano, planície, subterrâneo ou urbano. A partir do 11º nível, você também pode escolher área de Tormenta. Quando estiver no tipo de terreno escolhido, você soma seu bônus de Sabedoria (mínimo +1) na classe de armadura e nos testes de Acrobacia, Atletismo, Furtividade, Percepção e Sobrevivência. A cada quatro níveis, escolha outro tipo de terreno para receber o bônus ou aumente o bônus em um tipo de terreno já escolhido em +2."
+                }
+            },
+            "4": {
+                "nome": "Caminho do Explorador",
+                "descricao": {
+                    "0": "No 5º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos nos quais você tenha a habilidade Explorador."
+                }
+            },
+            "5": {
+                "nome": "Mestre Caçador",
+                "descricao": {
+                    "0": "No 20º nível, você pode usar a habilidade Marca da Presa como uma ação livre. Além disso, quando usa a habilidade, pode gastar +5 PM para aumentar sua margem de ameaça contra a criatura em +2. Se você reduz uma criatura contra a qual usou Marca da Presa a 0 pontos de vida, recupera 5 PM."
+                }
+            }
+        },
+        "tabela": {
+            "0": "Marca da presa +1d4, rastreador",
+            "1": "Poder do caçador",
+            "2": "Explorador, poder do caçador",
+            "3": "Poder do caçador",
+            "4": "Caminho do explorador, marca da presa +1d6, poder do caçador",
+            "5": "Poder do caçador",
+            "6": "Explorador, poder do caçador",
+            "7": "Poder do caçador",
+            "8": "Marca da presa +1d8, poder do caçador",
+            "9": "Poder do caçador",
+            "10": "Explorador, poder do caçador",
+            "11": "Poder do caçador",
+            "12": "Marca da presa +1d10, poder do caçador",
+            "13": "Poder do caçador",
+            "14": "Explorador, poder do caçador",
+            "15": "Poder do caçador",
+            "16": "Marca da presa +1d12, poder do caçador",
+            "17": "Poder do caçador",
+            "18": "Explorador, poder do caçador",
+            "19": "Mestre caçador, poder do caçador"
+        }
     }
 }
