@@ -18,7 +18,7 @@
                 "5": "Vontade (Sab)"
             }
         },
-        "proeficiencias": null,
+        "proeficiencias": "Nenhuma",
         "habilidades": {
             "0": {
                 "nome": "Caminhos da Magia",
@@ -768,11 +768,15 @@
             },
             "4": {
                 "nome": "Caminho dos Ermos",
-                "descricao": "No 3º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
+                "descricao": {
+                    "0":"No 3º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
+                }
             },
             "5": {
                 "nome": "Força da Natureza",
-                "descricao": "No 20º nível, quando você usa a habilidade Forma Selvagem, pode se transformar em uma fera primal, combinando as habilidades de diferentes animais. Você recebe os benefícios de dois tipos de animais(bônus iguais não se acumulam; use o melhor de cada tipo). Caso você não possua a habilidade Forma Selvagem, em vez disso diminui o custo de todas as suas magias em –2 PM(mínimo 1 PM) e aumenta a CD delas em +2 quando estiver em terrenos naturais."
+                "descricao": {
+                    "0":"No 20º nível, quando você usa a habilidade Forma Selvagem, pode se transformar em uma fera primal, combinando as habilidades de diferentes animais. Você recebe os benefícios de dois tipos de animais(bônus iguais não se acumulam; use o melhor de cada tipo). Caso você não possua a habilidade Forma Selvagem, em vez disso diminui o custo de todas as suas magias em –2 PM(mínimo 1 PM) e aumenta a CD delas em +2 quando estiver em terrenos naturais."
+                }
             }
         },
         "tabela": {
@@ -835,67 +839,637 @@
             "1": {
                 "nome": "Poder Marcial",
                 "descricao": {
-                    "0": "",
-                    "1": "",
-                    "2": "",
-                    "3": "",
-                    "4": "",
-                    "5": "",
-                    "6": "",
-                    "7": ""
+                    "0": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "1": "Arqueiro - Se estiver usando uma arma de ataque à distância, você soma seu bônus de Sabedoria nos testes de ataque e rolagens de dano (limitado pelo seu nível). Pré-requisito: Sab 13.",
+                    "2": "Ataque Reflexo - Se um alvo em alcance de seus ataque corpo a corpo ficar desprevenido ou se mover para fora do alcance, você pode gastar 1 PM para fazer um ataque corpo a corpo contra esse alvo como uma reação.",
+                    "3": "Bater e Correr - Quando faz uma investida, você pode continuar se movendo após o ataque, até o limite de seu deslocamento. Se gastar 2 PM, pode fazer uma investida sobre terreno difícil e sem sofrer a penalidade de CA.",
+                    "4": "Destruidor - Se estiver usando uma arma corpo a corpo de duas mãos, você pode rolar novamente qualquer resultado 1 ou 2 em rolagens de dano.",
+                    "5": "Esgrimista - Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você soma seu bônus de Inteligência nos testes de ataque e rolagens de dano (limitado pelo seu nível). Pré-requisito: Int 13.",
+                    "6": "Especialização em Arma - Escolha uma arma. Você recebe +2 em rolagens de dano com a arma escolhida. Você pode escolher esta habilidade quantas vezes quiser. A cada vez, ela se aplica a uma arma diferente.",
+                    "7": "Golpe Demolidor - Seus golpes podem demolir objetos. Quando usa a manobra separar ou ataca um objeto, você pode gastar 1 PM para ignorar a RD dele, ou 3 PM para, além disso, causar dano dobrado.",
+                    "8": "Mestre em Arma - Escolha uma arma com a qual possua Especialização em Arma. Com esta arma, seu dano aumenta em uma categoria de tamanho e você pode gastar 2 PM para rolar novamente um teste de ataque recém realizado. Pré-Requisito: 12º nível de guerreiro.",
+                    "9": "Romper Defesas - Seu ataque especial pode atravessar as defesas do alvo. Quando faz um Ataque Especial, você pode pagar 2 PM adicionais para ignorar qualquer RD do alvo.",
+                    "10": "Sentinela - Se estiver usando um escudo, você aplica o bônus na CA recebido pelo escudo em testes de Fortitude e Reflexos.",
+                    "11": "Tempestade de Aço - Se estiver usando duas armas (e pelo menos uma delas for leve) e fizer a ação ataque, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre uma penalidade de –2 em ambos os testes de ataque.",
+                    "12": "Tornado de Dor - Você pode gastar uma ação padrão e 2 PM para fazer uma série de golpes giratórios. Faça um ataque e compare-o contra a CA de cada inimigo adjacente. Então, faça uma rolagem de dano com um bônus cumulativo de +2 para cada acerto e aplique-a em cada inimigo atingido. Pré-requisito: 6º nível de guerreiro."
                 }
             },
             "2": {
-                "nome": "Magias",
+                "nome": "Durão",
                 "descricao": {
-                    "0": "No 2º nível, escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada.Você pode lançar magias divinas de 1 º círculo que pertençam a essas escolas.A cada cinco níveis, pode lançar magias de um círculo maior(2 º círculo no 7 º nível, 3 º círculo no 12 º nível e 4 º círculo no 17 º nível).",
-                    "1": "Você começa com duas magias de 1º círculo. A cada nível ímpar(3 º, 5 º, etc), aprende uma magia de qualquer círculo e escola que possa lançar.",
-                    "2": "Seu atributo-chave para lançar magias é Sabedoria, e você soma seu bônus de Sabedoria no seu total de PM.Veja o CaPítuLo 4 para as regras de magia."
+                    "0": "A partir do 3ª nível, sua rijeza muscular permite que você absorva ferimentos. Sempre que sofre dano, você pode gastar 2 PM para reduzir esse dano à metade."
                 }
             },
             "3": {
-                "nome": "Poder da Natureza",
+                "nome": "Ataque Extra",
                 "descricao": {
-                    "0": "No 2 º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.•Aprimoramento.Você recebe + 1 em um atributo à sua escolha.Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
-                    "1": "Companheiro Animal Adicional - Você recebe um companheiro animal adicional de um tipo diferente dos que já tenha.Você pode escolher este benefício diversas vezes. O número máximo de companheiros que você pode ter é igual ao seu modificador de Carisma. Pré-requisito: Carisma 15, 4º nível de druida.",
-                    "2": "Companheiro Animal Aprimorado - Escolha um companheiro animal.Esse animal recebe um segundo tipo diferente, ganhando os bônus equivalentes. Por exemplo, se você tiver um companheiro Guardião, pode adicionar o tipo Feroz à ele, tornando-o um Guardião Feroz que concede CA +2 e +1d8 de dano corpo a corpo. Pré-requisitos: 6º nível de druida.",
-                    "3": "Companheiro Animal Lendário - Escolha um de seus companheiros animais.Ele se torna uma criatura lendária, e passa a dobrar seus bônus concedidos. No caso de companheiros que concedem dados de bônus, o número de dados aumenta em 1. Pré-requisitos: Companheiro Animal, 18º nível de druida.",
-                    "4": "Companheiro Animal Mágico - Você recebe um companheiro animal especial, capaz de usar habilidades mágicas. Escolha entre os tipos de aliado Curandeiro ou Destruidor(veja Aliados, no Capítulo 5).",
-                    "5": "Forma Selvagem - Você pode se transformar em um tipo de animal. Veja o quadro a seguir.Você pode escolher este benefício diversas vezes.A cada vez, aprende uma forma selvagem diferente.",
-                    "6": "Magia Natural - Você pode lançar magias em forma selvagem. Pré-Requisito: Forma Selvagem.",
-                    "7": "Segredos da Natureza - Você aprende duas magias de qualquer círculo que possa lançar.Elas devem pertencer às escolas que você saber usar, mas podem ser arcanas ou divinas.Você pode escolher esta habilidade quantas vezes quiser."
+                    "0": "A partir do 5º nível, quando usa a ação ataque, você pode gastar 2 PM para realizar um ataque adicional com a mesma arma."
                 }
             },
             "4": {
-                "nome": "Caminho dos Ermos",
-                "descricao": "No 3º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
-            },
-            "5": {
-                "nome": "Força da Natureza",
-                "descricao": "No 20º nível, quando você usa a habilidade Forma Selvagem, pode se transformar em uma fera primal, combinando as habilidades de diferentes animais. Você recebe os benefícios de dois tipos de animais(bônus iguais não se acumulam; use o melhor de cada tipo). Caso você não possua a habilidade Forma Selvagem, em vez disso diminui o custo de todas as suas magias em –2 PM(mínimo 1 PM) e aumenta a CD delas em +2 quando estiver em terrenos naturais."
+                "nome": "Campeão",
+                "descricao": {
+                    "0":"No 20º nível, sempre que você faz um ataque especial e acerta o ataque, recupera metade dos PM gastos nele. Por exemplo, se fizer um ataque especial gastando 10 PM para ganhar um bônus de +20 nas rolagens de dano e acertar o ataque, recupera 5 PM."
+                }
             }
         },
         "tabela": {
-            "0": "Companheiro animal, devoto, empatia selvagem",
-            "1": "Magias(1 º círculo), poder da natureza",
-            "2": "Caminho dos ermos, poder da natureza",
-            "3": "Poder da natureza",
-            "4": "Poder da natureza",
-            "5": "Poder da natureza",
-            "6": "Magias(2 º círculo), poder da natureza",
-            "7": "Poder da natureza",
-            "8": "Poder da natureza",
-            "9": "Poder da natureza",
-            "10": "Poder da natureza",
-            "11": "Magias(3 º círculo), poder da natureza",
-            "12": "Poder da natureza",
-            "13": "Poder da natureza",
-            "14": "Poder da natureza",
-            "15": "Poder da natureza",
-            "16": "Magias(4 º círculo), poder da natureza",
-            "17": "Poder da natureza",
-            "18": "Poder da natureza",
-            "19": "Força da natureza, poder da natureza"
+            "0": "Ataque especial",
+            "1": "Poder marcial",
+            "2": "Durão, poder marcial",
+            "3": "Poder marcial",
+            "4": "Ataque extra, poder marcial",
+            "5": "Poder marcial",
+            "6": "Poder marcial",
+            "7": "Poder marcial",
+            "8": "Poder marcial",
+            "9": "Poder marcial",
+            "10": "Poder marcial",
+            "11": "Poder marcial",
+            "12": "Poder marcial",
+            "13": "Poder marcial",
+            "14": "Poder marcial",
+            "15": "Poder marcial",
+            "16": "Poder marcial",
+            "17": "Poder marcial",
+            "18": "Poder marcial",
+            "19": "Campeão, poder marcial"
+        }
+    },
+
+    "inventor": {
+        "nome": "Inventor",
+        "id": "10",
+        "pv": {
+            "base": 12,
+            "bonus": 3
+        },
+        "pm": 3,
+        "pericias": {
+            "qnt": 6,
+            "opcoes": {
+                "0": "Adestramento (Car)",
+                "1": "Conhecimento (Int)",
+                "2": "Cura (Sab)",
+                "3": "Diplomacia (Car)",
+                "4": "Fortitude (Con)",
+                "5": "Iniciativa (Des) ",
+                "6": "Investigação (Int)",
+                "7": "Luta (For) ",
+                "8": "Misticismo (Int)",
+                "9": "Ofício (Int)",
+                "10": "Pontaria (Des)",
+                "11": "Percepção (Sab)",
+                "12": "Vontade (Sab)"
+            }
+        },
+        "proeficiencias": "Nenhuma",
+        "habilidades": {
+            "0": {
+                "nome": "Engenhosidade",
+                "descricao": {
+                    "0": "Quando faz um teste de perícia, você pode gastar 2 PM para receber um bônus igual ao seu modificador de Inteligência no teste. Você não pode usar esta habilidade em testes de ataque."
+                }
+            },
+            "1": {
+                "nome": "Prata da Casa",
+                "descricao": {
+                    "0": "Você  começa  o  jogo  com  uma arma simples ou marcial superior, com uma modifica- ção, ou um total de 10 itens alquímicos, à sua escolha. Caso escolha uma arma marcial, você saberá usá-la. Veja o Capítulo 3: equipamento para a lista de itens."
+                }
+            },
+            "2": {
+                "nome": "Poder da Descoberta",
+                "descricao": {
+                    "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+                    "1": "Alquimista de Combate. quando usa um item alquímico que cause dano feito por você mesmo, ele causa um dado extra de dano do mesmo tipo.",
+                    "2": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "3": "Armeiro - Você aprende a usar armas marciais. Além disso, quando usa uma arma feita por você mesmo, aplica seu bônus de Inteligência aos seus testes de ataque, limitado pelo seu nível.",
+                    "4": "Balística - Quando usa uma arma de ataque à distância feita por você mesmo, você recebe +1 nos testes de ataque e na margem de ameaça.",
+                    "5": "Couraceiro - Você aprende a usar armaduras pesadas e escudos. Além disso, quando usa uma armadura feita por você mesmo, aplica seu bônus de Inteligência à CA, limitado pelo seu nível.",
+                    "6": "Ferreiro - Quando usa uma arma feita por você mesmo, ela causa um dado extra de dano do mesmo tipo.",
+                    "7": "Herbalista - Quando usa um item alquímico feito por você mesmo que cure pontos de vida, ele cura o dobro dos dados do mesmo tipo.",
+                    "8": "Maestria em Perícia - Escolha um número de perícias treinadas igual ao seu bônus de Inteligência. Com essas perícias, você pagar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque.",
+                    "9": "Mestre Cuca - Você dobra os benefícios de todas as comidas que cozinha. Veja a descrição das comidas no Capítulo 3: equipamento.",
+                    "10": "Oficina de Campo - Você pode gastar uma hora e 2 PM para fazer a manutenção do equipamento de seu grupo. Se fizer isso, todas as armas de seus alidados recebem um bônus de +1 nos testes de ataque até o fim do dia.",
+                    "11": "Pedra de Amolar - Você pode gastar uma ação completa e 2 PM para aprimorar uma arma temporariamente. Ela ganha um bônus de +2 nos testes de ataque e rolagens de dano até o fim da cena."
+                }
+            },
+            "3": {
+                "nome": "Mercador",
+                "descricao": {
+                    "0": "No 2º nível, você consegue vender itens por 2/3 do seu preço (normalmente, personagens vendem itens pela metade de seu preço)."
+                }
+            },
+            "4": {
+                "nome": "Fabricar Item Superior",
+                "descricao": {
+                    "0":"No 3º nível, você cria um item superior, com uma modificação, à sua escolha, e passa a poder fabricar itens superiores com uma modificação. Veja a página XX para as regras de fabricação de itens, e a página XX para a lista de modificações.",
+                    "1":"Nos níveis 5º, 7º, 11º, 15º e 19º, você recebe um novo item superior, com duas, três, quatro, cinco e seis modificações, respectivamente, e passa a poder fabricar itens superiores com essa quantidade de modificações.",
+                    "2":"Considera-se que você estava trabalhando nos itens, e você não gasta nenhum dinheiro ou tempo neles (mas gasta em itens que fabricar futuramente)."
+                }
+            },
+            "5": {
+                "nome": "Olho do Artífice",
+                "descricao": {
+                    "0": "A partir do 6º nível,  você pode gastar uma ação de movimento e 2 PM para ana- lisar um objeto em alcance curto. Se fizer isso, encontra uma fraqueza no objeto e pode ignorar a resistência a dano dele. Você também pode usar essa habilidade para encontrar uma fraqueza na armadura de um inimigo, o que fornece um bônus de +2 em seus testes de ataque (desde que o alvo use armadura). Esse benefício dura até o fim da cena."
+                }
+            },
+            "6": {
+                "nome": "Fabricar Item Mágico",
+                "descricao": {
+                    "0": "No 9º nível, você recebe um item mágico menor, à sua escolha e passa a poder fabricar itens mágicos menores. Veja a página XX para as regras de criação de itens mágicos.",
+                    "1": "Nos níveis 13º e 17º, você recebe um novo item mágico, de poder médio e maior, respectivamente, e passa a poder fabricar itens mágicos dessas categorias.",
+                    "2": "Considera-se que você estava trabalhando nos itens que recebe, e você não gasta nenhum dinheiro, tempo ou PM neles (mas gasta em quaisquer outros itens que fabricar futuramente)."
+                }
+            },
+            "7": {
+                "nome": "Olho do Dragão",
+                "descricao": {
+                    "0": "A partir do 10º nível, você pode gastar uma ação completa para analisar um item. Você automaticamente descobre se o item é mágico e, se for, todas as propriedades que ele possui e como utilizá-las."
+                }
+            },
+            "8": {
+                "nome": "Obra Prima",
+                "descricao": {
+                    "0": "No 20º nível, você fabrica sua obra prima, aquela pela qual seu nome será lembrado em eras futuras. Isso pode ser qualquer item que você possa criar com uma de suas perícias de Ofício. Você é livre para criar os benefícios do item em termos de regras, mas eles devem ser aprovados pelo mestre. Como linha geral, ele pode ter os benefícios de um item superior com cinco modificações e os benefícios de um item mágico maior. Considera-se que você estava trabalhando no item, e você não gasta nenhum dinheiro, tempo ou PM nele."
+                }
+            }
+        },
+        "tabela": {
+            "0": "Engenhosidade, prata da casa",
+            "1": "Mercador, poder da descoberta",
+            "2": "Fabricar item superior (1 modificação), poder da descoberta",
+            "3": "Poder da descoberta",
+            "4": "Fabricar item superior (2 modificações), poder da descoberta",
+            "5": "Olho do artífice, poder da descoberta",
+            "6": "Fabricar item superior (3 modificações), poder da descoberta",
+            "7": "Poder da descoberta",
+            "8": "Fabricar item mágico (menor), poder da descoberta",
+            "9": "Olho do dragão, poder da descoberta",
+            "10": "Fabricar item superior (4 modificações), poder da descoberta",
+            "11": "Poder da descoberta",
+            "12": "Fabricar item mágico (médio), poder da descoberta",
+            "13": "Poder da descoberta",
+            "14": "Fabricar item superior (5 modificações), poder da descoberta",
+            "15": "Poder da descoberta",
+            "16": "Fabricar item mágico (maior), poder da descoberta",
+            "17": "Poder da descoberta",
+            "18": "Fabricar item superior (6 modificações), poder da descoberta",
+            "19": "Poder da descoberta, obra-prima"
+        }
+    },
+
+    "ladino": {
+        "nome": "Ladino",
+        "id": "11",
+        "pv": {
+            "base": 12,
+            "bonus": 3
+        },
+        "pm": 4,
+        "pericias": {
+            "qnt": 10,
+            "opcoes": {
+                "0": "Acrobacia (Des)",
+                "1": "Atletismo (For)",
+                "2": "Atuação (Car)",
+                "3": "Cavalgar (Des)",
+                "4": "Conhecimento (Int)",
+                "5": "Diplomacia (Car)",
+                "6": "Enganação (Car)",
+                "7": "Furtividade (Des)",
+                "8": "Iniciativa (Des)",
+                "9": "Intimidação (Car)",
+                "10": "Intuição (Sab)",
+                "11": "Investigação (Int)",
+                "12": "Jogatina (Car)",
+                "13": "Ladinagem (Des)",
+                "14": "Luta (For)",
+                "15": "Navegação (Sab)",
+                "16": "Ofício (Int)",
+                "17": "Percepção (Sab)",
+                "18": "Pontaria (Des)",
+                "19": "Reflexos (Des)."
+            }
+        },
+        "proeficiencias": "Nenhuma",
+        "habilidades": {
+            "0": {
+                "nome": "Ataque Furtivo",
+                "descricao": {
+                    "0": "Você sabe aproveitar a distração do inimigo para atingi-lo em pontos vitais. Quando atinge um alvo desprevenido ou flanqueado com um ataque corpo a corpo ou em alcance curto, você causa 1d6 pontos de dano adicional. A cada dois níveis, esse dano adicional aumenta em +1d6. Uma criatura imune a acertos críticos também é imune a ataques furtivos."
+                }
+            },
+            "1": {
+                "nome": "Prata da Casa",
+                "descricao": {
+                    "0": "Você  começa  o  jogo  com  uma arma simples ou marcial superior, com uma modifica- ção, ou um total de 10 itens alquímicos, à sua escolha. Caso escolha uma arma marcial, você saberá usá-la. Veja o Capítulo 3: equipamento para a lista de itens."
+                }
+            },
+            "2": {
+                "nome": "Especialista",
+                "descricao": {
+                    "0": "Escolha um número de perícias treinadas igual ao seu bônus de Inteligência (mínimo 1). Ao fazer um teste de uma dessas perícias, você pode gastar 1 PM para dobrar seu bônus de treinamento. Você não pode usar esta habilidade em testes de ataque."
+                }
+            },
+            "3": {
+                "nome": "Evasão",
+                "descricao": {
+                    "0": "A partir do 2º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre nenhum dano se for bem-sucedido. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver imobilizado ou usando armadura pesada."
+                }
+            },
+            "4": {
+                "nome": "Poder Ardiloso",
+                "descricao": {
+                    "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+                    "1": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "2": "Assassinar - Você pode gastar uma ação de movimento e 2 PM para analisar uma criatura em alcance curto. Se desferir um ataque furtivo contra essa criatura até o fim do seu próximo turno, você dobra os dados de dano de seu ataque furtivo.",
+                    "3": "Emboscar - Você pode gastar 2 PM para realizar uma ação padrão adicional em seu turno. Você só pode usar esta habilidade na primeira rodada de um combate.",
+                    "4": "Gatuno - Você recebe +2 em testes de Atletismo e escala em seu deslocamento normal, em vez de em metade dele (veja a perícia Atletismo).",
+                    "5": "Oportunismo - Você recebe +2 em testes de ataque contra inimigos que já sofreram dano na mesma rodada.",
+                    "6": "Mãos Rápidas - Você pode gastar 1 PM para fazer um teste de Ladinagem para abrir fechaduras, ocultar item, prestidigitação ou sabotar como uma ação livre.",
+                    "7": "Rolamento Defensivo - Sempre que sofre dano, você pode gastar 2 PM para reduzir esse dano à metade. Após usar esta habilidade, você fica caído.",
+                    "8": "Saqueador de Tumbas - Você recebe +5 em testes de Percepção para encontrar armadilhas, e em testes de Reflexos para evitá-las. Além disso, gasta uma ação padrão para desabilitar mecanismos, em vez de 1d4 rodadas (veja a perícia Ladinagem).",
+                    "9": "Sombra - Você recebe +2 em testes de Furtivi- dade. Além disso, você pode se mover com seu deslocamento normal enquanto usa Furtividade sem sofrer penalidades no teste de perícia.",
+                    "10": "Truque Mágico - Você aprende e pode lançar uma magia arcana de 1º círculo à sua escolha, pagando seu custo normal em PM. Caso a magia possua teste de resistência, a CD é baseada em Int. Você pode escolher este benefício várias vezes. Cada vez que é escolhido, você aprende uma nova magia.",
+                    "11": "Velocidade Ladina - Uma vez por rodada, você pode gastar 2 PM para realizar uma ação de movimento adicional em seu turno."
+                }
+            },
+            "5": {
+                "nome": "Esquiva Sobrenatural",
+                "descricao": {
+                    "0": "No 4º nível, seus ins- tintos ficam tão apurados que você consegue reagir ao perigo antes que seus sentidos percebam. Você nunca fica surpreso."
+                }
+            },
+            "6": {
+                "nome": "Olho nas Costas",
+                "descricao": {
+                    "0": "A partir do 8º nível, você consegue lutar contra diversos inimigos como se fossem apenas um. Você não pode ser flanqueado."
+                }
+            },
+            "7": {
+                "nome": "Olho do Artífice",
+                "descricao": {
+                    "0": "A partir do 6º nível,  você pode gastar uma ação de movimento e 2 PM para ana- lisar um objeto em alcance curto. Se fizer isso, encontra uma fraqueza no objeto e pode ignorar a resistência a dano dele. Você também pode usar essa habilidade para encontrar uma fraqueza na armadura de um inimigo, o que fornece um bônus de +2 em seus testes de ataque (desde que o alvo use armadura). Esse benefício dura até o fim da cena."
+                }
+            },
+            "8": {
+                "nome": "Evasão Aprimorada",
+                "descricao": {
+                    "0": "No  10º  nível,  quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se for bem-sucedido e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver imobilizado ou usando armadura pesada."
+                }
+            },
+            "9": {
+                "nome": "A Pessoa Certa para o Trabalho",
+                "descricao": {
+                    "0": "No 20º nível, você se torna um verdadeiro mestre da ladinagem. Ao fazer um ataque furtivo ou um teste de perícia de uma perícia da lista de ladino, você pode gastar 5 PM para receber +10 no teste."
+                }
+            }
+        },
+        "tabela": {
+            "0":  "Ataque furtivo +1d6, especialista",
+            "1":  "Evasão, poder ardiloso",
+            "2":  "Ataque furtivo +2d6, poder ardiloso",
+            "3":  "Esquiva sobrenatural, poder ardiloso",
+            "4":  "Ataque furtivo +3d6, poder ardiloso",
+            "5":  "Poder ardiloso",
+            "6":  "Ataque furtivo +4d6, poder ardiloso",
+            "7":  "Olhos nas costas, poder ardiloso",
+            "8":  "Ataque furtivo +5d6, poder ardiloso",
+            "9":  "Evasão aprimorada, poder ardiloso",
+            "10": "Ataque furtivo +6d6, poder ardiloso",
+            "11": "Poder ardiloso",
+            "12": "Ataque furtivo +7d6, poder ardiloso",
+            "13": "Poder ardiloso",
+            "14": "Ataque furtivo +8d6, poder ardiloso",
+            "15": "Poder ardiloso",
+            "16": "Ataque furtivo +9d6, poder ardiloso",
+            "17": "Poder ardiloso",
+            "18": "Ataque furtivo +10d6, poder ardiloso",
+            "19": "A pessoa certa para o trabalho, poder ardiloso"
+        }
+    },
+
+    "lutador": {
+        "nome": "Lutador",
+        "id": "12",
+        "pv": {
+            "base": 20,
+            "bonus": 5
+        },
+        "pm": 3,
+        "pericias": {
+            "qnt": 6,
+            "opcoes": {
+                "0": "Acrobacia (Des)",                
+                "1": "Adestramento (Car)",
+                "2": "Atletismo (For)",
+                "3": "Enganação (Car)",
+                "4": "Furtividade (Des)",
+                "5": "Iniciativa (Des)",
+                "6": "Intimidação (Car)",
+                "7": "Luta (For)",
+                "8": "Ofício (Int)",
+                "9": "Percepção (Sab)",
+                "10": "Pontaria (Des)",
+                "11": "Reflexos (Des)."
+            }
+        },
+        "proeficiencias": "Nenhuma",
+        "habilidades": {
+            "0": {
+                "nome": "Briga",
+                "descricao": {
+                    "0": "Seus ataques desarmados causam 1d6 pon- tos de dano, e podem causar dano letal ou não letal (à sua escolha). A cada quatro níveis, seu dano desarmado aumenta, conforme a tabela (o dano visto na tabela é para criaturas Médias; veja o Capítulo 3: equipamento para o dano de criaturas de outros tamanhos)."
+                }
+            },
+            "1": {
+                "nome": "Golpe Relâmpago",
+                "descricao": {
+                    "0": "Quando usa a ação ataque para fazer um ataque desarmado, você pode gastar 1 PM para realizar um ataque desarmado adicional."
+                }
+            },
+            "2": {
+                "nome": "Poder das Ruas",
+                "descricao": {
+                    "0": "No 2º nível, e a cada nível se- guinte, você recebe um benefício da lista a seguir.",
+                    "1": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "2": "Arma Improvisada - Você pode gastar uma ação de movimento para procurar uma pedra, cadeira, garrafa ou qualquer outra coisa que possa usar como arma. Faça um teste de Percepção (CD 20). Se você for bem-sucedido, encontra uma arma improvisada. Você continua usando as estatísticas de seu ataque desarmado - bônus de ataque, margem de ameaça, etc. — mas seu dano aumenta em uma categoria. Armas improvisadas são frágeis; se você errar um ataque e o resultado do dado for um número ímpar, a arma quebra.",
+                    "3": "Braços Calejados - Você soma seu bônus de Força na CA, limitado pelo seu nível e apenas se não estiver usando armadura.",
+                    "4": "Cabeçada - Quando faz um ataque desarmado, você pode gastar 2 PM. Se fizer isso, o oponente fica desprevenido contra o ataque. Você só pode usar esta habilidade uma vez por cena contra uma mesma criatura.",
+                    "5": "Convencido - Acostumado a contar apenas com seus próprios músculos, você adquiriu certo desdém por artes mais sofisticadas. Você recebe +5 em testes de resistência contra magias e efeitos de Encantamento.",
+                    "6": "Finta - Você recebe +2 em testes de Enganação para fintar, e pode fintar como uma ação de movimento.",
+                    "7": "Golpe Baixo - Quando faz um ataque desar- mado, você pode gastar 2 PM. Se fizer isso e acertar o ataque, o oponente deve fazer um teste de Fortitude (CD For). Se ele falhar, fica atordoado por uma rodada. Você só pode usar esta habilidade uma vez por cena contra uma mesma criatura.",
+                    "8": "Rasteira - Quando faz um ataque desarmado, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o oponente fica caído.",
+                    "9": "Trocação - Quando você começa a bater, não para mais. Quando acerta um ataque desarmado, pode fazer outro ataque desarmado, contra o mesmo alvo, pagando uma quantidade de PM igual à quantidade de ataques já realizados no turno. Ou seja, pode fazer o primeiro ataque extra gastando 1 PM, um segundo ataque extra gastando mais 2 PM e assim por diante, até errar um ataque ou não ter mais pontos de mana.",
+                    "10": "Trocação Tumultuosa - Você é uma turba de um homem só. Quando faz um ataque desarmado, pode pagar 1 PM para atingir todas as criaturas adjacentes a você — incluindo aliados! Você deve usar esta habilidade antes de rolar o ataque, e compara o resultado de seu teste contra a CA de cada criatura.",
+                    "11": "Voadora - Quando faz uma investida desarmada, você pode gastar 2 PM. Se fizer isso, recebe +1d6 no dano por cada 1,5m que se deslocar até chegar ao oponente, limitado pelo seu nível."
+                }
+            },
+            "3": {
+                "nome": "Casca Grossa",
+                "descricao": {
+                    "0": "No 3º nível, você soma seu bônus de Constituição na classe de armadura, limitado pelo seu nível e apenas se não estiver usando armadura pesa- da. Além disso, no 7º nível, e a cada quatro níveis, você recebe +1 na CA."
+                }
+            },
+            "4": {
+                "nome": "Golpe Cruel",
+                "descricao": {
+                    "0": "No 5º nível, você acerta onde dói. Sua margem de ameaça com ataques desarmados aumenta em +1."                    
+                }
+            },
+            "5": {
+                "nome": "Golpe Violento",
+                "descricao": {
+                    "0": "No 9º nível, você bate com muita força. Seu multiplicador de crítico com ataques desarmados aumenta em +1."
+                }
+            },
+            "6": {
+                "nome": "Dono da Rua",
+                "descricao": {
+                    "0": "No 20º nível, seu dano desarmado aumenta para 2d10 (para criaturas Médias). Além disso, quando usa a ação ataque para fazer um ataque desar- mado, você faz dois ataques, em vez de um (podendo usar Golpe Relâmpago para fazer um terceiro)."
+                }
+            }
+        },
+        "tabela": {
+            "0": "Briga (1d6), golpe relâmpago",
+            "1": "Poder das ruas",
+            "2": "Casca grossa (Con), poder das ruas",
+            "3": "Poder das ruas",
+            "4": "Briga (1d8), golpe cruel, poder das ruas",
+            "5": "Poder das ruas",
+            "6": "Casca grossa (Con+1), poder das ruas",
+            "7": "Poder das ruas",
+            "8": "Briga (1d10), golpe violento, poder das ruas",
+            "9": "Poder das ruas",
+            "10": "Casca grossa (Con+2), poder das ruas",
+            "11": "Poder das ruas",
+            "12": "Briga (2d6), poder das ruas",
+            "13": "Poder das ruas",
+            "14": "Casca grossa (Con+3), poder das ruas",
+            "15": "Poder das ruas",
+            "16": "Briga (2d8), poder das ruas",
+            "17": "Poder das ruas",
+            "18": "Casca grossa (Con+4), poder das ruas",
+            "19": "Dono da rua (2d10), poder das ruas"
+        }
+    },
+
+    "nobre": {
+        "nome": "Nobre",
+        "id": "13",
+        "pv": {
+            "base": 16,
+            "bonus": 4
+        },
+        "pm": 4,
+        "pericias": {
+            "qnt": 6,
+            "opcoes": {
+                "0":  "Adestramento (Car)",
+                "1":  "Atuação (Car)",
+                "2":  "Cavalgar (Des)",
+                "3":  "Conhecimento (Int)",
+                "4":  "Diplomacia (Car)",
+                "5":  "Enganação (Car)",
+                "6":  "Fortitude (Con)",
+                "7":  "Guerra (Int)",
+                "8":  "Iniciativa (Des)",
+                "9":  "Intimidação (Car)",
+                "10": "Intuição (Sab)",
+                "11": "Investigação (Int)",
+                "12": "Jogatina (Car)",
+                "13": "Luta (For)",
+                "14": "Nobreza (Int)",
+                "15": "Ofício (Int)",
+                "16": "Percepção (Sab)",
+                "17": "Pontaria (Des)",
+                "18": "Vontade (Sab)."
+            }
+        },
+        "proeficiencias": "Armas marciais, armaduras pesadas e escudos.",
+        "habilidades": {
+            "0": {
+                "nome": "Autoconfiança",
+                "descricao": {
+                    "0": "Você soma seu bônus de Carisma na classe de armadura, limitado pelo seu nível."
+                }
+            },
+            "1": {
+                "nome": "Herança",
+                "descricao": {
+                    "0": "Você começa o jogo com um item à sua escolha (normal ou mágico) de até 2.000 T$."
+                }
+            },
+            "2": {
+                "nome": "Orgulho",
+                "descricao": {
+                    "0": "Nobres confiam muito em suas próprias capacidades. Isso pode torná-los arrogantes, mas faz com que consigam realizar tarefas acima de seus limites. Quando faz um teste de perícia, você pode gastar uma quantidade de PM à sua escolha (limitado pelo seu bônus de Carisma). Para PM que gastar, recebe +2 no teste."                    
+                }
+            },
+            "3": {
+                "nome": "Poder da Nobreza",
+                "descricao": {
+                    "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+                    "1": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "2": "Favor - Você pode usar sua influência para pedir favores a pessoas poderosas. Pedir favores gasta 5 PM e exige pelo menos uma hora de conversa e bajulação, ou mais, de acordo com o mestre. Faça um teste de Diplomacia. A CD do teste depende do que você está pedindo: 10 para algo simples (como um convite para uma festa particular); 20 para algo caro ou complicado (como uma carona de barco até Galrasia), e 30 para algo perigoso ou ilegal (como acesso aos planos militares do reino).",
+                    "3": "Grito Tirânico - Quando usa a habilidade Palavras Afiadas, você pode pagar +2 PM. Se fizer isso, seus dados de dano aumentam para d8 e você atinge todos os inimigos em alcance curto. Pré-Requisito: Palavras Afiadas.",
+                    "4": "Inspirar Confiança - Sua presença faz as pessoas darem o melhor de si. Você pode gastar 2 PM para fazer um aliado em alcance longo rolar novamente um teste recém realizado.",
+                    "5": "Inspirar Glória - A presença de um nobre moti- va as pessoas a realizar façanhas impressionantesa. Você pode gastar 5 PM para fazer um aliado em alcance longo ganhar uma ação padrão adicional no próximo turno dele. Você só pode usar esta habilidade uma vez por cena em cada aliado. Pré-Requisito: Inspirar Confiança.",
+                    "6": "Língua de Prata - Quando faz um teste de perícia baseada em Carisma, você pode gastar 2 PM para receber um bônus no teste igual ao seu nível. Você pode usar esta habilidade depois de rolar o dado, mas apenas antes do mestre dizer se você foi bem-sucedido ou não.",
+                    "7": "Língua de Ouro - Você pode gastar uma ação padrão e 6 PM para gerar o efeito da magia Sugestão com o aprimoramento em massa (CD Car). Esta não é uma habilidade mágica, e provém de sua capacidade de influenciar outras pessoas. Pré-Requisito: Língua de Prata.",
+                    "8": "Palavras Afiadas - Você pode gastar uma ação padrão e 1 PM para convencer uma criatura inteligente (Int 3 ou mais) em alcance curto a parar de lutar. Faça um teste de Diplomacia ou Intimidação (à sua escolha) oposto ao teste de Vontade da criatura. Se for bem-sucedido, você causa 1d6 pontos de dano não letal à criatura. Se falhar, causa metade deste dano. Para cada PM extra que você gastar quando ativar a habilidade, o dano aumenta em +1d6. Caso a criatura seja reduzida a 0 ou menos PV, se rende (caso você tenha usado Diplomacia) ou fica apavorada (caso tenha usado Intimidação), em vez de cair inconsciente.",
+                    "9": "Presença Aristocrática - Sempre que uma criatura inteligente (Int 3 ou mais) tentar machucá-lo (causar dano através de um ataque, magia ou habilidade especial) você pode gastar 2 PM. Se fizer isso, a criatura deve fazer um teste de Vontade (CD Car). Se falhar, não conseguirá machucá-lo e perderá a ação. Você só pode usar esta habilidade uma vez por cena contra cada criatura.",
+                    "10": "Presença Majestosa - Você impõe respeito a todos. A habilidade presença aristocrática passa a funcionar contra criaturas com Int 1 ou mais (ou seja, passa a afetar até mesmo animais, embora continue não funcionando contra criaturas sem valor de Inteligência). Além disso, você pode usá-la mais de uma vez contra uma mesma criatura na mesma cena. Pré-Requisito: Presença Aristocrática, 12º nível de personagem."
+                }
+            },
+            "4": {
+                "nome": "Riqueza",
+                "descricao": {
+                    "0": "No 2º nível, você passa a receber dinheiro de sua família, de seu patrono ou de seus negócios. No início de cada aventura, você pode fazer um teste de Carisma. Você recebe um número de Tibares de ouro igual ao resultado do teste multiplicado por seu nível de classe. Por exemplo, um nobre de 5º nível que consiga um 15 no teste de Carisma recebe 75 T$. O uso desta habilidade é condicionado a onde e quando você faz um teste, assim como a sua relação com sua família, patrono ou negócios. Por exemplo, um nobre viajando pelos ermos, isolado da civilização, dificilmente teria como receber dinheiro."
+                }
+            },
+            "5": {
+                "nome": "Gritar Ordens",
+                "descricao": {
+                    "0": "No  3º  nível,  você  pode  gastar uma ação de movimento e uma quantidade de PM à sua escolha (limitado pelo seu bônus de Carisma). Todos os seus aliados em alcance médio recebem um bônus nos testes de perícia igual à quantidade de PM que você gastou. O bônus dura uma rodada."
+                }
+            },
+            "6": {
+                "nome": "Realeza",
+                "descricao": {
+                    "0": "No 20º nível, sua presença impõe mais do que respeito — impõe veneração. Uma criatura que seja alvo de sua habilidade Presença Aristocrática e falhe no teste de Vontade por 10 ou mais se arrepende tanto de ter tentado machucá-lo que passa a lutar ao seu lado — e seguir suas ordens, se puder entendê-lo — pelo resto do combate. Uma criatura que seja reduzida a 0 PV pela habilidade Palavras Afiadas não sofre este dano; em vez disso, passa a lutar ao seu lado pelo resto da cena."
+                }
+            }
+        },
+        "tabela": {
+            "0": "Autoconfiança, herança, orgulho",
+            "1": "Poder da nobreza, riqueza",
+            "2": "Gritar ordens, poder da nobreza",
+            "3": "Poder da nobreza",
+            "4": "Poder da nobreza",
+            "5": "Poder da nobreza",
+            "6": "Poder da nobreza",
+            "7": "Poder da nobreza",
+            "8": "Poder da nobreza",
+            "9": "Poder da nobreza",
+            "10": "Poder da nobreza",
+            "11": "Poder da nobreza",
+            "12": "Poder da nobreza",
+            "13": "Poder da nobreza",
+            "14": "Poder da nobreza",
+            "15": "Poder da nobreza",
+            "16": "Poder da nobreza",
+            "17": "Poder da nobreza",
+            "18": "Poder da nobreza",
+            "19": "Realeza"
+        }
+    },
+
+    "paladino": {
+        "nome": "Paladino",
+        "id": "14",
+        "pv": {
+            "base": 20,
+            "bonus": 5
+        },
+        "pm": 3,
+        "pericias": {
+            "qnt": 4,
+            "opcoes": {
+                "0":  "Adestramento (Car)",
+                "1":  "Atletismo (For)",
+                "2":  "Cavalgar (Des)",
+                "3":  "Cura (Sab)",
+                "4":  "Diplomacia (Car)",
+                "5":  "Fortitude (Con)",
+                "6":  "Guerra (Int)",
+                "7":  "Iniciativa (Des)",
+                "8":  "Intuição (Sab)",
+                "9":  "Luta (For)",
+                "10": "Nobreza (Int)",
+                "11": "Percepção (Sab)",
+                "12": "Religião (Sab)",
+                "13": "Vontade (Sab)."
+            }
+        },
+        "proeficiencias": "Armas marciais, armaduras pesadas e escudos.",
+        "habilidades": {
+            "0": {
+                "nome": "Abençoado",
+                "descricao": {
+                    "0": "Você soma seu bônus de Carisma no seu total de pontos de mana. Além disso, se torna devoto de uma divindade disponível para paladinos. Você deve obedecer as Obrigações & Restrições de seu deus, mas em troca ganha um dos Poderes Concedidos dele à sua escolha.",
+                    "1": "Como alternativa, você pode ser um paladino do bem, lutando em prol da bondade e da justiça como um todo. Não recebe nenhum Poder Concedido, mas não precisa seguir nenhuma Obrigação & Restrição (além do Código do Herói abaixo)."
+                }
+            },
+            "1": {
+                "nome": "Código do Herói",
+                "descricao": {
+                    "0": "Você deve sempre manter sua palavra e nunca pode recusar um pedido de ajuda de alguém inocente. Além disso, nunca pode mentir, trapacear, roubar ou desobedecer as leis locais, nem permitir que seus companheiros o façam. Se violar o código, você perde todos os seus pontos de mana (mas recupera-os normalmente com descanso)."
+                }
+            },
+            "2": {
+                "nome": "Golpe Divino",
+                "descricao": {
+                    "0": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM para desferir um golpe destruidor. Você soma seu bônus de Carisma no teste de ataque e +1d8 na rolagem de dano. A cada quatro níveis, pode gastar +2 PM para aumentar o dano em +1d8"                    
+                }
+            },
+            "3": {
+                "nome": "Poder da Nobreza",
+                "descricao": {
+                    "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+                    "1": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "2": "Favor - Você pode usar sua influência para pedir favores a pessoas poderosas. Pedir favores gasta 5 PM e exige pelo menos uma hora de conversa e bajulação, ou mais, de acordo com o mestre. Faça um teste de Diplomacia. A CD do teste depende do que você está pedindo: 10 para algo simples (como um convite para uma festa particular); 20 para algo caro ou complicado (como uma carona de barco até Galrasia), e 30 para algo perigoso ou ilegal (como acesso aos planos militares do reino).",
+                    "3": "Grito Tirânico - Quando usa a habilidade Palavras Afiadas, você pode pagar +2 PM. Se fizer isso, seus dados de dano aumentam para d8 e você atinge todos os inimigos em alcance curto. Pré-Requisito: Palavras Afiadas.",
+                    "4": "Inspirar Confiança - Sua presença faz as pessoas darem o melhor de si. Você pode gastar 2 PM para fazer um aliado em alcance longo rolar novamente um teste recém realizado.",
+                    "5": "Inspirar Glória - A presença de um nobre moti- va as pessoas a realizar façanhas impressionantesa. Você pode gastar 5 PM para fazer um aliado em alcance longo ganhar uma ação padrão adicional no próximo turno dele. Você só pode usar esta habilidade uma vez por cena em cada aliado. Pré-Requisito: Inspirar Confiança.",
+                    "6": "Língua de Prata - Quando faz um teste de perícia baseada em Carisma, você pode gastar 2 PM para receber um bônus no teste igual ao seu nível. Você pode usar esta habilidade depois de rolar o dado, mas apenas antes do mestre dizer se você foi bem-sucedido ou não.",
+                    "7": "Língua de Ouro - Você pode gastar uma ação padrão e 6 PM para gerar o efeito da magia Sugestão com o aprimoramento em massa (CD Car). Esta não é uma habilidade mágica, e provém de sua capacidade de influenciar outras pessoas. Pré-Requisito: Língua de Prata.",
+                    "8": "Palavras Afiadas - Você pode gastar uma ação padrão e 1 PM para convencer uma criatura inteligente (Int 3 ou mais) em alcance curto a parar de lutar. Faça um teste de Diplomacia ou Intimidação (à sua escolha) oposto ao teste de Vontade da criatura. Se for bem-sucedido, você causa 1d6 pontos de dano não letal à criatura. Se falhar, causa metade deste dano. Para cada PM extra que você gastar quando ativar a habilidade, o dano aumenta em +1d6. Caso a criatura seja reduzida a 0 ou menos PV, se rende (caso você tenha usado Diplomacia) ou fica apavorada (caso tenha usado Intimidação), em vez de cair inconsciente.",
+                    "9": "Presença Aristocrática - Sempre que uma criatura inteligente (Int 3 ou mais) tentar machucá-lo (causar dano através de um ataque, magia ou habilidade especial) você pode gastar 2 PM. Se fizer isso, a criatura deve fazer um teste de Vontade (CD Car). Se falhar, não conseguirá machucá-lo e perderá a ação. Você só pode usar esta habilidade uma vez por cena contra cada criatura.",
+                    "10": "Presença Majestosa - Você impõe respeito a todos. A habilidade presença aristocrática passa a funcionar contra criaturas com Int 1 ou mais (ou seja, passa a afetar até mesmo animais, embora continue não funcionando contra criaturas sem valor de Inteligência). Além disso, você pode usá-la mais de uma vez contra uma mesma criatura na mesma cena. Pré-Requisito: Presença Aristocrática, 12º nível de personagem."
+                }
+            },
+            "4": {
+                "nome": "Riqueza",
+                "descricao": {
+                    "0": "No 2º nível, você passa a receber dinheiro de sua família, de seu patrono ou de seus negócios. No início de cada aventura, você pode fazer um teste de Carisma. Você recebe um número de Tibares de ouro igual ao resultado do teste multiplicado por seu nível de classe. Por exemplo, um nobre de 5º nível que consiga um 15 no teste de Carisma recebe 75 T$. O uso desta habilidade é condicionado a onde e quando você faz um teste, assim como a sua relação com sua família, patrono ou negócios. Por exemplo, um nobre viajando pelos ermos, isolado da civilização, dificilmente teria como receber dinheiro."
+                }
+            },
+            "5": {
+                "nome": "Gritar Ordens",
+                "descricao": {
+                    "0": "No  3º  nível,  você  pode  gastar uma ação de movimento e uma quantidade de PM à sua escolha (limitado pelo seu bônus de Carisma). Todos os seus aliados em alcance médio recebem um bônus nos testes de perícia igual à quantidade de PM que você gastou. O bônus dura uma rodada."
+                }
+            },
+            "6": {
+                "nome": "Realeza",
+                "descricao": {
+                    "0": "No 20º nível, sua presença impõe mais do que respeito — impõe veneração. Uma criatura que seja alvo de sua habilidade Presença Aristocrática e falhe no teste de Vontade por 10 ou mais se arrepende tanto de ter tentado machucá-lo que passa a lutar ao seu lado — e seguir suas ordens, se puder entendê-lo — pelo resto do combate. Uma criatura que seja reduzida a 0 PV pela habilidade Palavras Afiadas não sofre este dano; em vez disso, passa a lutar ao seu lado pelo resto da cena."
+                }
+            }
+        },
+        "tabela": {
+            "0": "Autoconfiança, herança, orgulho",
+            "1": "Poder da nobreza, riqueza",
+            "2": "Gritar ordens, poder da nobreza",
+            "3": "Poder da nobreza",
+            "4": "Poder da nobreza",
+            "5": "Poder da nobreza",
+            "6": "Poder da nobreza",
+            "7": "Poder da nobreza",
+            "8": "Poder da nobreza",
+            "9": "Poder da nobreza",
+            "10": "Poder da nobreza",
+            "11": "Poder da nobreza",
+            "12": "Poder da nobreza",
+            "13": "Poder da nobreza",
+            "14": "Poder da nobreza",
+            "15": "Poder da nobreza",
+            "16": "Poder da nobreza",
+            "17": "Poder da nobreza",
+            "18": "Poder da nobreza",
+            "19": "Realeza"
         }
     }
 }
