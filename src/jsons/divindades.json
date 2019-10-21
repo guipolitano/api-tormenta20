@@ -1,114 +1,92 @@
 {
-    "divindades": [
-        {
-            "key": "0",
-            "text": "Nenhuma",
-            "value": "0"
-        },
-        {
-            "key": "1",
-            "text": "Allihanna",
-            "value": "1"
-        },
-        {
-            "key": "2",
-            "text": "Azgher",
-            "value": "2"
-        },
-        {
-            "key": "3",
-            "text": "Divina Serpente",
-            "value": "3"
-        },
-        {
-            "key": "4",
-            "text": "Glórienn",
-            "value": "4"
-        },
-        {
-            "key": "5",
-            "text": "Grande Oceano",
-            "value": "5"
-        },
-        {
-            "key": "6",
-            "text": "Hyninn",
-            "value": "6"
-        },
-        {
-            "key": "7",
-            "text": "Keenn",
-            "value": "7"
-        },
-        {
-            "key": "8",
-            "text": "Khalmyr",
-            "value": "8"
-        },
-        {
-            "key": "9",
-            "text": "Lena",
-            "value": "9"
-        },
-        {
-            "key": "10",
-            "text": "Lin-Wu",
-            "value": "10"
-        },
-        {
-            "key": "11",
-            "text": "Marah",
-            "value": "11"
-        },
-        {
-            "key": "12",
-            "text": "Megalokk",
-            "value": "12"
-        },
-        {
-            "key": "13",
-            "text": "Nimb",
-            "value": "13"
-        },
-        {
-            "key": "14",
-            "text": "Ragnar",
-            "value": "14"
-        },
-        {
-            "key": "15",
-            "text": "Sszzaas",
-            "value": "15"
-        },
-        {
-            "key": "16",
-            "text": "Tanna-Toh",
-            "value": "16"
-        },
-        {
-            "key": "17",
-            "text": "Tenebra",
-            "value": "17"
-        },
-        {
-            "key": "18",
-            "text": "Thyatis",
-            "value": "18"
-        },
-        {
-            "key": "19",
-            "text": "Wynna",
-            "value": "19"
-        },
-        {
-            "key": "20",
-            "text": "Valkaria",
-            "value": "20"
-        },
-        {
-            "key": "21",
-            "text": "Paladino",
-            "value": "21"
-        }
-    ]
+    "allihanna" : {
+        "nome": "Allihanna",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "azgher" : {
+        "nome": "Azgher",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "keen" : {
+        "nome": "Keen",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "khalmyr" : {
+        "nome": "Khalmyr",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "lena" : {
+        "nome": "Lena",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "nimb" : {
+        "nome": "Nimb",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "sszzaas" : {
+        "nome": "Sszzaas",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "tanna-toh" : {
+        "nome": "Tanna-Toh",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "tenebra" : {
+        "nome": "Tenebra",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    },
+    "valkaria" : {
+        "nome": "Valkaria",
+        "crencas_objetivos": "",
+        "devotos_permitidos": "",
+        "simbolo_sagrado":"",
+        "arma_preferida": "",
+        "obrigacoes_restricoes": {},
+        "poderes_concedidos": {}
+    }
 }
