@@ -1,6 +1,7 @@
 {
     "anao": {
         "id": "1",
+        "nome": "Anão",
         "bonus": {
             "car": 0,
             "sab": 2,
@@ -11,14 +12,100 @@
         },
         "ca": 0
     },
-    "elfo": {
+
+    "dahllan": {
         "id": "2",
+        "nome": "Dahllan",
         "bonus": {
             "car": 0,
-            "sab": 2,
+            "sab": 4,
+            "int": -2,
+            "con": 0,
+            "des": 2,
+            "for": 0
+        },
+        "ca": 0
+    },
+
+    "elfo": {
+        "id": "3",
+        "nome": "Elfo",
+        "bonus": {
+            "car": 0,
+            "sab": 0,
+            "int": 4,
+            "con": -2,
+            "des": 2,
+            "for": 0
+        },
+        "ca": 0
+    },
+
+    "goblin": {
+        "id": "4",
+        "nome": "Goblin",
+        "bonus": {
+            "car": -2,
+            "sab": 0,
             "int": 0,
-            "con": 4,
-            "des": -2,
+            "con": 2,
+            "des": 4,
+            "for": 0
+        },
+        "ca": 0
+    },
+
+    "humano": {
+        "id": "5",
+        "nome": "Humano",
+        "bonus": {
+            "car": 0,
+            "sab": 0,
+            "int": 0,
+            "con": 0,
+            "des": 0,
+            "for": 0
+        },
+        "ca": 0
+    },
+
+    "lefou": {
+        "id": "6",
+        "nome": "Lefou",
+        "bonus": {
+            "car": 0,
+            "sab": 0,
+            "int": 0,
+            "con": 0,
+            "des": 0,
+            "for": 0
+        },
+        "ca": 0
+    },
+    
+    "minotauro": {
+        "id": "7",
+        "nome": "Minotauro",
+        "bonus": {
+            "car": 0,
+            "sab": -2,
+            "int": 0,
+            "con": 2,
+            "des": 0,
+            "for": 4
+        },
+        "ca": 0
+    },
+
+    "Qareen": {
+        "id": "8",
+        "nome": "Qareen",
+        "bonus": {
+            "car": 4,
+            "sab": -2,
+            "int": 2,
+            "con": 0,
+            "des": 0,
             "for": 0
         },
         "ca": 0

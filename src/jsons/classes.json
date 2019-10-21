@@ -1415,61 +1415,75 @@
                 }
             },
             "3": {
-                "nome": "Poder da Nobreza",
+                "nome": "Cura pelas Mãos",
                 "descricao": {
-                    "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
-                    "1": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
-                    "2": "Favor - Você pode usar sua influência para pedir favores a pessoas poderosas. Pedir favores gasta 5 PM e exige pelo menos uma hora de conversa e bajulação, ou mais, de acordo com o mestre. Faça um teste de Diplomacia. A CD do teste depende do que você está pedindo: 10 para algo simples (como um convite para uma festa particular); 20 para algo caro ou complicado (como uma carona de barco até Galrasia), e 30 para algo perigoso ou ilegal (como acesso aos planos militares do reino).",
-                    "3": "Grito Tirânico - Quando usa a habilidade Palavras Afiadas, você pode pagar +2 PM. Se fizer isso, seus dados de dano aumentam para d8 e você atinge todos os inimigos em alcance curto. Pré-Requisito: Palavras Afiadas.",
-                    "4": "Inspirar Confiança - Sua presença faz as pessoas darem o melhor de si. Você pode gastar 2 PM para fazer um aliado em alcance longo rolar novamente um teste recém realizado.",
-                    "5": "Inspirar Glória - A presença de um nobre moti- va as pessoas a realizar façanhas impressionantesa. Você pode gastar 5 PM para fazer um aliado em alcance longo ganhar uma ação padrão adicional no próximo turno dele. Você só pode usar esta habilidade uma vez por cena em cada aliado. Pré-Requisito: Inspirar Confiança.",
-                    "6": "Língua de Prata - Quando faz um teste de perícia baseada em Carisma, você pode gastar 2 PM para receber um bônus no teste igual ao seu nível. Você pode usar esta habilidade depois de rolar o dado, mas apenas antes do mestre dizer se você foi bem-sucedido ou não.",
-                    "7": "Língua de Ouro - Você pode gastar uma ação padrão e 6 PM para gerar o efeito da magia Sugestão com o aprimoramento em massa (CD Car). Esta não é uma habilidade mágica, e provém de sua capacidade de influenciar outras pessoas. Pré-Requisito: Língua de Prata.",
-                    "8": "Palavras Afiadas - Você pode gastar uma ação padrão e 1 PM para convencer uma criatura inteligente (Int 3 ou mais) em alcance curto a parar de lutar. Faça um teste de Diplomacia ou Intimidação (à sua escolha) oposto ao teste de Vontade da criatura. Se for bem-sucedido, você causa 1d6 pontos de dano não letal à criatura. Se falhar, causa metade deste dano. Para cada PM extra que você gastar quando ativar a habilidade, o dano aumenta em +1d6. Caso a criatura seja reduzida a 0 ou menos PV, se rende (caso você tenha usado Diplomacia) ou fica apavorada (caso tenha usado Intimidação), em vez de cair inconsciente.",
-                    "9": "Presença Aristocrática - Sempre que uma criatura inteligente (Int 3 ou mais) tentar machucá-lo (causar dano através de um ataque, magia ou habilidade especial) você pode gastar 2 PM. Se fizer isso, a criatura deve fazer um teste de Vontade (CD Car). Se falhar, não conseguirá machucá-lo e perderá a ação. Você só pode usar esta habilidade uma vez por cena contra cada criatura.",
-                    "10": "Presença Majestosa - Você impõe respeito a todos. A habilidade presença aristocrática passa a funcionar contra criaturas com Int 1 ou mais (ou seja, passa a afetar até mesmo animais, embora continue não funcionando contra criaturas sem valor de Inteligência). Além disso, você pode usá-la mais de uma vez contra uma mesma criatura na mesma cena. Pré-Requisito: Presença Aristocrática, 12º nível de personagem."
+                    "0": "A partir do 2º nível, você pode gastar uma ação de movimento e 1 PM para curar 1d8+1 pontos de vida de um alvo em alcance corpo a corpo (incluindo você). A cada quatro níveis, você pode gastar +1 PM para aumentar os PV curados em +1d8+1.",
+                    "1":"A partir do 6º nível, você pode gastar +1 PM quando usa cura pelas mãos para anular uma condição afetando o alvo, entre abalado, apavorado, atordoado, cego, doente, exausto, fatigado ou surdo.",
+                    "2": "Esta habilidade também pode causar dano a mortos-vivos, exigindo um ataque desarmado."      
                 }
             },
             "4": {
-                "nome": "Riqueza",
+                "nome": "Poder do Heroísmo",
                 "descricao": {
-                    "0": "No 2º nível, você passa a receber dinheiro de sua família, de seu patrono ou de seus negócios. No início de cada aventura, você pode fazer um teste de Carisma. Você recebe um número de Tibares de ouro igual ao resultado do teste multiplicado por seu nível de classe. Por exemplo, um nobre de 5º nível que consiga um 15 no teste de Carisma recebe 75 T$. O uso desta habilidade é condicionado a onde e quando você faz um teste, assim como a sua relação com sua família, patrono ou negócios. Por exemplo, um nobre viajando pelos ermos, isolado da civilização, dificilmente teria como receber dinheiro."
+                    "0": "No 2º nível, e a cada nível seguinte, você recebe um benefício da lista a seguir.",
+                    "1": "Aprimoramento - Você recebe +1 em um atributo à sua escolha. Você pode escolher este benefício várias vezes, mas não pode aumentar o mesmo atributo dois níveis seguidos.",
+                    "2": "Aura Antimagia. Enquanto sua aura sagrada estiver ativa, você e os aliados dentro da aura podem rolar novamente qualquer teste de resistência contra magia recém realizado. Pré-requisito: 14° nível.",
+                    "3": "Aura Ardente - Enquanto sua aura sagrada estiver ativa, no início de cada um de seus turnos, espíritos e mortos-vivos à sua escolha dentro dela sofrem dano igual a 5 + seu bônus de Carisma. Pré-requisito: 10° nível.",
+                    "4": "Aura de Cura - Enquanto sua aura sagrada esti- ver ativa, no início de cada um de seus turnos, você e os aliados dentro dela recuperam um número de PV igual a 5 + seu bônus de Carisma. Pré-requisito: 6° nível.",
+                    "5": "Aura de Invencibilidade - Enquanto sua aura sa- grada estiver ativa, você e os aliados dentro dela ignoram o primeiro dano sofrido na cena. Pré-requisito: 18° nível.",
+                    "6": "Aura Poderosa - O alcance da sua aura sagrada aumenta para médio. Pré-requisito. 6° nível.",
+                    "7": "Julgamento Divino: Autoridade - Você pode gastar uma ação padrão e 1 PM para comandar uma criatura à sua escolha em alcance curto. Faça um teste de Diplomacia oposto pelo teste de Vontade da criatura. Se você for bem-sucedido, ela obedece à um comando simples como “pare” ou “largue a arma”. Se a criatura for bem-sucedida, fica imune a este efeito por um dia.",
+                    "8": "Julgamento Divino: Coragem - Gastando 2 PM, você pode inspirar coragem em uma criatura em alcance curto, incluindo você mesmo. Pelo restante da cena, a criatura é imune a efeitos de medo e ganha +2 em testes de ataque contra alvos de nível maior que o dela.",
+                    "9": "Julgamento Divino: Iluminação - Uma vez por cena, você pode marcar um inimigo em alcance curto. Até o fim da cena, quando acerta um ataque nesse inimigo, você recupera 3 PM.",
+                    "10": "Julgamento Divino: Justiça - Gastando 2 PM, você pode marcar um inimigo em alcance curto. A próxima vez que esse inimigo causar dano em você ou um de seus aliados, deve fazer um teste de Vontade (CD Car). Se ele falhar, sofre dano sagrado igual à metade do dano que causou.",
+                    "11": "Julgamento Divino: Liberdade - Você pode gastar 5 PM para cancelar um efeito contínuo (como paralisia, medo, veneno, etc.) que esteja afetando uma criatura em alcance curto.",
+                    "12": "Julgamento Divino: Salvação - Você pode gastar 2 PM para marcar um inimigo em alcance curto. Até o fim da cena, quando você acerta um ataque físico nesse inimigo, recupera 5 pontos de vida.",
+                    "13":"Julgamento Divino: Vindicação - Você pode gastar 2 PM e escolher um inimigo que já tenha causado dano a você ou seus aliados nessa cena. Pelo restante da cena, você recebe +1 em testes de ataque e +1d8 em rolagens de dano contra o alvo escolhido, mas sofre –2 em testes de ataque contra qualquer outro alvo. Quan- do profere esse julgamento, você pode aumentar esses bônus: para cada 2 PM adicionais, o bônus de ataque aumenta em +1 e o bônus de dano em +1d8, mas a penalidade também aumenta em –2. O efeito termina automaticamente caso o alvo fique inconsciente.",
+                    "14":"Julgamento Divino: Zelo - Você pode gastar 1 PM para marcar um alvo em alcance longo. Pelo restante da cena, sempre que se mover na direção desse alvo, você se move com o dobro de seu deslocamento."
                 }
             },
             "5": {
-                "nome": "Gritar Ordens",
+                "nome": "Aura Sagrada",
                 "descricao": {
-                    "0": "No  3º  nível,  você  pode  gastar uma ação de movimento e uma quantidade de PM à sua escolha (limitado pelo seu bônus de Carisma). Todos os seus aliados em alcance médio recebem um bônus nos testes de perícia igual à quantidade de PM que você gastou. O bônus dura uma rodada."
+                    "0": "No 3º nível, você pode gastar 1 PM para gerar uma aura com alcance curto a partir de você. A aura emite uma luz dourada e agradável, que ilumina como uma tocha. Além disso, você e os aliados dentro da aura recebem um bônus igual ao seu bônus de Carisma nos testes de resistência. Manter a aura custa 1 PM no início de seus turnos."
                 }
             },
             "6": {
-                "nome": "Realeza",
+                "nome": "Benção da Justiça",
                 "descricao": {
-                    "0": "No 20º nível, sua presença impõe mais do que respeito — impõe veneração. Uma criatura que seja alvo de sua habilidade Presença Aristocrática e falhe no teste de Vontade por 10 ou mais se arrepende tanto de ter tentado machucá-lo que passa a lutar ao seu lado — e seguir suas ordens, se puder entendê-lo — pelo resto do combate. Uma criatura que seja reduzida a 0 PV pela habilidade Palavras Afiadas não sofre este dano; em vez disso, passa a lutar ao seu lado pelo resto da cena."
+                    "0": "No 5º nível, escolha entre égide sagrada e montaria sagrada. Uma vez feita, esta escolha não pode ser mudada.",
+                    "1": "Égide Sagrada - Você pode gastar uma ação de movimento e 2 PM para cobrir seu escudo ou símbolo sagrado em energia. Até o fim da cena, você e todos os aliados adjacentes recebem um bônus na classe de armadura igual ao seu modificador de Carisma. A partir do 11º nível, você pode gastar 5 PM para receber o mesmo bônus num teste de resistência contra uma magia recém lançada contra você. Se você for bem-sucedido no teste de resistência, reverte a magia de volta para o seu conjurador, como se estivesse sob efeito de Reverter Magia.",
+                    "2": "Montaria Sagrada. Você pode gastar uma ação de movimento e 2 PM para invocar uma montaria sagrada. Veja o quadro para mais detalhes."
+                }
+            },
+            "7": {
+                "nome": "Campeão do Bem",
+                "descricao": {
+                    "0": "No 20º nível, você pode gastar uma ação padrão e 5 PM para assumir a forma de um anjo guerreiro. Você cria asas emplumadas, que forne- cem deslocamento de voo de 18m, e recebe resistência a dano 20 até o fim da cena."
                 }
             }
         },
         "tabela": {
-            "0": "Autoconfiança, herança, orgulho",
-            "1": "Poder da nobreza, riqueza",
-            "2": "Gritar ordens, poder da nobreza",
-            "3": "Poder da nobreza",
-            "4": "Poder da nobreza",
-            "5": "Poder da nobreza",
-            "6": "Poder da nobreza",
-            "7": "Poder da nobreza",
-            "8": "Poder da nobreza",
-            "9": "Poder da nobreza",
-            "10": "Poder da nobreza",
-            "11": "Poder da nobreza",
-            "12": "Poder da nobreza",
-            "13": "Poder da nobreza",
-            "14": "Poder da nobreza",
-            "15": "Poder da nobreza",
-            "16": "Poder da nobreza",
-            "17": "Poder da nobreza",
-            "18": "Poder da nobreza",
-            "19": "Realeza"
+            "0":  "Abençoado, código do herói, golpe divino (+1d8)",
+            "1":  "Cura pelas mãos (1d8+1 PV), poder do heroísmo",
+            "2":  "Aura sagrada, poder do heroísmo",
+            "3":  "Poder do heroísmo",
+            "4":  "Bênção da justiça, golpe divino (+2d8), poder do heroísmo",
+            "5":  "Cura pelas mãos (2d8+2 PV), poder do heroísmo",
+            "6":  "Poder do heroísmo",
+            "7":  "Poder do heroísmo",
+            "8":  "Golpe divino (+3d8), poder do heroísmo",
+            "9":  "Cura pelas mãos (3d8+3 PV), poder do heroísmo",
+            "10": "Poder do heroísmo",
+            "11": "Poder do heroísmo",
+            "12": "Golpe divino (+4d8), poder do heroísmo",
+            "13": "Cura pelas mãos (4d8+4 PV), poder do heroísmo",
+            "14": "Poder do heroísmo",
+            "15": "Poder do heroísmo",
+            "16": "Golpe divino (+5d8), poder do heroísmo",
+            "17": "Cura pelas mãos (5d8+5 PV), poder do heroísmo",
+            "18": "Poder do heroísmo",
+            "19": "Campeão do bem, poder do heroísmo"
         }
     }
 }
