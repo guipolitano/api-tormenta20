@@ -1,30 +1,52 @@
 {
     "allihanna" : {
         "nome": "Allihanna",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Reverenciar os seres da natureza. Proteger a vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equi- líbrio natural.",
+        "devotos_permitidos": "Dahllan, elfos, bárbaros, caçadores, druidas.",
+        "simbolo_sagrado":"Para bárbaros e outros adoradores de animais, o símbolo corresponde ao respectivo animal. Para outros, uma pequena árvore.",
+        "arma_preferida": "Bordão",
+        "obrigacoes_restricoes": {
+            "0":"Devotos de Allihanna não podem usar armaduras e escudos feitos de metal. Assim, você só pode usar armadura acolchoada, arma- dura de couro, gibão de peles e escudo leve.",
+            "1":"Devotos de Allihanna não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana). Por isso, sempre preferem o relento a um quarto de estalagem."
+        },
+        "poderes_concedidos": {
+            "0": "Descanso naturaL - Para você, dormir ao relento conta como uma estalagem confortável.",
+            "1": "Domínio dos animais - Você aprende e pode lançar Magnetismo Animal.",
+            "2": "Domínio das Plantas - Você aprende e pode lançar Controlar Plantas.",
+            "3": "Voz de Allihanna - Você está sempre sob efeito da magia Voz Divina, apenas para falar com animais."
+        }
     },
     "azgher" : {
         "nome": "Azgher",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Praticar a gratidão pela proteção e generosidade do sol. Promover a honesti- dade, expor embustes e mentiras. Praticar a caridade e altruísmo. Proteger os necessitados. Oferecer clemência, perdão e redenção. Combater o mal.",
+        "devotos_permitidos": "Qareen, bárbaros, caçado- res, cavaleiros, guerreiros, nobres.",
+        "simbolo_sagrado":"Um sol dourado.",
+        "arma_preferida": "Cimitarra.",
+        "obrigacoes_restricoes": {
+            "0": "O devoto de Azgher deve manter o rosto sempre coberto (com uma máscara, capuz ou trapos). Sua face pode ser revelada apenas ao sumo-sacerdote, ou em seu funeral.",
+            "1": "Devotos do Sol também devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doa- ção deve ser feita em ouro, seja na forma de moedas ou itens."
+        },
+        "poderes_concedidos": {
+            "0": "Espada em Chamas (1 PM) - Você pode fazer com que sua espada (ou outra arma corpo a corpo de corte) adquira as propriedades de uma arma mágica flamejante (dano +1d6 por fogo). O efeito dura até o fim da cena.",
+            "1": "Imunidade ao Calor - Você sempre recebe dano mínimo por fogo e calor (incluindo clima quente).",
+            "2": "Inimigo  de  tenebra. Todos  os  seus  ataques, poderes e magias causam +1d6 pontos de dano contra mortos-vivos.",
+            "3": "Verter água (1 PM) - Você enche um odre (ou outro recipiente pequeno, como um jarro) com água pura e potável."
+        }
     },
     "keen" : {
         "nome": "Keen",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Promover a guerra e conflito. Vencer a qualquer custo, pela força ou estratégia. Jamais oferecer ou aceitar rendição. Eliminar as próprias fraquezas.",
+        "devotos_permitidos": "Bárbaros, cavaleiros, guer- reiros, lutadores.",
+        "simbolo_sagrado":"Escudo cruzado por espada longa, martelo de guerra e machado de batalha.",
+        "arma_preferida": "Machado de batalha.",
+        "obrigacoes_restricoes": {
+            "0":"Um devoto de Keenn jamais se rende ou desiste de um combate, mesmo quando a chance de vitória é pequena. Além disso, um devoto de Keenn não lança (e nem aceita receber) magias de cura durante um combate."
+        },
+        "poderes_concedidos": {
+            "0": "Conjurar Arma (1 PM) - Você pode gastar uma ação de movimento para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma recebe um bônus de +1 em testes de ataque e rolagens de dano. A arma dura pela cena, então desaparece. Você não pode criar armas de disparo, mas pode criar 10 projéteis (flechas, virotes, etc.).",
+            "1": "Coragem Total - Você  é  imune  a  efeitos  de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros) ou cau- sadas por loucura, mas oferece +4 em testes de Vontade contra elas.",
+            "2": "Sangue de Ferro (2 PM) - Você recebe +2 em rolagens de dano e resistência a dano 5 até o fim da cena."
+        }
     },
     "khalmyr" : {
         "nome": "Khalmyr",
