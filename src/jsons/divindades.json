@@ -44,71 +44,121 @@
         },
         "poderes_concedidos": {
             "0": "Conjurar Arma (1 PM) - Você pode gastar uma ação de movimento para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma recebe um bônus de +1 em testes de ataque e rolagens de dano. A arma dura pela cena, então desaparece. Você não pode criar armas de disparo, mas pode criar 10 projéteis (flechas, virotes, etc.).",
-            "1": "Coragem Total - Você  é  imune  a  efeitos  de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros) ou cau- sadas por loucura, mas oferece +4 em testes de Vontade contra elas.",
+            "1": "Coragem Total - Você  é  imune  a  efeitos  de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros) ou causadas por loucura, mas oferece +4 em testes de Vontade contra elas.",
             "2": "Sangue de Ferro (2 PM) - Você recebe +2 em rolagens de dano e resistência a dano 5 até o fim da cena."
         }
     },
     "khalmyr" : {
         "nome": "Khalmyr",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
-    },
+        "crencas_objetivos": "Praticar a caridade e altruísmo. Proteger a lei e ordem. Proteger os necessitados. Combater a mentira, o crime e o mal. Oferecer clemência, perdão e redenção. Lutar o bom combate.",
+        "devotos_permitidos": "Anões, cavaleiros, guerreiros, nobres.",
+        "simbolo_sagrado":"Espada sobreposta a uma balança.",
+        "arma_preferida": "Espada longa.",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Khalmyr são proibidos de recusar um pedido sincero de ajuda. Também devem sempre cumprir as ordens de devotos superiores na hierarquia da igreja (qualquer outro devoto de Khalmyr de nível maior). Além disso, devotos de Khalmyr nunca usam itens mágicos, exceto aqueles de natureza divina (itens litúrgicos)."
+        },
+        "poderes_concedidos": {
+            "0": "Arma Sagrada (1-5 PM) - Ao empunhar a arma preferida de seu deus (espada longa) e gastar pontos de mana, ela se torna uma arma mágica com bônus igual ao número de PM gastos, até o fim da cena. Este poder não é cumulativo com armas mágicas.",
+            "1": "Coragem Total - Você  é  imune  a  efeitos  de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros) ou causadas por loucura, mas oferece +4 em testes de Vontade contra elas.",
+            "2": "Dom da Verdade (1 PM) - Você recebe +5 em testes de Intuição contra uma criatura até o fim da cena."
+        }
+    }, 
     "lena" : {
         "nome": "Lena",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Reverenciar e proteger a vida em todas as suas formas. Reverenciar a fecundidade, a maternidade e a infância. Praticar a caridade e altruísmo. Oferecer clemência, perdão e redenção. Aliviar a dor e sofrimento, seja físico, mental ou espiritual.",
+        "devotos_permitidos": "Dahllan, qareen, nobres.",
+        "simbolo_sagrado":"Lua crescente prateada.",
+        "arma_preferida": "Não há. Servos desta deusa não podem lançar a magia arma espiritual e similares.",
+        "obrigacoes_restricoes": {
+             "0": "Apenas mulheres podem ser devotas de Lena. Uma devota precisa dar à luz pelo menos uma vez antes de receber seus poderes divinos. A fecundação é um mistério bem guardado pelas sacerdotisas; conta-se que a própria deusa vem semear suas discípulas.",
+            "1": "Devotas de Lena são proibidas de causar dano, seja com armas ou magias. Em combate, podem apenas proteger ou curar (magias que aumentem o dano causado por seus aliados também são proibidas). Diante de um inimigo superior, podem apenas fugir, render-se ou aceitar a morte; para uma devota de Lena, é preferível perder a própria vida a tirá-la de outros.",
+            "2": "Os raros paladinos de Lena (únicos devotos masculinos permitidos) são permitidos a lutar, mas só podem causar dano não letal."
+        },
+        "poderes_concedidos": {
+            "0": "Ataque Piedoso - Você  pode  usar  armas  de corpo-a-corpo para causar dano não-letal sem sofrer a penalidade padrão (–5) no teste de ataque. Apenas paladinos de Lena recebem este poder.",
+            "1": "Aura Restauradora - Aliados repousando junto de você recuperam duas vezes mais pontos de vida com descanso. Você também recebe estes benefícios.",
+            "2": "Curandeira Perfeita - Você sempre pode escolher 10 em testes de Cura, mesmo sob pressão. Além disso, pode usar esta perícia mesmo sem um kit de medicamentos.",
+            "3": "Cura Gentil - Você adiciona seu modificador de Carisma (mínimo +1) aos pontos de vida restaurados por suas magias de cura. Personagens que não lançam magias de cura não recebem este poder."
+        }
     },
     "nimb" : {
         "nome": "Nimb",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Reverenciar o caos, a aleatoriedade, a sorte e azar. Praticar a ousadia e rebeldia, desafiar regras e leis. Rejeitar o bom senso. Tornar o mundo mais interessante. Ou divertido. Ou terrível. Ou não.",
+        "devotos_permitidos": "Goblins, qareen, bárbaros, bardos, bucaneiros, inventores, ladinos.",
+        "simbolo_sagrado":"Um dado de seis faces.",
+        "arma_preferida": "Nenhuma e todas! Ao usar a magia arma espiritual, qualquer arma (ou outro objeto!) pode aparecer, determinada ao acaso pelo mestre.",
+        "obrigacoes_restricoes": {
+             "0": "Por  serem  incapazes de seguir regras, estes devotos não têm “obrigações” verdadeiras (portanto, nunca perdem seus poderes concedidos). No entanto, sofrem certas restrições que não podem escolher ignorar.",
+            "1": "Devotos de Nimb são loucos (ou agem como se fossem), não conseguindo convencer ninguém de coisa alguma. Você sofre um severo redutor de –5 em todos os testes de perícias baseadas em Carisma.",
+            "2": "Além disso, sempre que você entra em combate, role 1d6. Com um resultado 1, você fica confuso até o fim da cena."
+        },
+        "poderes_concedidos": {
+            "0": "Sortudo (3 PM) - Você pode rolar novamente um teste recém realizado.",
+            "1": "Poder Oculto (2 PM) - Com  uma  ação  de movimento, você pode invocar a força, rapidez ou vigor dos loucos. Role 1d6 para receber +4 em Força (1 ou 2), Destreza (3 ou 4) ou Constituição (5 ou 6) até o fim da cena. Você pode invocar este poder várias vezes, cada vez gastando um movimento e 2 PM.",
+            "2": "Tranmissão da Loucura - Você aprende e pode lançar Aura de Loucura."
+        }
     },
     "sszzaas" : {
         "nome": "Sszzaas",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Praticar a mentira e trapaça. Buscar sempre a solução mais inteligente. Demonstrar que lealdade e confiança são fraquezas, devem ser eliminadas. Promover a competição, rivalidade, desconfiança. Usar os recursos do inimigo para alcançar seus objetivos. Levar outros a sacrificarem-se em seu lugar.",
+        "devotos_permitidos": "Bardos, bucaneiros, inventores, ladinos, arcanistas, nobres.",
+        "simbolo_sagrado":"Polígono de sete lados, com uma naja vertendo veneno pelas presas.",
+        "arma_preferida": "Adaga.",
+        "obrigacoes_restricoes": {
+             "0": "O devoto deve ser bem- sucedido em realizar todos os dias (ou uma vez por sessão de jogo), como oferenda a Sszzaas, um ato de traição, intriga ou corrupção. Pouco importa se o alvo é aliado ou inimigo — de fato, uns poucos sszzaazitas usam seus métodos torpes para ajudar colegas aventureiros em suas missões, às vezes sem que eles próprios saibam.",
+            "1": "Sugerir a alguém que foi traído pelo cônjuge, influenciar um miliciano a aceitar suborno, instruir um mercador a roubar nos preços, levar alguém a ser culpado de um crime que não cometeu, forjar uma falsificação que incrimina um inocente, enganar um guerreiro para que mate um oponente rendido e inofensivo... em termos de jogo, uma ação exigindo um teste de Enganação com CD mínima 15."
+        },
+        "poderes_concedidos": {
+            "0": "Arma Envenenada (1 PM) - Como uma ação de movimento, você faz surgir veneno em uma arma corpo a corpo que esteja empunhando. Ela causa 1d12 pontos de dano de veneno. A presença do veneno na arma dura até a arma atingir uma criatura ou até o o fim da cena, o que acontecer primeiro.",
+            "1": "Demínio da Enganação - Você recebe +2 em testes de Enganação e Intuição.",
+            "2": "Resistência a Venenos - Você recebe resistência a veneno 5."
+        }
     },
     "tanna-toh" : {
         "nome": "Tanna-Toh",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Reverenciar a mente racional, o conhecimento, a civilização, a verdade. Proteger o progresso, o avanço dos povos civilizados. Promover o ensino e a prática das artes e ciências. Solucionar todos os mistérios, revelar todas as mentiras. Buscar novo conhecimento. Não tolerar a ignorância.",
+        "devotos_permitidos": "Arcanistas, bardos, inventores, nobres.",
+        "simbolo_sagrado":"Rolo de pergaminho e pena.",
+        "arma_preferida": "Bordão.",
+        "obrigacoes_restricoes": {
+             "0": "Devotos de Tanna-Toh jamais podem recusar uma missão que envolva a busca por um novo conhecimento ou informação; investigar rumores sobre um livro perdido, procurar uma aldeia lendária, pesquisar os hábitos de uma criatura desconhecida...",
+            "1": "Além disso, o devoto sempre deve dizer a verdade, e nunca pode se recusar a responder uma pergunta, pouco importando as consequências. É totalmente proibido para ele esconder qualquer conhecimento."
+        },
+        "poderes_concedidos": {
+            "0": "Conhecimento Enciclopédico - Você se torna treinado em duas perícias baseadas em Inteligência à sua escolha.",
+            "1": "Mente Analítica - Você recebe +2 em testes de Intuição e Vontade.",
+            "2": "Voz da Civilização - Você está sempre sob efeito da magia Compreensão."
+        }
     },
     "tenebra" : {
         "nome": "Tenebra",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Reverenciar a noite, a escuridão, a lua e as estrelas. Proteger os segredos e mistérios, proteger tudo que é oculto e invisível. Rejeitar o sol e a luz.",
+        "devotos_permitidos": "Anões, arcanistas, qareen, bardos, ladinos.",
+        "simbolo_sagrado":"Estrela negra de cinco pontas.",
+        "arma_preferida": "Shuriken.",
+        "obrigacoes_restricoes": {
+             "0": "Tenebra proíbe que seus devotos sejam tocados por Azgher, o odiado rival. O devoto deve se cobrir inteiramente durante o dia, sem expor ao sol nenhum pedaço de pele."
+        },
+        "poderes_concedidos": {
+            "0": "Carícia Sombria - Você aprende e pode lançar Toque Vampírico.",
+            "1": "Manto da Penumbra - Você aprende e pode lançar Escuridão.",
+            "2": "Visão nas Trevas - Você enxerga perfeitamente no escuro, incluindo magias de escuridão."
+        }
     },
     "valkaria" : {
         "nome": "Valkaria",
-        "crencas_objetivos": "",
-        "devotos_permitidos": "",
-        "simbolo_sagrado":"",
-        "arma_preferida": "",
-        "obrigacoes_restricoes": {},
-        "poderes_concedidos": {}
+        "crencas_objetivos": "Praticar o otimismo, a evolução, a rebeldia. Desafiar limites, almejar o impos-sível. Combater o mal, a opressão e a tirania. Proteger a liberdade. Aceitar e adaptar-se ao novo e diferente. Demonstrar ambição, paixão e coragem. Desfrutar e amar a vida.",
+        "devotos_permitidos": "Aventureiros; membros de todas as classes podem ser devotos de Valkaria.",
+        "simbolo_sagrado":"A Estátua de Valkaria, ou seis faixas entrelaçadas.",
+        "arma_preferida": "Mangual.",
+        "obrigacoes_restricoes": {
+             "0": "Valkaria odeia o con- formismo. Seus devotos são proibidos de fixar moradia em um mesmo lugar, não podendo permanecer mais de 2d10+10 dias na mesma cidade (ou vila, aldeia, povoado...) ou 1d4+2 meses no mesmo reino.",
+            "1": "Devotos de Valkaria também são proibidos de casar-se ou formar qualquer união estável."
+        },
+        "poderes_concedidos": {
+            "0": "Armas de Valkaria - Você recebe +1 em testes de ataque com todas as armas com as quais seja proficiente.",
+            "1": "Coragem Total - Você  é  imune  a  efeitos  de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros) ou causadas por loucura, mas oferece +4 em testes de Vontade contra elas.",
+            "2": "Liberadade Divina (2 PM) - Você lança libertação, mas apenas em si mesmo e com duração de uma rodada."
+        }
     }
 }
