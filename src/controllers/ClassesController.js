@@ -11,9 +11,9 @@ module.exports = {
         }
         return res.json(resposta);
     },
-    getClassesById(req, res) {
-        const classe = util.getDataById(classes, req);
-        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este ID!";
+    getClassesByName(req, res) {
+        const classe = util.getClasseByKey(classes, req);
+        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
         const resposta = {
             "message": mensagem,
             "data": classes[classe] ? classes[classe] : []
@@ -21,8 +21,8 @@ module.exports = {
         return res.json(resposta);
     },
     getHabilidadesClasse(req, res) {
-        const classe = util.getDataById(classes, req);
-        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este ID!";
+        const classe = util.getClasseByKey(classes, req);
+        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
 
         const resposta = {
             "message": mensagem,
@@ -32,8 +32,8 @@ module.exports = {
         return res.json(resposta);
     },
     getTabelaNivel(req, res) {
-        const classe = util.getDataById(classes, req);
-        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este ID!";
+        const classe = util.getClasseByKey(classes, req);
+        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
 
         const resposta = {
             "message": mensagem,
@@ -43,13 +43,24 @@ module.exports = {
         return res.json(resposta);
     },
     getProeficienciasClasse(req, res) {
-        const classe = util.getDataById(classes, req);
-        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este ID!";
+        const classe = util.getClasseByKey(classes, req);
+        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
 
         const resposta = {
             "message": mensagem,
             "classe": classe[0],
             "data": classes[classe].proeficiencias != null ? classes[classe].proeficiencias : []
+        }
+        return res.json(resposta);
+    },
+    getPericiasClasse(req, res) {
+        const classe = util.getClasseByKey(classes, req);
+        const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
+
+        const resposta = {
+            "message": mensagem,
+            "classe": classe[0],
+            "data": classes[classe].pericias != null ? classes[classe].pericias : []
         }
         return res.json(resposta);
     }

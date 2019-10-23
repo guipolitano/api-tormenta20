@@ -10,9 +10,9 @@ module.exports = {
         }
         return res.json(resposta);
     },
-    getRacasById(req, res){        
-        const raca = util.getDataById(racas, req);
-        const mensagem = raca.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma raça encontrada com este ID!";
+    getRacasByName(req, res){        
+        const raca = util.getRacaByKey(racas, req);
+        const mensagem = raca.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma raça encontrada com este nome!";
 
         const resposta = {
             "message": mensagem,
