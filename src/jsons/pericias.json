@@ -48,106 +48,94 @@
       "treinada": "Não",
       "atributo": "car",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao": "Você sabe fazer apresentações artísticas, incluindo música, dança e dramaturgia.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Apresentação (CD 20) - Você pode fazer uma apresentação para ganhar dinheiro. Se for bem-sucedido, você recebe 1d6 T$, mais 1d6 T$ para cada 5 pontos pelos quais o resultado do seu teste exceder a CD. Este uso leva um turno inteiro (dia ou noite). Os valores recebidos pressupõem que você está se apresentando num lugar propício, como o palco de uma taverna. De acordo com o mestre, você pode receber metade do valor rolado, se estiver num lugar inadequado (as ruas de uma cidade, um acampamento militar), ou o dobro, se estiver num lugar especialmente propício (um festival, os salões de um palácio).",
+        "1": "Impressionar Platéia - Faça um teste de Atuação oposto pelo teste de Vontade de quem você está tentando impressionar. Se você for bem-sucedido, recebe +2 em qualquer teste de perícia baseada em Carisma contra essa pessoa no mesmo dia. Se falhar, não pode tentar de novo no mesmo dia. Se estiver tentando impressionar uma plateia, o mestre faz apenas um teste pela plateia, usando o melhor bônus. Este uso leva de alguns minutos (para uma apresentação de canto ou dança) até algumas horas (para uma apresentação teatral)."
       }
     },
+
     "cavalgar": {
       "nome": "Cavalgar (Des)",
       "treinada": "Não",
       "atributo": "des",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você sabe conduzir animais de montaria, como cavalos, trobos e grifos. Ações simples não exigem testes — você pode encilhar, montar, cavalgar em terreno plano e desmontar automaticamente. Ações perigosas, entretanto, exigem testes da perícia. Animais não adequados como montaria impõem uma penalidade de –5 em testes de Cavalgar.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Conduzir - Cavalgar através de terreno difícil e obs- táculos exige testes de Cavalgar. A CD é 15 para terreno ruim e obstáculos pequenos (planície pedregosa, lama escorregadia, vala estreita) e 20 para terreno perigoso ou obstáculos grandes (encosta nevada, pântano traiçoeiro, fenda larga). Se você falhar, cai da montaria durante o movimento e sofre 1d6 pontos de dano. Conduzir é parte de seu movimento e não exige uma ação.",
+        "1": "Galopar - Gaste uma ação completa e faça um teste de Cavalgar. Você avança um número de quadrados igual ao seu deslocamento (modificado pela montaria) mais o resultado do teste.",
+        "2": "Montar ou Desmontar Rapidamente (CD 20) - Você pode montar ou desmontar como uma ação livre (o normal é gastar uma ação de movimento). Se falhar por 5 ou mais, você cai no chão."
       }
     },
+
     "conhecimento": {
       "nome": "Conhecimento (Int)",
-      "treinada": "Não",
+      "treinada": "Sim",
       "atributo": "int",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você é um estudioso de assuntos gerais.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Decifrar Escrita - Você pode decifrar inscrições em idiomas antigos ou desconhecidos. A CD é 15 para mensagens e avisos simples e 25 para textos e escritos complexos. Cada sucesso equivale a uma página de texto e leva 1 minuto. Se falhar por 5 ou mais, você tira uma conclusão falsa a respeito do texto.",
+        "1": "Informação - Você pode responder dúvidas relativas a assuntos gerais, como história e geografia. A CD é 10 para questões simples, 20 para questões complexas e 30 para mistérios e enigmas."
       }
     },
+
     "cura": {
       "nome": "Cura (Sab)",
       "treinada": "Não",
       "atributo": "sab",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você pode tratar de ferimentos, doenças e venenos. Usar esta perícia exige um kit de medicamentos. Sem ele, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Cuidados Prolongados (CD 15) - Você  pode tratar uma pessoa ferida para que ela se recupere mais rapidamente. Se você for bem-sucedido, ela recupera o dobro dos pontos de vida por cura natural nesse dia. Este uso leva uma hora, e o número máximo de pessoas que você pode tratar é igual ao seu nível de personagem.",
+        "1": "Necropsia - Você pode examinar um cadáver para determinar a causa e o tempo da morte. A CD é 15 para situações simples (morte por ferimentos evidentes), 20 para situações complexas (ferimentos discretos, veneno ou doença) e 30 para situações extraordinárias (veneno ou doença raros, maldição). Este uso leva 10 minutos.",
+        "2": "Primeiros Socorros (CD 15) - Com uma ação padrão, você estabiliza um personagem que esteja sangrando.",
+        "3": "Tratar Doença - Faça um teste contra a CD da doença. Se você for bem-sucedido, o paciente recebe +5 em seu próximo teste de Fortitude contra a doença. Este uso gasta uma hora.",
+        "4": "Tratar Veneno - Contra  um  veneno  que  não seja de efeito imediato, faça um teste contra a CD do veneno. Em caso de sucesso, o paciente recebe +5 em seu próximo teste de Fortitude contra o veneno. Este uso gasta uma ação padrão."
       }
     },
+
     "diplomacia": {
       "nome": "Diplomacia (Car)",
       "treinada": "Não",
       "atributo": "car",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você sabe usar lábia e argumentação para convencer outras pessoas.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Barganha - Comprando ou vendendo algo, você pode barganhar. Você e o outro negociante fazem testes opostos de Diplomacia. Se ganhar, você muda o preço em 10% a seu favor. Se ganhar por 10 pontos de diferença ou mais, muda em 20%. Se perder por 5 ou mais, você ofende o negociante — ele não voltará a tratar com você durante pelo menos uma semana.",
+        "1": "Mudar Atitude - Você pode mudar a atitude de alguém em relação a você ou a outra pessoa em uma categoria, para melhor ou pior. Veja o quadro na página ao lado para a descrição das categorias de atitude. Seu teste de Diplomacia é oposto pelo teste de Vontade do alvo. O teste leva um minuto; em caso de urgência você pode fazê-lo como uma ação completa (para evitar uma briga, por exemplo), mas sofre uma penalidade de –10. Se você for bem-sucedido por 10 ou mais pontos, pode mudar a atitude em duas categorias. Por outro lado, se você falhar por 5 ou mais, a atitude do alvo muda uma categoria na direção contrária. Você pode mudar a atitude de alguém uma vez por dia.",
+        "2": "Pedir Favor - Se a atitude de uma pessoa for pelo menos indiferente, você pode pedir um favor a ela. A CD é determinada pela atitude da pessoa: 20 para indiferente, 15 para amistoso e 10 para prestativo. Favores complexos ou custosos (como fornecer uma carona de navio ou revelar um segredo) têm CD +5. Por fim, favores perigosos (como ajudar numa luta) têm CD +10. Pedidos simples (“Onde fica a taverna mais próxima?”) não exigem teste. Por outro lado, alguns tipos de pedido podem falhar automaticamente. Pedir um favor leva pelo menos uma ação completa, mas pode levar mais tempo, de acordo com o mestre."
       }
     },
+
     "enganação": {
       "nome": "Enganação (Car)",
       "treinada": "Não",
       "atributo": "car",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você engana pessoas com mentiras, falsificações e disfarces.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Blefar - Você faz uma pessoa acreditar em algo que não é verdade. Um teste de Enganação é oposto ao teste de Intuição da vítima. Circunstâncias positivas e negativas pesam muito no resultado de um blefe (veja o quadro abaixo). Um teste bem-sucedido indica que o alvo acredita no que você disse (pelo menos até ter provas de que você mentiu). Blefar gasta uma ação padrão.",
+        "1": "Disfarce - Com um pouco de maquiagem e alguns truques, você consegue mudar sua aparência ou a de outra pessoa. Faça um teste de Enganação oposto pelo teste de Percepção de quem prestar atenção no disfarçado. Se você for bem-sucedido, a pessoa acredita em seu disfarce; caso contrário, percebe que há algo errado em sua aparência. Disfarces complexos impõem penali- dades: –2 para sexo oposto, –2 para uma raça diferente e –2 para idade muito diferente. Estas penalidades são cumulativas. Como é mais difícil fingir ser alguém conhecido, aqueles que conhecem essa pessoa recebem bônus em seus testes de Percepção: +2 se apenas conhece de vista, +5 para amigo, +10 para íntimo. Um disfarce exige pelo menos dez minutos e um kit de disfarces. Sem o kit, você sofre uma penalidade de –5 nos testes de Enganação para fazer um disfarce.",
+        "2": "Falsificação - Você pode forjar documentos. Faça um teste de Enganação oposto pelo teste de Percepção de quem examina a falsificação. Se você for bem-sucedido, o examinador acredita que o documento é válido; caso contrário, percebe que é falso. Você sofre uma penalidade de –2 se o documento é desconhecido, especialmente complexo (como um decreto imperial ou ordens militares) ou inclui uma assinatura específica. O examinador sofre uma penalidade de –2 se nunca viu um documento verdadeiro do mesmo tipo, e recebe um bônus de +2 se estiver habituado a ver esse tipo de documento ou analisando com muita atenção (por exemplo, guardas inspecionando criteriosamente os convites para uma festa restrita). Todos os modificadores são cumulativos. Usada em conjunto com Ofício (veja adiante), você pode fazer versões falsas de outros objetos (joias, por exemplo). Use Ofício para fabricar a peça, e então um teste de Enganação para que ela pareça genuína.",
+        "3": "Fintar - Você pode gastar uma ação padrão e fazer um teste de Enganação oposto a um teste de Reflexos de uma criatura em alcance curto. Se você for bem-sucedido, ela estará desprevenida quando você fizer seu próximo ataque contra ela, mas apenas até o fim de seu próximo turno.",
+        "4": "Intriga - Você pode plantar informações. A CD varia de acordo com o quão difícil é acreditar em sua intriga: 20 para intrigas prováveis (espalhar que o taverneiro local, famoso por ser sovina, está aguando a cerveja); 25 para intrigas improváveis (plantar o rumor de que uma caverna da região está repleta de tesouros, para esvaziar a cidade de seus aventureiros), e 30 para intrigas quase impossíveis (convencer a população de que o clérigo da Khalmyr local é na verdade um cultista de Sszzaas). Este uso exige pelo menos um dia inteiro, mas pode levar mais tempo, de acordo com o mestre. Se você falhar por 5 ou mais, o alvo de sua intriga descobre que você está tentando plantar informações a respeito dele. Mesmo que você seja bem-sucedido, uma pessoa pode investigar a fonte da intriga até você. Isso exige um teste de Investigação por parte dela, com CD igual ao resultado do seu teste para a intriga (na prática, são testes opostos de Enganação e Investigação).",
+        "5": "Mensagem Secreta (CD 20) - Você pode usar Enganação para falar alguma coisa para uma pessoa sem que outras pessoas no mesmo ambiente entendam do que você está falando. Se você é bem-sucedido, o receptor entende sua mensagem. Se falhar por 5 ou mais, dá a entender algo diferente do que queria. Outros personagens podem fazer um teste de Intuição oposto ao seu teste de Enganação. Se forem bem-sucedidos, entendem o que você está querendo dizer."
       }
     },
+
     "fortitude": {
       "nome": "Fortitude (Con)",
       "treinada": "Não",
       "atributo": "con",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Esta perícia mede seu vigor e sistema imunológico.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Fôlego (CD 15+1 por teste realizado) - Você usa Fortitude para manter seu fôlego quando está correndo ou sem respirar (por exemplo, por estar submerso). Veja os usos corrida e natação da perícia Atletismo para mais detalhes.",
+        "1": "Resistência - Você usa Fortitude para resistir a efeitos que afetam sua saúde ou vitalidade, como venenos e doenças. A CD é determinada pelo efeito do qual você está resistindo."
       }
     },
+    
     "furtividade": {
       "nome": "Furtividade (Des)",
       "treinada": "Não",
