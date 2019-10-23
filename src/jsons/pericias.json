@@ -1,37 +1,437 @@
 {
-    "pericias": {
-        "0": "Acrobacia (Des)",
-        "1": "Adestramento (Car)",
-        "2": "Atletismo (For)",
-        "3": "Atuação (Car)",
-        "4": "Cavalgar (Des)",
-        "5": "Conhecimento (Int)",
-        "6": "Cura (Sab)",
-        "7": "Diplomacia (Car)",
+  "pericias": {
+    "acrobacia": {
+      "nome": "Acrobacia (Des)",
+      "treinada": "Não",
+      "atributo": "des",
+      "penalidade_armadura": "Sim",
+      "descricao": "Você consegue se equilibrar em superfícies estreitas, cair de lugares altos sem se machucar e fazer outras proezas acrobáticas. Os usos amortecer queda, levantar-se rapidamente e passar por espaço apertado só podem ser tentados se você é treinado em Acrobacia.",
+      "caracteristicas": {
+        "0": "Amortecer Queda (CD 15) - Quando cai, você pode fazer um teste de Acrobacia como uma reação para reduzir o dano em 1d6. Para cada 5 pontos pelos quais o teste exceder a CD, você reduz o dano em mais 1d6. Se reduzir o dano a zero, você cai de pé.",
+        "1": "Equilíbrio - Quando estiver andando por superfícies precárias você precisa fazer testes de Acrobacia para não cair. Cada ação de movimento exige um teste. Se for bem-sucedido, você anda metade do seu deslocamento. Se falhar, não consegue andar. Se falhar por 5 ou mais, você cai. A classe de dificuldade varia conforme a superfície: piso escorregadio (CD 10), o alto de muro estreito (CD 15), uma corda esticada (CD 20). Você pode sofrer –5 em seu teste para andar em seu deslocamento total. Você fica desprevenido quando está se equilibrando. Se sofrer dano quando está se equilibrando, deve fazer um novo teste de Acrobacia; em caso de falha você cai.",
+        "2": "Escapar - Você pode escapar de cordas, redes e algemas como uma ação completa. Para cordas, faça um teste de Acrobacia oposto ao teste de Destreza de quem amarrou você (essa pessoa recebe +10 no teste). Para redes e algemas, faça um teste contra CD 20 (redes) ou 30 (algemas).",
+        "3": "Levantar-se Rapidamente (CD 20) - Se estiver caído, você pode fazer um teste de Acrobacia como uma ação livre para ficar de pé. Você só pode tentar isso uma vez por rodada.",
+        "4": "Passar por Espaço Apertado  (CD  25) - Você pode se espremer por espaços estreitos, suficientes para criaturas uma categoria de tamanho menor. Você gasta uma ação completa e se move com metade do deslocamento.",
+        "5": "Passar por Inimigo - Você pode atravessar um espaço ocupado por um inimigo como parte de seu movimento. Faça um teste de Acrobacia oposto ao teste de Acrobacia, Iniciativa ou Luta do oponente (o que for melhor). Se você for bem-sucedido, atravessa o espaço; se falhar, não consegue atravessar o espaço, e sua ação de movimento termina. Atravessar um espaço ocupado por um inimigo gasta o dobro do deslocamento."
+      }
+    },
 
-        "8": "Enganação (Car)",
-        "9": "Fortitude (Con)",
-        "10": "Furtividade (Des)",
-        "11": "Guerra (Int)",
-        "12": "Iniciativa (Des)",
-        "13": "Intuição (Sab)",
-        "14": "Intimidação (Car)",
-        "15": "Jogatina (Car)",
+    "adestramento": {
+      "nome": "Adestramento (Car)",
+      "treinada": "Sim",
+      "atributo": "car",
+      "penalidade_armadura": "Não",
+      "descricao":"Você sabe lidar com animais.",
+      "caracteristicas": {
+        "0": "Acalmar Animal (CD 25) - Você acalma um animal nervoso ou agressivo. Isso permite a você controlar um cavalo em pânico ou convencer uma alcateia de lobos furiosos que eles não querem devorá-lo. Este uso gasta uma ação completa.",
+        "1": "Comandar Animal (CD 20) - Como uma ação de movimento, você transfere um animal aliado que esteja fornecendo seu bônus para você para outro personagem em alcance curto. O outro personagem recebe o bônus nesta rodada (normalmente, um aliado não fornece seu bônus na rodada em que é transferido).",
+        "2": "Manejar Animal (CD 15) - Você faz um animal realizar uma tarefa para a qual foi treinado — como fazer um trobo puxar uma carroça. Este uso gasta uma ação de movimento."
+      }
+    },
 
-        "16": "Ladinagem (Des)",
-        "17": "Luta (For)",
-        "18": "Malandragem (Car)",
-        "19": "Misticismo (Int)",
-        "20": "Navegação (Sab)",
-        "21": "Nobreza (Int)",
-        "22": "Ofício (Int)",
-        "23": "Percepção (Sab)",
-        
-        "24": "Pontaria (Des)",
-        "25": "Reflexos (Des)",
-        "26": "Religião (Sab)",
-        "27": "Sobrevivência (Sab)",
-        "28": "Vontade (Sab)"
+    "atletismo": {
+      "nome": "Atletismo (For)",
+      "treinada": "Não",
+      "atributo": "for",
+      "penalidade_armadura": "Não",
+      "descricao":"Esta perícia é utilizada para realizar façanhas atléticas, como escalar montanhas, cruzar rios e saltar sobre desfiladeiros.",
+      "caracteristicas": {
+        "0": "Corrida - Gaste uma ação completa e faça um teste de Atletismo. Você avança um número de quadrados igual ao seu deslocamento mais o resultado do seu teste. Por exemplo, se um humano (deslocamento 6 quadrados) obtém um resultado 20, se move 26 quadrados naquela rodada. Você só pode correr em linha reta e não pode correr através de terreno difícil. Você pode manter a corrida durante um número de rodadas igual a seu valor de Constituição. Após isso, deve fazer um teste de Fortitude (CD 15 +1 por teste anterior) por rodada para continuar correndo. Se falhar, fica fatigado.",
+        "1": "Escalar - Você pode subir em árvores, muros, encostas e outras superfícies inclinadas ou verticais. Gaste uma ação de movimento e faça um teste de Atletismo. Se for bem-sucedido, você sobe metade do seu deslocamento. Se falhar, não consegue subir. Se falhar por 5 ou mais, você cai. A CD é CD 5 para encostas íngremes, 10 para superfícies com apoios para os pés e mãos, como o cordame de um navio, 15 para uma árvore, 20 para um muro com reentrâncias, como o de uma ruína e 25 para um muro liso, como o de um castelo. Você pode sofrer –5 em seu teste para subir em seu deslocamento total. Você fica desprevenido quando está escalando. Se sofrer dano quando está escalando, deve fazer um novo teste de Atletismo; em caso de falha você cai. Se um personagem adjacente a você estiver escalando e cair, você pode tentar pegá-lo. Faça um teste de Atletismo contra a CD da superfície +10. Se for bem-sucedido, consegue segurar o personagem. Se falhar por 5 ou mais, você também cai!",
+        "2": "Natação - Se estiver na água, você precisa gastar uma ação de movimento e fazer um teste de Atletismo por rodada para não afundar. A CD é 10 para água calma, 15 para agitada, 20 para tempestuosa. Se for bem-sucedido, você pode avançar metade de seu deslocamento. Se falhar, consegue boiar, mas não avançar. Se falhar por 5 ou mais, você afunda. Se quiser avançar mais, você pode gastar uma segunda ação de movimento na mesma rodada para outro teste de Atletismo. Se você estiver submerso (seja por ter falhado no teste de Atletismo, seja por ter mergulhado intencionalmente), deve prender a respiração. Você pode prender a respiração por uma quantidade de rodadas igual a seu valor de Constituição. Após esse tempo, deve fazer um teste de Fortitude por rodada (CD 15 +1 por cada teste anterior). Se falhar, se afoga (é reduzido a 0 pontos de vida). Se continuar submerso, sofre 3d6 pontos de dano por rodada até ser tirado da água ou morrer. Você sofre penalidade de armadura em testes de Atletismo para nadar.",
+        "3": "Saltar - Você pode pular sobre buracos ou obstáculos, ou alcançar algo elevado. Para um salto longo, a CD é 5 por quadrado de 1,5m: ou seja, CD 10 para 3m, 15 para 4,5m, 20 para 6m e assim por diante. Para um salto em altura, CD 10 para 50cm; 20 para 1m; 30 para 1,5m e assim por diante. Você deve ter pelo menos 6m para correr e pegar impulso (sem esse espaço, a CD aumenta em +10). Saltar é parte de seu movimento e não exige uma ação."
+      }
+    },
+    
+    "atuação": {
+      "nome": "Atuação (Car)",
+      "treinada": "Não",
+      "atributo": "car",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "cavalgar": {
+      "nome": "Cavalgar (Des)",
+      "treinada": "Não",
+      "atributo": "des",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "conhecimento": {
+      "nome": "Conhecimento (Int)",
+      "treinada": "Não",
+      "atributo": "int",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "cura": {
+      "nome": "Cura (Sab)",
+      "treinada": "Não",
+      "atributo": "sab",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "diplomacia": {
+      "nome": "Diplomacia (Car)",
+      "treinada": "Não",
+      "atributo": "car",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "enganação": {
+      "nome": "Enganação (Car)",
+      "treinada": "Não",
+      "atributo": "car",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "fortitude": {
+      "nome": "Fortitude (Con)",
+      "treinada": "Não",
+      "atributo": "con",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "furtividade": {
+      "nome": "Furtividade (Des)",
+      "treinada": "Não",
+      "atributo": "des",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "guerra": {
+      "nome": "Guerra (Int)",
+      "treinada": "Não",
+      "atributo": "int",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "iniciativa": {
+      "nome": "Iniciativa (Des)",
+      "treinada": "Não",
+      "atributo": "des",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "intuição": {
+      "nome": "Intuição (Sab)",
+      "treinada": "Não",
+      "atributo": "sab",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "intimidação": {
+      "nome": "Intimidação (Car)",
+      "treinada": "Não",
+      "atributo": "car",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "jogatina": {
+      "nome": "Jogatina (Car)",
+      "treinada": "Não",
+      "atributo": "car",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "ladinagem": {
+      "nome": "Ladinagem (Des)",
+      "treinada": "Não",
+      "atributo": "des",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "luta": {
+      "nome": "Luta (For)",
+      "treinada": "Não",
+      "atributo": "for",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "malandragem": {
+      "nome": "Malandragem (Car)",
+      "treinada": "Não",
+      "atributo": "car",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "misticismo": {
+      "nome": "Misticismo (Int)",
+      "treinada": "Não",
+      "atributo": "int",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "navegação": {
+      "nome": "Navegação (Sab)",
+      "treinada": "Não",
+      "atributo": "sab",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "nobreza": {
+      "nome": "Nobreza (Int)",
+      "treinada": "Não",
+      "atributo": "int",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "ofício": {
+      "nome": "Ofício (Int)",
+      "treinada": "Não",
+      "atributo": "int",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "percepção": {
+      "nome": "Percepção (Sab)",
+      "treinada": "Não",
+      "atributo": "sab",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "pontaria": {
+      "nome": "Pontaria (Des)",
+      "treinada": "Não",
+      "atributo": "des",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "reflexos": {
+      "nome": "Reflexos (Des)",
+      "treinada": "Não",
+      "atributo": "des",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "religião": {
+      "nome": "Religião (Sab)",
+      "treinada": "Não",
+      "atributo": "sab",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "sobrevivência": {
+      "nome": "Sobrevivência (Sab)",
+      "treinada": "Não",
+      "atributo": "sab",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "vontade": {
+      "nome": "Vontade (Sab)",
+      "treinada": "Não",
+      "atributo": "sab",
+      "penalidade_armadura": "Não",
+      "descricao":"",
+      "caracteristicas": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
     }
-
+  }
 }

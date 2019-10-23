@@ -391,5 +391,37 @@
             "text": "Qareen",
             "key": "8"
         }
-    ]
+    ],
+    
+    "pericias": {
+        "0": "Acrobacia (Des)",
+        "1": "Adestramento (Car)",
+        "2": "Atletismo (For)",
+        "3": "Atuação (Car)",
+        "4": "Cavalgar (Des)",
+        "5": "Conhecimento (Int)",
+        "6": "Cura (Sab)",
+        "7": "Diplomacia (Car)",
+        "8": "Enganação (Car)",
+        "9": "Fortitude (Con)",
+        "10": "Furtividade (Des)",
+        "11": "Guerra (Int)",
+        "12": "Iniciativa (Des)",
+        "13": "Intuição (Sab)",
+        "14": "Intimidação (Car)",
+        "15": "Jogatina (Car)",
+        "16": "Ladinagem (Des)",
+        "17": "Luta (For)",
+        "18": "Malandragem (Car)",
+        "19": "Misticismo (Int)",
+        "20": "Navegação (Sab)",
+        "21": "Nobreza (Int)",
+        "22": "Ofício (Int)",
+        "23": "Percepção (Sab)",
+        "24": "Pontaria (Des)",
+        "25": "Reflexos (Des)",
+        "26": "Religião (Sab)",
+        "27": "Sobrevivência (Sab)",
+        "28": "Vontade (Sab)"
+    }
 }
