@@ -43,7 +43,7 @@
       }
     },
     
-    "atuação": {
+    "atuacao": {
       "nome": "Atuação (Car)",
       "treinada": "Não",
       "atributo": "car",
@@ -108,7 +108,7 @@
       }
     },
 
-    "enganação": {
+    "enganacao": {
       "nome": "Enganação (Car)",
       "treinada": "Não",
       "atributo": "car",
@@ -140,285 +140,235 @@
       "nome": "Furtividade (Des)",
       "treinada": "Não",
       "atributo": "des",
-      "penalidade_armadura": "Não",
-      "descricao":"",
+      "penalidade_armadura": "Sim",
+      "descricao":"Você pode se esconder nas sombras, andar sem fazer barulho, seguir alguém sem ser notado, etc.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Esconder-se - Faça um teste de Furtividade oposto pelos testes de Percepção de qualquer um que poderia notá-lo. Criaturas que falharem não conseguem percebê-lo (você tem camuflagem total contra elas). Esconder-se é uma ação livre, mas para se esconder você precisa terminar seu turno com algum tipo de cobertura ou camuflagem — escuridão, folhagens, outras pessoas com as quais você consiga se misturar, etc. Você pode se mover à metade de seu deslocamento sem penalidades. Caso se mova no seu deslocamento normal no mesmo turno, sofre uma penalidade de –5 no teste de Furtividade (mas, se estiver se escondendo no meio de uma multidão, pode se mover no deslocamento da multidão sem sofrer penalidade). Caso ataque, lance uma magia ou faça qualquer outra ação chamativa, sofre uma penalidade de –20. Você não pode se esconder de alguém que esteja olhando diretamente para você — mesmo que se esconda atrás de algo, o observador saberá que você está ali. No entanto, você pode usar um blefe (veja a perícia Enganação) para criar uma distração e, em caso de sucesso, tentar se esconder.",
+        "1": "Seguir - Faça um teste de Furtividade oposto ao teste de Percepção da pessoa sendo seguida. Seu teste de Furtividade sofre uma penalidade de –5 se você estiver seguindo a pessoa por um lugar sem movimento ou sem esconderijos, como um descampado, uma rua deserta, etc. A vítima recebe um bônus de +5 em seu teste de Percepção se tiver algum motivo para achar que está sendo seguida e estiver tomando precauções (como olhar para trás de vez em quando). Se você for bem-sucedido, consegue seguir a pessoa sem ser percebido até ela chegar a seu destino. Se falhar, a pessoa percebe-o mais ou menos na metade do caminho. O mestre pode pedir novos testes opostos para perseguições especialmente longas ou caso a circunstância mude (para uma perseguição de vários dias, ou se você estiver seguindo uma pessoa por uma floresta, mas ela chegar em uma planície)."
       }
     },
+
     "guerra": {
       "nome": "Guerra (Int)",
       "treinada": "Não",
       "atributo": "int",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você foi educado nas ciências militares da tática, estratégia e logística. A perícia Guerra é usada nas regras de combate em massa, que serão apresentadas em um suplemento futuro.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Analisar Terreno (CD 20) - Como uma ação de movimento, você pode observar o campo de batalha. Se for bem-sucedido, descobre uma vantagem, como cobertura, camuflagem ou terreno elevado, se houver.",
+        "1": "Tática (CD 20) - Como uma ação padrão, você pode fazer um teste de Guerra para direcionar as ações de um aliado. Se for bem-sucedido, você fornece +5 na iniciativa de um aliado em alcance médio. Se isso fizer com que um aliado que ainda não tenha agido fique com uma iniciativa maior do que a sua, ele age imediatamente após seu turno. Nas próximas rodadas, ele age de acordo com a ordem."
       }
     },
+
     "iniciativa": {
       "nome": "Iniciativa (Des)",
       "treinada": "Não",
       "atributo": "des",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Esta perícia determina sua velocidade de reação em situações de perigo.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Iniciativa - Quando uma cena de ação se inicia, cada personagem envolvido faz um teste de Iniciativa. Eles então agem em ordem decrescente dos resultados. Em caso de empate, o personagem com o maior bônus de Iniciativa age primeiro. Se o empate persistir, outra rolagem deve ser feita entre os empatados."
       }
     },
-    "intuição": {
-      "nome": "Intuição (Sab)",
-      "treinada": "Não",
-      "atributo": "sab",
-      "penalidade_armadura": "Não",
-      "descricao":"",
-      "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
-      }
-    },
-    "intimidação": {
+
+    "intimidacao": {
       "nome": "Intimidação (Car)",
       "treinada": "Não",
       "atributo": "car",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você pode assustir ou coagir outras pessoas. De acordo com o mestre, você pode usar seu modificador de Força no lugar do modificador de Carisma em testes de Intimidação. Bônus ou imunidade a medo se aplicam contra Intimidação.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Assustar - Como uma ação padrão, faça um teste de Intimidação oposto pelo teste de Vontade de uma criatura em alcance curto. Se você for bem-sucedido, ela fica abalada pelo resto da cena. Se você for bem-sucedido por 10 ou mais pontos, ela fica apavorada por uma rodada e então abalada pelo resto da cena.",
+        "1": "Coagir - Você obriga uma pessoa a fazer algo. Faça um teste de Intimidação oposto pelo teste de Vontade da vítima. Se você for bem-sucedido, ela colabora por uma cena. Depois desse tempo, torna-se hostil. Se você falhar no teste por 5 ou mais, a vítima não obedece ou faz o oposto do ordenado. Se você mandar a pessoa fazer algo perigoso ou que vá contra a natureza dela, ela recebe +5 no teste ou é automaticamente bem-sucedida, de acordo com o mestre. Este uso demora um minuto de “conversa”. Você pode coagir como uma ação completa, mas sofre uma penalidade de –10 no teste."
       }
     },
+
+    "intuicao": {
+      "nome": "Intuição (Sab)",
+      "treinada": "Não",
+      "atributo": "sab",
+      "penalidade_armadura": "Não",
+      "descricao":"Este perícia mede seu “sexto sentido”.",
+      "caracteristicas": {
+        "0": "Detectar Mentira - Você percebe se alguém está mentindo (veja a perícia Enganação).",
+        "1": "Pressentimento (CD 20) - Você analisa uma pes-soa. Se for bem-sucedido, tem uma ideia da índole ou do caráter dela. Você também pode analisar uma situação social. Nesse caso, se for bem-sucedido, nota qualquer comportamento estranho que esteja acontecendo, se houver. Por exemplo, se os frequentadores de uma taverna estão muito silenciosos (por estarem sob ameaça de um vilão). Este uso apenas indica o comportamento estranho; para descobrir o que está acontecendo, veja a perícia Investigação. Você só pode usar pressentimento se for treinado em Intuição."
+      }
+    },
+
+    "investigacao": {
+      "nome": "Investigação (Int)",
+      "treinada": "Não",
+      "atributo": "int",
+      "penalidade_armadura": "Não",
+      "descricao":"Você sabe onde e como descobrir pistas e informações.",
+      "caracteristicas": {
+        "0": "Obter Informação - Você pode descobrir infor- mações interrogando pessoas ou simplesmente indo para um lugar movimentado e mantendo os ouvidos abertos. Este uso exige um dia inteiro, e algumas moedas para bebidas ou subornos. A classe de dificuldade e o dinheiro a ser gasto dependem da informação que você quer descobrir. Informações gerais (“Quem é o guerreiro mais forte da aldeia?”) têm CD 10 e custam 1d6 T$. Informações específicas (“Quem é o ancião que está sempre ao lado do rei?”) têm CD 15 e custam 1d10 T$. Informações restritas, que poucas pessoas conhecem (“O que fazem naquela torre misteriosa?”), têm CD 20 e custam 3d6 T$. Por fim, informações protegidas, que podem colocar em risco quem responder à pergunta (“Quem é o líder da guilda dos ladrões?”), têm CD 25 e custam 3d10 T$. Você pode pagar o dobro do dinheiro para receber +2 no teste.",
+        "1": "Procurar - Você pode examinar uma coisa ou local para perceber detalhes úteis. Examinar uma área de 1,5m gasta uma ação completa. A CD depende do que você está procurando: um item específico dentro de um baú cheio (CD 10), uma porta secreta (CD 20), uma porta secreta muito bem escondida (CD 30). Você também pode encontrar armadilhas; a CD varia de acordo com a armadilha. Por fim, também pode encontrar rastros, mas para segui-los deve usar Sobrevivência."
+      }
+    },
+
     "jogatina": {
       "nome": "Jogatina (Car)",
       "treinada": "Não",
       "atributo": "car",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você sabe ganhar dinheiro com jogos de azar.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Jogar - Para resolver uma noite de jogatina, pague 1d10 T$, faça um teste de perícia e consulte a tabela no Livro Básico. O mestre pode variar o valor da aposta básica. De 1d3 T$, para uma taverna do porto frequentada por marujos e estivadores, a 1d10 x 1.000 T$, para um bordel de luxo na capital do Reinado!"
       }
     },
+
     "ladinagem": {
       "nome": "Ladinagem (Des)",
-      "treinada": "Não",
+      "treinada": "Sim",
       "atributo": "des",
-      "penalidade_armadura": "Não",
-      "descricao":"",
+      "penalidade_armadura": "Sim",
+      "descricao":"Com mãos leves e mente suja, você sabe exercer as tarefas de um ladrão.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Abrir Fechaduras - Com uma ação completa, você pode abrir uma fechadura trancada sem ter a chave. Uma fechadura simples (porta de loja) tem CD 20. Uma fechadura média (prisão, baú...) tem CD 25. Uma fechadura superior (cofre, câmara do tesouro...) tem CD 30. Este uso exige um kit de ladrão. Sem ele, você sofre uma penalidade de –5 no teste.",
+        "1": "Ocultar Item - Você pode gastar uma ação padrão para esconder um item em seu corpo. O objeto deve ser pelo menos uma categoria de tamanho menor que você. Faça um teste de Ladinagem oposto pelo teste de Percepção de qualquer um que possa vê-lo. Para um objeto uma categoria menor que você, seu teste sofre penalidade de –5; duas categorias menor, +0; três ou mais categorias menor, +5. Se uma pessoa revistar você, recebe +10 no teste de Percepção.",
+        "2": "Presdigitação (CD 20) - Você pode  surrupiar ou plantar objetos nas posses de outras pessoas sem que elas percebam. Faça um teste de Ladinagem como uma ação padrão. Em caso de sucesso, você consegue pegar (ou colocar) o que queria. A vítima tem direito a um teste de Percepção (CD igual ao resultado de seu teste de Ladinagem). Se tiver sucesso, ela percebe sua tentativa, tenha você conseguido ou não.",
+        "3": "Sabotar - Você  pode  desabilitar  dispositivos  mecânicos, como fechaduras, armadilhas e veículos. Você também pode sabotar aparatos para que funcionem por algum um tempo, falhando apenas mais tarde (após 1d4 rodadas de uso). Uma ação simples (emperrar uma fechadura) tem CD 15. Uma ação média (sabotar uma roda de carroça) tem CD 20. Uma ação difícil (desativar ou reativar uma armadilha) tem CD 25. Por fim, uma ação complexa (como desativar ou reativar uma armadilha avançada ou sabotar um canhão para explodir quando utilizado) tem CD 30. Se falhar por 5 ou mais, alguma coisa sai errada — se é uma armadilha, ela se ativa; se estiver tentando uma sabotagem, você acha que o mecanismo está desabilitado, mas na verdade ele ainda funciona. Usar esta perícia leva 1d4 rodadas. Você pode sofrer uma penalidade de –5 no teste para fazer o teste como uma ação completa. Este uso exige um kit de ladrão. Sem ele, você sofre uma penalidade de –5 no teste.",
+        "4": "Usar Instrumento Mágico (CD 25) - Você pode “enganar” um item mágico para que funcione com você, mesmo quando não deveria. Por exemplo, pode vestir uma capa mágica feita para elfos mesmo que você seja humano. Faça o teste como uma reação para cada ativação do item ou a cada cena (para itens equipáveis, como armas e armaduras)."
       }
     },
+
     "luta": {
       "nome": "Luta (For)",
       "treinada": "Não",
       "atributo": "for",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Esta perícia mede sua capacidade de luta corpo a corpo, seja com armas brancas, seja desarmado.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Ataque Corpo a Corpo - Para fazer um ataque corpo a corpo você faz um teste de Luta. A CD é a classe de armadura de seu alvo. Se você acertar, causa dano de acordo com a arma utilizada. Veja o Capítulo 5 para os modificadores aplicáveis a testes de ataque."
       }
     },
-    "malandragem": {
-      "nome": "Malandragem (Car)",
-      "treinada": "Não",
-      "atributo": "car",
-      "penalidade_armadura": "Não",
-      "descricao":"",
-      "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
-      }
-    },
+
     "misticismo": {
       "nome": "Misticismo (Int)",
-      "treinada": "Não",
+      "treinada": "Sim",
       "atributo": "int",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Esta perícia envolve o conhecimento de magias, itens mágicos e fenômenos sobrenaturais.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Detectar Magia (CD 15) - Como  uma  ação completa, você detecta a presença e intensidade de auras mágicas (magias ativas e itens mágicos) em alcance curto. A intensidade de uma aura mágica depende do círculo da magia ou categoria do item mágico. Magias de 1º e 2º círculo e itens mágicos menores geram uma aura tênue, magias de 3º e 4º círculo e itens mágicos médios geram uma aura moderada e magias de 5º círculo e itens mágicos maiores geram uma aura poderosa. Magias lançadas por um deus maior e artefatos geram uma aura avassaladora. Caso a aura mágica esteja atrás de uma barreira física, você sofre uma penalidade em seu teste (–5 para madeira ou pedra, –10 para ferro ou chumbo).",
+        "1": "Identificar Criatura (CD 15 + ND da Criatura) - Com uma ação completa, você pode identificar uma criatura mágica (construtos, dragões, fadas, mortos-vivos, etc.), assim como seus poderes e fraquezas. Se for bem-sucedido, lembra uma informação a respeito da criatura, como um ataque especial ou vulnerabilidade. Para cada 5 pontos pelos quais o resultado do teste superar a CD, você lembra outra informação. Se falhar por 5 ou mais, tira uma conclusão errada (por exemplo, acreditar que uma criatura é vulnerável a fogo, quando na verdade é vulnerável a frio).",
+        "2": "Identificar Item Mágico - Você  pode  gastar  1 hora para estudar um item mágico e identificar seus poderes, incluindo como ativá-lo e quantas cargas restam (se for o caso). A CD é 20 para itens mágicos menores, 25 para médios e 30 para itens mágicos maiores. Você pode sofrer uma penalidade de –10 no teste para diminuir o tempo para uma ação completa.",
+        "3": "Identificar Magia (CD 15 + 2 x o Círculo da Magia) - Quando alguém lança uma magia, você pode adivinhar qual é através de seus gestos e palavras. Você também pode identificar uma aura mágica que tenha percebido com o uso acima. Este uso é uma reação.",
+        "4": "Lançar Magia de Armadura (CD 20 + o Custo em PM da Magia) - Lançar uma magia arcana usando armadura exige um teste. Esse teste sofre penalidade de armadura. Se falhar, a magia não funciona, mas gasta pontos de mana mesmo assim.",
+        "5": "Usar Instrumento Mágico (CD 25) - Você pode “enganar” um item mágico para que funcione com você, mesmo quando não deveria. Por exemplo, pode vestir uma capa mágica feita para elfos mesmo que você seja humano. Faça o teste como uma reação para cada ativação do item ou a cada cena (para itens equipáveis, como armas e armaduras).",
+        "6": "Informação - Você pode responder dúvidas relativas a magias, itens mágicos, fenômenos sobrenaturais, runas, profecias, planos de existência, etc. A CD é 10 para questões simples, 20 para questões complexas e 30 para mistérios e enigmas."
       }
     },
-    "navegação": {
+
+    "navegacao": {
       "nome": "Navegação (Sab)",
-      "treinada": "Não",
+      "treinada": "Sim",
       "atributo": "sab",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você sabe operar embarcações. Normalmente, você não precisa fazer testes, a menos que esteja rea- lizando uma manobra perigosa, precise evitar uma colisão ou que o clima esteja ruim.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Velejar - O capitão de um navio precisa fazer um teste de Navegação por dia. Se for bem-sucedido, o navio avança seu deslocamento normal. Se falhar, avança apenas metade. Se falhar por 5 ou mais, o navio não avança. A CD é 15 para água calma, 20 para agitada, 25 para tempestuosa. Visibilidade ruim impõe penalidade de –5 no teste."
       }
     },
+
     "nobreza": {
       "nome": "Nobreza (Int)",
-      "treinada": "Não",
+      "treinada": "Sim",
       "atributo": "int",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você recebeu a educação de um nobre. Sabe tanto supervisionar uma colheita quanto se portar em um torneio de justas. A perícia Nobreza também é usada nas regras de domínios, que serão apresentadas em um suplemento futuro.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Informação - Você pode responder dúvidas relati- vas a leis, tradições, linhagens e heráldica (conhecimento de brasões). A CD é 10 para questões simples (inclui identificar brasões de famílias reais), 20 para questões complexas (inclui identificar brasões de famílias nobres) 30 para mistérios e enigmas (inclui identificar brasões de pequenos barões de terras isoladas)."
       }
     },
-    "ofício": {
+
+    "oficio": {
       "nome": "Ofício (Int)",
       "treinada": "Não",
       "atributo": "int",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Ofício na verdade são várias perícias diferentes. Cada uma permite fabricar itens de uma categoria espe- cífica. A seguir estão as principais perícias de Ofício, e as categorias de item que cada uma abrange: Armeiro - Armas, armaduras e escudos; Artesanato - Itens gerais; Alquimia - Itens da categoria Alquimia; Alfaiate - Itens da categoria Vestuário; Culinária - Itens da categoria Alimentação. Além das opções, fique à vontade para inventar outros tipos de Ofício. Alvenaria, carpintaria, joalheria ou metalurgia são opções válidas — mas, nes-ses casos, você precisará conversar com o mestre para determinar que tipos de item você poderá fabricar. Ofício também pode incluir profissões, como fazendeiro, pescador ou estalajadeiro, e artes, como escrita, escultura ou pintura. Novamente, converse com o mestre para determinar quais usos sua perícia terá. Esta perícia exige um kit de ofício. Sem ele, você sofre uma penalidade de –5 no teste.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Consertar -  Reparar um item tem a mesma CD necessária para fabricá-lo. Cada tentativa consome um dia de trabalho e um sexto do preço original do item. Em caso de falha, o tempo e dinheiro são perdidos (mas você pode tentar novamente).",
+        "1": "Fabricar - Fabricar um item exige um gasto em matérias-prima no valor de um terço do preço do item (veja o Capítulo 3: equipamento). O tempo varia de acordo com o preço do item: um dia para itens de até 10 T$; uma semana para itens de até 11 a 100 T$; um mês para itens de 101 a 1.000 T$, e três meses para itens de mais de 1.000 T$. No fim desse período, faça um teste de Ofício. Se for bem-sucedido, o item está pronto. Se falhar, pode gastar mais uma semana para tentar de novo. Você pode fazer quantas tentativas quiser — mas se falhar por 5 ou mais em qualquer dos testes, estraga as matérias-primas e precisa recomeçar do zero. A dificuldade depende da complexidade do item. Itens básicos (como uma colher de pau) têm CD 10. Itens simples (tigela de cerâmica, retrato, arma simples, armadura leve, escudos...) têm CD 15. Itens complexos (fechadura, sino, arma marcial, armadura pesada...) têm CD 20. Você pode sofrer uma penalidade de –5 no teste para fabricar o item em uma categoria de tempo menor (uma hora para itens de até 10 T$, um dia para itens de até 100 T$, etc.).",
+        "2": "Identificar - Você pode identificar um item ligado a seu Ofício. A CD é 10 para itens comuns e 20 para itens raros ou exóticos. Se você for bem-sucedido, descobre as propriedades do item e seu preço.",
+        "3": "Sustento - Você pode praticar seu trabalho e tirar sustento dele. Com uma semana de trabalho e um teste de Ofício, você ganha 1 T$ por ponto que seu teste exceder 15. Por exemplo, se teve um resultado final 20, ganha 5 T$ pela semana de trabalho. Se falhar, não recebe nada naquela semana. Trabalhadores treinados ganham uma média de 1 T$ por semana."
       }
     },
-    "percepção": {
+
+    "percepcao": {
       "nome": "Percepção (Sab)",
       "treinada": "Não",
       "atributo": "sab",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Esta perícia é utilizada para perceber coisas através dos sentidos.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Observar - Você pode notar criaturas ou objetos escondidos. O teste é oposto ao teste de Furtividade do personagem tentando não ser visto. Às vezes o alvo não está se escondendo intencionalmente, mas ainda assim exige um teste de Percepção para ser notado. Nestes casos a dificuldade varia entre CD 5 (uma pessoa em uma praça com pouco movimento) até 20 (um soldado específico em meio a uma grande batalha). Esta uso também serve para ver através de um disfarce ou perceber um documento falso (veja a perícia Enganação) e ler lábios (CD 20).",
+        "1": "Ouvir - Você pode escutar uma conversa distante ou um inimigo se aproximando em silêncio. A dificuldade depende do barulho. Uma conversa casual próxima tem CD 0 — ou seja, a menos que exista alguma penalidade (veja adiante), você é automaticamente bem-sucedido. Ouvir pessoas sussurrando tem CD 15. Ouvir do outro lado de uma porta aumenta a CD em +5. Ouvir alguém se aproximando sorrateiramente exige um teste de Percepção contra o teste de Furtividade da criatura. Perceber criaturas invisíveis tem CD 20, ou +10 no teste de Furtividade da criatura, o que for maior. Mesmo que você seja bem-sucedido no teste, ainda sofre penalidades normais por lutar sem ver o inimigo. Você pode fazer testes de Percepção para ouvir mesmo que esteja dormindo, mas sofre uma penalidade de –10; um sucesso faz você acordar."
       }
     },
+
     "pontaria": {
       "nome": "Pontaria (Des)",
       "treinada": "Não",
       "atributo": "des",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Esta perícia mede sua capacidade de mira, seja com armas de arremesso, seja com armas de disparo.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Ataque à Distância - Para fazer um ataque à distância você faz um teste de Pontaria. A CD é a classe de armadura de seu alvo. Se você acertar, causa dano de acordo com a arma utilizada. Veja o Capítulo 5 para os modificadores aplicáveis a testes de ataque."
       }
     },
+
     "reflexos": {
       "nome": "Reflexos (Des)",
       "treinada": "Não",
       "atributo": "des",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Esta perícia mede sua capacidade de evitar armadilhas, explosões e outras ameaças que exigem capacidade de reação rápida.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Evitar Finta - Quando um oponente tenta fintar você em combate, você faz um teste de Reflexos oposto pelo teste de Enganação dele. Se você é bem-sucedido, a finta falha.",
+        "1": "Resistência - Você usa Reflexos para resistir a efeitos súbitos e de área. A CD é determinada pelo efeito do qual você está resistindo."
       }
     },
-    "religião": {
+
+    "religiao": {
       "nome": "Religião (Sab)",
-      "treinada": "Não",
+      "treinada": "Sim",
       "atributo": "sab",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você possui conhecimento sobre os deuses e as religiões de Arton.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Identificar Criatura (CD 10 +ND da Criatura) - Com uma ação completa, você pode identificar uma criatura divina (anjos, demônios, mortos-vivos, etc.), assim como seus poderes e fraquezas. Veja a perícia Misticismo para detalhes.",
+        "1": "Identificar Item Mágico - Você pode identificar um item mágico divino com uma ação completa. Veja a perícia Misticismo para mais detalhes.",
+        "2": "Informação - Você pode responder dúvidas relativas ao Panteão, deuses menores, profecias, planos de existência, etc. A CD é 10 para questões simples, 20 para questões complexas e 30 para mistérios e enigmas.",
+        "3": "Penitência (CD 25) - Você realiza um ritual para redimir um devoto que tenha descumprido as Obrigações & Restrições de sua divindade. O ritual dura um dia. Se for bem-sucedido, consome 1 PM permanente do devoto, mas permite que ele volte a recuperar seus pontos de mana."
       }
     },
-    "sobrevivência": {
+
+    "sobrevivencia": {
       "nome": "Sobrevivência (Sab)",
       "treinada": "Não",
       "atributo": "sab",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Você pode se localizar nos ermos, encontrar comida em áreas selvagens ou reconhecer e evitar perigos da natureza.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Acampamento - Você pode conseguir abrigo e alimento nos ermos, caçando, pescando, colhendo frutos, etc. A CD depende do tipo de terreno: 15 para planícies e áreas costeiras, 20 para florestas e pântanos, 25 para desertos ou montanhas e 30 para regiões planares perigosas ou áreas de Tormenta. Regiões especialmente áridas ou estéreis e clima ruim (neve, tempestade, etc.) impõem uma penalidade de –5 (cumulativa). Se for bem-sucedido, você garante recuperação normal para você e seu grupo (veja a página 46.",
+        "1": "Identificar Criatura (CD 10 + ND da Criatura) - Com uma ação completa, você pode identificar uma criatura natural, assim como seus poderes e fraquezas. Veja a perícia Misticismo para detalhes.",
+        "2": "Orientar-se - Um personagem viajando pelos ermos precisa fazer um teste de Sobrevivência por dia para avançar. A CD depende do tipo de terreno; veja “Acampamento”, acima. Se for bem-sucedido, você avança seu deslocamento normal. Se falhar, avança apenas metade. Se falhar por 5 ou mais, você se perde e não avança nada pelo dia inteiro. Num grupo, um personagem deve ser escolhido como guia. Personagens treinados em Sobrevivência podem fazer testes para ajuda-lo. Entretanto, se mais de um personagem quiser fazer o teste por si só, todos deverão rolar os dados em segredo. Os jogadores deverão decidir qual guia irão seguir antes de verem o resultado dos dados! O teste é exigido apenas em jornadas perigosas (de acordo com o mestre).",
+        "3": "Rastrear - Você pode identificar e seguir rastros. A CD varia de acordo com o solo: 10 para solo macio (neve, lama), 15 para solo padrão (grama, terra), 20 para solo duro (rocha ou piso de interiores). A CD diminui em –2 se as criaturas são Grandes, em –5 se são Enormes e em –10 se são Colossais. Também diminui em –1 para cada três criaturas no grupo sendo seguido. Por outro lado, aumenta em +2 se as criaturas são Pequenas e em +5 se são Minúsculas. Tam- bém aumenta em +5 em visibilidade precária (noite, chuva, neblina). Você precisa fazer um teste para encontrar os rastros e mais um para cada dia de perseguição. Enquanto rastreia, seu deslocamento reduz à metade. Se falhar, você pode tentar novamente gastando mais um dia. Porém, a cada dia desde a criação dos rastros, a CD aumenta em +1. O uso rastrear só pode ser tentado se você é treinado em Sobrevivência."
       }
     },
+
     "vontade": {
       "nome": "Vontade (Sab)",
       "treinada": "Não",
       "atributo": "sab",
       "penalidade_armadura": "Não",
-      "descricao":"",
+      "descricao":"Este perícia envolve sua concentração e força de vontade.",
       "caracteristicas": {
-        "0": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": ""
+        "0": "Concentração - Quando lança uma magia em condições adversas, ou quando sofre dano durante a execução de uma magia, precisa fazer um teste de vontade. Veja as regras completas no Capítulo 4.",
+        "1": "Resistência - Você usa Vontade para resistir a efeitos mentais, como encantamentos e ilusões. A CD é determinada pelo efeito ao qual você está resistindo."
       }
     }
   }
