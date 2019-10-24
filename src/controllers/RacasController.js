@@ -11,7 +11,7 @@ module.exports = {
         return res.json(resposta);
     },
     getRacasByName(req, res){        
-        const raca = util.getRacaByKey(racas, req);
+        const raca = util.getDataByKey(racas, req, 'raca');
         const mensagem = raca.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma raça encontrada com este nome!";
 
         const resposta = {

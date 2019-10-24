@@ -10,8 +10,8 @@ module.exports = {
         }
         return res.json(resposta);
     },
-    getHabilidadesById(req, res) {
-        const habilidade = util.getDataById(habilidades, req);
+    getHabilidadesByName(req, res) {
+        const habilidade = util.getDataByKey(habilidades, req, 'habilidade');
         const mensagem = habilidade.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma habilidade encontrada com este ID!";        
         const resposta = {
             "message": mensagem,

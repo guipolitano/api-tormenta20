@@ -12,7 +12,7 @@ module.exports = {
         return res.json(resposta);
     },
     getClassesByName(req, res) {
-        const classe = util.getClasseByKey(classes, req);
+        const classe = util.getDataByKey(classes, req, 'classe');
         const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
         const resposta = {
             "message": mensagem,
@@ -21,7 +21,7 @@ module.exports = {
         return res.json(resposta);
     },
     getHabilidadesClasse(req, res) {
-        const classe = util.getClasseByKey(classes, req);
+        const classe = util.getDataByKey(classes, req, 'classe');
         const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
 
         const resposta = {
@@ -32,7 +32,7 @@ module.exports = {
         return res.json(resposta);
     },
     getTabelaNivel(req, res) {
-        const classe = util.getClasseByKey(classes, req);
+        const classe = util.getDataByKey(classes, req, 'classe');
         const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
 
         const resposta = {
@@ -43,7 +43,7 @@ module.exports = {
         return res.json(resposta);
     },
     getProeficienciasClasse(req, res) {
-        const classe = util.getClasseByKey(classes, req);
+        const classe = util.getDataByKey(classes, req, 'classe');
         const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
 
         const resposta = {
@@ -54,7 +54,7 @@ module.exports = {
         return res.json(resposta);
     },
     getPericiasClasse(req, res) {
-        const classe = util.getClasseByKey(classes, req);
+        const classe = util.getDataByKey(classes, req, 'classe');
         const mensagem = classe.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma classe encontrada com este nome!";
 
         const resposta = {
