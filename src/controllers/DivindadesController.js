@@ -12,7 +12,7 @@ module.exports = {
         return res.json(resposta);
     },
     getDivindadesByName(req, res) {
-        const divindade = util.getDivindadeByKey(divindades, req);
+        const divindade = util.getDataByKey(divindades, req, 'divindade');
         const mensagem = divindade.length > 0 ? "Informações obtidas com sucesso!" : "Nenhuma divindade encontrada com este nome!";
         const resposta = {
             "message": mensagem,
