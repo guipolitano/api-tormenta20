@@ -1,109 +1,35 @@
 {
-    "origens": [
-        {
-            "key": "0",
-            "text": "Nenhuma",
-            "value": "0"
-        },
-        {
-            "key": "1",
-            "text": "Acólito",
-            "value": "1"
-        },
-        {
-            "key": "2",
-            "text": "Amnésico",
-            "value": "2"
-        },
-        {
-            "key": "3",
-            "text": "Artesão",
-            "value": "3"
-        },
-        {
-            "key": "4",
-            "text": "Artista",
-            "value": "4"
-        },
-        {
-            "key": "5",
-            "text": "Capanga",
-            "value": "5"
-        },
-        {
-            "key": "6",
-            "text": "Charlatão",
-            "value": "6"
-        },
-        {
-            "key": "7",
-            "text": "Criminoso",
-            "value": "7"
-        },
-        {
-            "key": "8",
-            "text": "Eremita",
-            "value": "8"
-        },
-        {
-            "key": "9",
-            "text": "Estudioso",
-            "value": "9"
-        },
-        {
-            "key": "10",
-            "text": "Fazendeiro",
-            "value": "10"
-        },
-        {
-            "key": "11",
-            "text": "Forasteiro",
-            "value": "11"
-        },
-        {
-            "key": "12",
-            "text": "Gladiador",
-            "value": "12"
-        },
-        {
-            "key": "13",
-            "text": "Marujo",
-            "value": "13"
-        },
-        {
-            "key": "14",
-            "text": "Mateiro",
-            "value": "14"
-        },
-        {
-            "key": "15",
-            "text": "Miliciano",
-            "value": "15"
-        },
-        {
-            "key": "16",
-            "text": "Nômade",
-            "value": "16"
-        },
-        {
-            "key": "17",
-            "text": "Pivete",
-            "value": "17"
-        },
-        {
-            "key": "18",
-            "text": "Selvagem",
-            "value": "18"
-        },
-        {
-            "key": "19",
-            "text": "Soldado",
-            "value": "19"
-        },
-        {
-            "key": "20",
-            "text": "Origem Própria",
-            "value": "20"
+    "acolito":{
+        "id": "1",
+        "descricao": "Neste mundo agraciado com tantos deuses e igrejas, muitos ingressam cedo em alguma ordem religiosa o que, dependendo de quem é seu deus padroeiro, pode ser motivo de admiração ou repulsa. Talvez você tenha ouvido o chamado da fé, seguiu a tradição espiritual de sua família, ou apenas foi abandonado quando pequeno às portas de um templo ou monastério. Mesmo que jamais tenha se tornado um verdadeiro devoto, suas lembranças são carregadas de orações, evangelhos e outros ensinamentos.",
+        "beneficios": {
+            "0": "Perícia: Cura.",
+            "1": "Perícia: Vontade.",
+            "2": "Perícia: Religião.",
+            "3": "Talento: Curandeiro.",
+            "4": "Membro da Igreja: Você consegue refeições, refúgio e informação em qualquer templo de sua divindade, para você e seus aliados.",
+            "5": "Itens: Símbolo sagrado de sua divindade, traje de sacerdote, kit de medicamentos."
         }
-    ]
+    },
+    "amigo_dos_animais":{
+        "id": "2",
+        "descricao": "Você pode ter sido cavalariço no estábulo de um castelo, criador de gado em uma fazenda, ajudante de caçadores, ginete de Namalkah, ou mesmo tratador em um zoológico ou circo — em Arton, ainda existem espetáculos circenses com animais em jaulas, que talvez você tenha desejado libertar. Ou então nada disso: desde criança você tem facilidade em lidar com animais, sempre conversou com eles, sentiu ser capaz de compreendê-los. Em certos lugares ou tribos, alguma montaria especial ou filhote de monstro exótico seria destinado a você.",
+        "beneficios": {
+            "0": "Perícia: Adestramento.",
+            "1": "Perícia: Cavalgar.",
+            "2": "TaLento: Companheiro Animal.",
+            "3": "Amigo Especial: Animais comuns são amistosos em relação a você. Mesmo que não seja um devoto de Allihanna, pássaros e outros pequenos animais sempre se aproximam sem receio. Além disso, caso possua um companheiro animal ou montaria, ele pertence a uma espécie exótica e impressionante, sempre atraindo atenção.",
+            "4": "Itens: Um cão de guarda, cavalo, pônei ou trobo."
+        }
+    },
+    "amnesico":{
+        "id": "3",
+        "descricao": "Você perdeu a maior parte da memória. Sabe apenas o próprio nome, ou nem isso. Talvez tenha alguns itens pessoais, mas nenhuma ideia de como os conseguiu — podem ser relíquias de família, presentes de uma pessoa querida, ou apenas coisas que pegou de uns viajantes mortos lá atrás. Você não sabe como tornou-se aventureiro, nem como recebeu o treinamento necessário; apenas tem uma intuição sobre aquilo que consegue fazer. Seus atuais companheiros são a única família que conhece. Quem sabe, viajando com eles, você descubra algo sobre seu passado.",
+        "beneficios": {
+            "0": "Perícia: Uma qualquer, escolhida secretamente pelo mestre.",
+            "1": "Talento: Um qualquer, escolhido secretamente pelo mestre.",
+            "2": "Lembranças Graduais: Durante suas aventuras, em determinados momentos a critério do mestre, você pode fazer um teste de Sabedoria (CD 15) para reconhecer pessoas, criaturas ou lugares familiares, que tenha encontrado antes de perder a memória.",
+            "3": "Itens: Um ou mais itens variados (não exce- dendo T$ 1.000), que representam alguma ligação misteriosa com sua vida antiga."
+        }
+    }
 }
