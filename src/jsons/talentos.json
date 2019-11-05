@@ -1,0 +1,108 @@
+{
+    "acuidade_com_arma":{
+        "id": "1",
+        "nome": "Acuidade com Arma",
+        "descricao": "Quando usa uma arma leve de corpo a corpo, você pode usar o seu modificador de Destreza em vez de Força nos testes de ataque e rolagens de dano.",
+        "tipo": "combate",
+        "pre_requisito": "Des 13."
+    },
+    "agarrar_aprimorado":{
+        "id": "2",
+        "nome": "Agarrar Aprimorado",
+        "descricao": "Você recebe +2 em testes de ataque para agarrar. Quando você agarra uma criatura, pode gastar 1 PM para realizar um ataque adicional contra essa criatura. O ataque adicional usa o mesmo bônus de ataque, mas o dads deve ser rolado novamente.",
+        "tipo": "combate",
+        "pre_requisito": "Estilo Desarmado ou habilidade de classe Briga."
+    },
+    "ataque_poderoso":{
+        "id": "3",
+        "nome": "Ataque Poderoso",
+        "descricao": "Declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre –2 no teste de ataque, mas recebe +4 na rolagem de dano.",
+        "tipo": "combate",
+        "pre_requisito": "For 13."
+    },
+    "carga_de_cavalaria":{
+        "id": "4",
+        "nome": "Carga de Cavalaria",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "",
+        "nome": "",
+        "descricao": "",
+        "tipo": "combate",
+        "pre_requisito": ""
+    }
+     
+}
