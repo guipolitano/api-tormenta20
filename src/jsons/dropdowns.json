@@ -241,106 +241,186 @@
             "key": "0",
             "text": "Nenhuma",
             "value": "0"
-        },
+        },        
         {
             "key": "1",
             "text": "Acólito",
             "value": "1"
-        },
+        },        
         {
             "key": "2",
-            "text": "Amnésico",
+            "text": "Amigo dos Animais",
             "value": "2"
-        },
+        },        
         {
             "key": "3",
-            "text": "Artesão",
+            "text": "Amnésico",
             "value": "3"
-        },
+        },        
         {
             "key": "4",
-            "text": "Artista",
+            "text": "Aristocrata",
             "value": "4"
-        },
+        },        
         {
             "key": "5",
-            "text": "Capanga",
+            "text": "Artesão",
             "value": "5"
-        },
+        },        
         {
             "key": "6",
-            "text": "Charlatão",
+            "text": "Artista",
             "value": "6"
-        },
+        },        
         {
             "key": "7",
-            "text": "Criminoso",
+            "text": "Assistente de Laboratório",
             "value": "7"
-        },
+        },        
         {
             "key": "8",
-            "text": "Eremita",
+            "text": "Batedor",
             "value": "8"
-        },
+        },        
         {
             "key": "9",
-            "text": "Estudioso",
+            "text": "Capanga",
             "value": "9"
-        },
+        },        
         {
             "key": "10",
-            "text": "Fazendeiro",
+            "text": "Charlatão",
             "value": "10"
-        },
+        },        
         {
             "key": "11",
-            "text": "Forasteiro",
+            "text": "Circense",
             "value": "11"
-        },
+        },        
         {
             "key": "12",
-            "text": "Gladiador",
+            "text": "Criminoso",
             "value": "12"
-        },
+        },        
         {
             "key": "13",
-            "text": "Marujo",
+            "text": "Curandeiro",
             "value": "13"
-        },
+        },        
         {
             "key": "14",
-            "text": "Mateiro",
+            "text": "Eremita",
             "value": "14"
-        },
+        },        
         {
             "key": "15",
-            "text": "Miliciano",
+            "text": "Escravo",
             "value": "15"
-        },
+        },        
         {
             "key": "16",
-            "text": "Nômade",
+            "text": "Estudioso",
             "value": "16"
-        },
+        },        
         {
             "key": "17",
-            "text": "Pivete",
+            "text": "Fazendeiro",
             "value": "17"
-        },
+        },        
         {
             "key": "18",
-            "text": "Selvagem",
+            "text": "Forasteiro",
             "value": "18"
-        },
+        },        
         {
             "key": "19",
-            "text": "Soldado",
+            "text": "Gladiador",
             "value": "19"
-        },
+        },        
         {
             "key": "20",
-            "text": "Origem Própria",
+            "text": "Guarda",
             "value": "20"
+        },        
+        {
+            "key": "21",
+            "text": "Herdeiro",
+            "value": "21"
+        },        
+        {
+            "key": "22",
+            "text": "Heroi Camponês",
+            "value": "22"
+        },        
+        {
+            "key": "23",
+            "text": "Marujo",
+            "value": "23"
+        },        
+        {
+            "key": "24",
+            "text": "Mateiro",
+            "value": "24"
+        },        
+        {
+            "key": "25",
+            "text": "Membro de guilda",
+            "value": "25"
+        },        
+        {
+            "key": "26",
+            "text": "Mercador",
+            "value": "26"
+        },        
+        {
+            "key": "27",
+            "text": "Minerador",
+            "value": "27"
+        },        
+        {
+            "key": "28",
+            "text": "Nômade",
+            "value": "28"
+        },        
+        {
+            "key": "29",
+            "text": "Pivete",
+            "value": "29"
+        },        
+        {
+            "key": "30",
+            "text": "Refugiado",
+            "value": "30"
+        },        
+        {
+            "key": "31",
+            "text": "Seguidor",
+            "value": "31"
+        },        
+        {
+            "key": "32",
+            "text": "Selvagem",
+            "value": "32"
+        },        
+        {
+            "key": "33",
+            "text": "Soldado",
+            "value": "33"
+        },        
+        {
+            "key": "34",
+            "text": "Taverneiro",
+            "value": "34"
+        },        
+        {
+            "key": "35",
+            "text": "Trabalhador",
+            "value": "35"
+        },        
+        {
+            "key": "36",
+            "text": "Origem Própria",
+            "value": "36"
         }
     ],
 
