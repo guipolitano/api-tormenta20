@@ -23,86 +23,393 @@
     "carga_de_cavalaria":{
         "id": "4",
         "nome": "Carga de Cavalaria",
-        "descricao": "",
+        "descricao": "Quando está montado e faz uma investida, você causa dano dobrado. Além disso, pode continuar se movendo depois do ataque. Você deve continuar se movendo em linha reta, e seu movimento máximo ainda é o dobro do seu deslocamento.",
         "tipo": "combate",
+        "pre_requisito": "Ginete"
+    },
+    "combate_defensivo":{
+        "id": "5",
+        "nome": "Combate Defensivo",
+        "descricao": "Declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre –2 no teste de ataque, mas recebe +4 na CA até o próximo turno.",
+        "tipo": "combate",
+        "pre_requisito": "Int 13"
+    },
+    "derrubar_aprimorado":{
+        "id": "6",
+        "nome": "Derrubar Aprimorado",
+        "descricao": "Você recebe +2 em testes de ataque para derrubar. Quando derruba uma criatura, pode gastar 1 PM para fazer um ataque adicional contra ela. O ataque adicional usa o mesmo bônus de ataque, mas o dads deve ser rolado novamente.",
+        "tipo": "combate",
+        "pre_requisito": "Combate Defensivo"
+    },
+    "desarmar_aprimorado":{
+        "id": "7",
+        "nome": "Desarmar Aprimorado",
+        "descricao": "Você recebe +2 em testes de ataque para desarmar. Quando desarma uma criatura, pode gastar 1 PM para arremessar a arma dela para longe. Para definir onde a arma cai, role 1d8 para a direção (sendo “1” diretamente à sua frente, “2” à frente e à direita e assim por diante) e 1d6 para a distância (medida em quadrados a partir da criatura desarmada).",
+        "tipo": "combate",
+        "pre_requisito": "Combate Defensivo"
+    },
+    "disparo_preciso":{
+        "id": "8",
+        "nome": "Disparo Preciso",
+        "descricao": "Você pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade padrão de –5 no teste de ataque. ",
+        "tipo": "combate",
+        "pre_requisito": "Estilo de Ataque à Distância"
+    },
+    "disparo_rapido":{
+        "id": "9",
+        "nome": "Disparo Rápido",
+        "descricao": "Se estiver usando uma arma de ataque à distância e gastar uma ação completa para atacar, você pode fazer um ataque adicional. Se fizer isso, sofre uma penalidade de –2 em ambos os testes de ataque",
+        "tipo": "combate",
+        "pre_requisito": "Estilo de Ataque à Distância"
+    },
+    "esquiva":{
+        "id": "10",
+        "nome": "Esquiva",
+        "descricao": "Você recebe +1 na classe de armadura e +2 em Reflexos.",
+        "tipo": "combate",
+        "pre_requisito": "Des 13"
+    },
+    "estilo_de_arma_e_escudo":{
+        "id": "11",
+        "nome": "Estilo de Arma e Escudo",
+        "descricao": "Se estiver usando um escudo, você recebe +2 na classe de armadura.",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Luta, proficiência com escudos."
+    },
+    "estilo_de_ataque_a_distancia":{
+        "id": "12",
+        "nome": "Estilo de Ataque à Distância",
+        "descricao": "Se estiver usando uma arma de ataque à distância, soma o bônus de Destreza no dano.",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Pontaria"
+    },
+    "estilo_de_duas_armas":{
+        "id": "13",
+        "nome": "Estilo de Duas Armas",
+        "descricao": "Se estiver usando duas armas (e pelo menos uma delas for leve) e fizer a ação ataque, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre uma penalidade de –2 em ambos os testes de ataque. Se você possuir a habilidade Tempestade de Aço, não sofre essa penalidade.",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Luta"
+    },
+    "estilo_de_duas_maos":{
+        "id": "14",
+        "nome": "Estilo de Duas Mãos",
+        "descricao": "Se estiver usando uma arma corpo a corpo com as duas mãos, você recebe +4 nas rolagens de dano. Este talento não pode ser usado com armas leves. ",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Luta"
+    },
+    "estilo_de_uma_arma":{
+        "id": "15",
+        "nome": "Estilo de Uma Arma",
+        "descricao": "Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 nos testes de ataque e na classe de armadura.",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Luta"
+    },
+    "estilo_desarmado":{
+        "id": "16",
+        "nome": "Estilo Desarmado",
+        "descricao": "Seus ataques desarmados causam 1d4 pontos de dano, e podem causar dano letal ou não letal (à sua escolha).",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Luta"
+    },
+    "foco_em_arma":{
+        "id": "17",
+        "nome": "Foco em Arma",
+        "descricao": "Escolha uma arma com a qual você seja proeficiente. Você recebe +2 em testes de ataque com essa arma. Você pode escolher este talento várias vezes. A cada vez, ele se aplica a uma arma diferente.",
+        "tipo": "combate",
+        "pre_requisito": "Nenhum"
+    },
+    "ginete":{
+        "id": "18",
+        "nome": "Ginete",
+        "descricao": "Você é automaticamente bem-sucedido em testes de Cavalgar para não cair da montaria quando sofre dano. Além disso, não sofre penalidades para atacar à distância ou lançar magias quando montado",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Cavalgar"
+    },
+    "mira_apurada":{
+        "id": "19",
+        "nome": "Mira Apurada",
+        "descricao": "Você pode gastar uma ação de movimento para mirar. Se fizer isso, recebe +1 em testes de ataque e na margem de ameaça com ataques à distância até o fim do turno",
+        "tipo": "combate",
+        "pre_requisito": "Estilo de Ataque à Distância"
+    },
+    "presenca_aterradora":{
+        "id": "20",
+        "nome": "Presença Aterradora",
+        "descricao": "Você pode pagar 1 PM para assustar como uma ação de movimento e afetar todas as criaturas à sua escolha em alcance curto. Veja a perícia Intimidação para as regras de assustar.",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Intimidação"
+    },
+    "proeficiencia":{
+        "id": "21",
+        "nome": "Proeficiência",
+        "descricao": "Escolha uma proficiência: armas marciais, armaduras pesadas ou escudos. Você recebe essa proficiência. Como alternativa, você se torna proficiente em duas armas exóticas. Você pode escolher este talento várias vezes. A cada vez, ele fornece uma proficiência diferente.",
+        "tipo": "combate",
+        "pre_requisito": "Nenhum"
+    },
+    "reflexos_de_combate":{
+        "id": "22",
+        "nome": "Reflexos de Combate",
+        "descricao": "Você ganha uma ação de movimento extra no seu primeiro turno de cada combate.",
+        "tipo": "combate",
+        "pre_requisito": "Des 13"
+    },
+    "saque_rapido":{
+        "id": "23",
+        "nome": "Saque Rápido",
+        "descricao": "Você recebe +2 em Iniciativa e pode sacar ou guardar itens como uma ação livre (em vez de ação de movimento). Além disso, a ação que você gasta para recarregar uma arma de disparo diminui em uma categoria (ação completa para padrão, padrão para movimento, movimento para livre). ",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Iniciativa"
+    },
+    "separar_aprimorado":{
+        "id": "24",
+        "nome": "Separar Aprimorado",
+        "descricao": "Você recebe +2 em testes de ataque para separar. Quando você quebra uma arma, pode gastar 1 PM para realizar um ataque adicional contra o dono da arma. O ataque adicional usa os mesmos bônus de ataque e dano, mas os dados devem ser rolados novamente.",
+        "tipo": "combate",
+        "pre_requisito": "Ataque Poderoso"
+    },
+    "trespassar":{
+        "id": "25",
+        "nome": "Trespassar",
+        "descricao": "Quando você derruba um inimigo com um ataque corpo a corpo (reduzindo seus PV para 0 ou menos), pode gastar 1 PM para fazer um ataque adicional contra outra criatura dentro do seu alcance. O ataque adicional usa os mesmos bônus de ataque e dano, mas os dados devem ser rolados novamente.",
+        "tipo": "combate",
+        "pre_requisito": "Ataque Poderoso"
+    },
+    "veneficio":{
+        "id": "26",
+        "nome": "Venefício",
+        "descricao": "Quando você usa venenos, não corre risco de se envenenar acidentalmente. Além disso, a CD para resistir a venenos usados por você aumenta em +2.",
+        "tipo": "combate",
+        "pre_requisito": "Treinado em Ofício (alquimia)"
+    },
+    "vitalidade":{
+        "id": "27",
+        "nome": "Vitalidade",
+        "descricao": "Você recebe +1 PV por nível de personagem e +2 em Fortitude.",
+        "tipo": "combate",
+        "pre_requisito": "Con 13"
+    },
+    "acrobatico":{
+        "id": "28",
+        "nome": "Acrobático",
+        "descricao": "Você pode usar seu modificador de Destreza em vez de Força em testes de Atletismo. Além disso, terreno difícil não reduz seu deslocamento nem o impede de realizar investidas.",
+        "tipo": "gerais",
+        "pre_requisito": "Des 15"
+    },
+    "ao_sabor_do_destino":{
+        "id": "29",
+        "nome": "Ao Sabor do Destino",
+        "descricao": "Você recebe diversos benefícios, de acordo com seu nível de personagem e a tabela da página XX. Os bônus não são cumulativos (os bônus em atributos e perícias devem ser aplicados num atributo ou perícia diferente a cada vez). Quando você utiliza voluntariamente qualquer item mágico (exceto poções), perde o benefício deste talento até o fim da aventura. Você ainda pode lançar magias, receber magias benéfi- cas ou beneficiar-se de itens usados por outros — por exemplo, pode “ir de carona” em um tapete voador, mas não pode você mesmo conduzi-lo.",
+        "tipo": "gerais",
+        "pre_requisito": "5º Nível de Personagem"
+    },
+    "aparencia_inofensiva":{
+        "id": "30",
+        "nome": "Aparência Inofensiva",
+        "descricao": "A primeira criatura inteligente (Int 3 ou mais) que atacar você em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Este talento só funciona uma vez por cena; independentemente da criatura falhar ou não no teste, poderá atacar você normalmente nas rodadas seguintes.",
+        "tipo": "gerais",
+        "pre_requisito": "Car 13"
+    },
+    "atletico":{
+        "id": "31",
+        "nome": "Atlético",
+        "descricao": "Você recebe +2 em Atletismo e seu deslocamento aumenta em +3m.",
+        "tipo": "gerais",
+        "pre_requisito": "For 15"
+    },
+    "atraente":{
+        "id": "32",
+        "nome": "Atraente",
+        "descricao": "Você recebe +2 em testes de perícias baseadas em Carisma contra criaturas que possam se sentir fisicamente atraídas por você.",
+        "tipo": "gerais",
+        "pre_requisito": "Car 13"
+    },
+    "comandar":{
+        "id": "33",
+        "nome": "Comandar",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para gritar ordens para seus aliados em alcance médio. Eles recebem +1 em testes de perícia até o fim da cena.",
+        "tipo": "gerais",
+        "pre_requisito": "Car 13."
+    },
+    "companheiro_animal":{
+        "id": "34",
+        "nome": "Companheiro Animal",
+        "descricao": "Você possui um animal que o acompanha em aventuras. Em termos de jogo, é um aliado iniciante ajudante, combatente, guardião, montaria ou perseguidor. O companheiro obedece às suas ordens e se arrisca para ajudá-lo. Entretanto, se for maltratado, pode parar de segui-lo (de acordo com o mestre). Se perder seu companheiro animal, você recebe outro na próxima aventura.",
+        "tipo": "gerais",
+        "pre_requisito": "Treinado em Adestramento."
+    },
+    "curandeiro":{
+        "id": "35",
+        "nome": "Curandeiro",
+        "descricao": "Você pode gastar uma ação completa para fazer um teste de Cura (CD 15) em uma criatura. Se você for bem-sucedido, ela recupera 1d6 PV, mais 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD (2d6 com um resultado 20, 3d6 com um resultado 25 e assim por diante). Você só pode usar este talento uma vez por dia numa mesma criatura.",
+        "tipo": "gerais",
+        "pre_requisito": "Sab 13 e Treinado em Cura."
+    },
+    "foco_em_pericia":{
+        "id": "36",
+        "nome": "Foco em Perícia",
+        "descricao": "Escolha uma perícia com a qual você seja treinado. Você pode pagar 2 PM para rolar novamente um teste recém feito dessa perícia. Você pode escolher este talento várias vezes. A cada vez, ele se aplica a uma perícia diferente.",
+        "tipo": "gerais",
+        "pre_requisito": "Nenhum."
+    },
+    "investigador":{
+        "id": "37",
+        "nome": "Investigador",
+        "descricao": "Você soma seu bônus de Inteligência em testes de Percepção. Quando é bem-sucedido em um teste de Investigação, recebe uma informação adicional, caso exista (de acordo com o mestre).",
+        "tipo": "gerais",
+        "pre_requisito": "Int 13"
+    },
+    "lobo_solitário":{
+        "id": "38",
+        "nome": "Lobo Solitário",
+        "descricao": "Você recebe +1 em testes de perícia e CA se estiver sozinho (sem nenhum aliado em alcance curto). Você não sofre penalidade por usar a perícia Cura em si mesmo.",
+        "tipo": "gerais",
+        "pre_requisito": "Nenhum."
+    },
+    "parceiro":{
+        "id": "39",
+        "nome": "Parceiro",
+        "descricao": "Você possui um parceiro — um NPC que o acompanha em aventuras. Você pode escolher os detalhes do parceiro, como histórico, aparência e personalidade. Em termos de jogo, ele é um aliado iniciante de um tipo à sua escolha. O parceiro obedece às suas ordens e se arrisca para ajudá-lo. Entretanto, se for maltratado, pode parar de segui-lo (de acordo com o mestre). Se perder seu parceiro, você recebe outro na próxima aventura. ",
+        "tipo": "gerais",
+        "pre_requisito": "Car 13 e 6º nível de personagem"
+    },
+    "sentidos_agucados":{
+        "id": "40",
+        "nome": "Sentidos Aguçados",
+        "descricao": "Você recebe +2 em Percepção, não fica desprevenido contra inimigos que não possa ver e, sempre que erra um ataque devido a camuflagem, pode rolar mais uma vez a chance de acertar.",
+        "tipo": "gerais",
+        "pre_requisito": "Sab 13 e treinado em Percepção."
+    },
+    "sortudo":{
+        "id": "41",
+        "nome": "Sortudo",
+        "descricao": "Você pode gastar 3 PM para rolar novamente um teste recém realizado.",
+        "tipo": "gerais",
+        "pre_requisito": "Nenhum."
+    },
+    "surto_heroico":{
+        "id": "42",
+        "nome": "Surto Heróico",
+        "descricao": "Uma vez por rodada, você pode gastar 5 PM para realizar uma ação padrão ou de movimento adicional.",
+        "tipo": "gerais",
+        "pre_requisito": "Nenhum."
+    },
+    "torcida":{
+        "id": "43",
+        "nome": "Torcida",
+        "descricao": "Você recebe +1 em testes de perícia e CA quando tem a torcida a seu favor, durante uma luta ou outro tipo de disputa. Entenda-se por “torcida” qualquer número de criaturas inteligentes (mesmo que seja apenas uma) que não está realizando nenhuma ação além de ver a luta.",
+        "tipo": "gerais",
+        "pre_requisito": "Car 13."
+    },
+    "treinamento_em_pericia":{
+        "id": "44",
+        "nome": "Treinamento em Perícia",
+        "descricao": "Escolha uma perícia de classe (qualquer perícia da lista de qualquer classe na qual você tenha pelo menos 1 nível). Você se torna treinado nessa perícia. Você pode escolher este talento várias vezes. A cada vez, ele se aplica a uma perícia diferente.",
+        "tipo": "gerais",
+        "pre_requisito": "Nenhum."
+    },
+    "vontade_de_ferro":{
+        "id": "45",
+        "nome": "Vontade de Ferro",
+        "descricao": "Você recebe +1 PM para cada dois níveis de personagem e +2 em Vontade. ",
+        "tipo": "gerais",
+        "pre_requisito": "Sab 13."
+    },
+    "":{
+        "id": "46",
+        "nome": "",
+        "descricao": "",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "47",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "48",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "49",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "50",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "51",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "52",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "53",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "54",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "55",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "56",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
         "pre_requisito": ""
     },
     "":{
-        "id": "",
+        "id": "57",
         "nome": "",
         "descricao": "",
-        "tipo": "combate",
+        "tipo": "tormenta",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "58",
+        "nome": "",
+        "descricao": "",
+        "tipo": "tormenta",
+        "pre_requisito": ""
+    },
+    "":{
+        "id": "59",
+        "nome": "",
+        "descricao": "",
+        "tipo": "tormenta",
         "pre_requisito": ""
     }
-     
 }
