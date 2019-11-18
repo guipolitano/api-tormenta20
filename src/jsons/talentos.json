@@ -314,102 +314,102 @@
         "tipo": "gerais",
         "pre_requisito": "Sab 13."
     },
-    "":{
+    "anatomia_insana":{
         "id": "46",
-        "nome": "",
-        "descricao": "",
+        "nome": "Anatomia Insana",
+        "descricao": "Você tem 25% de chance (resultado “1” em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. A chance aumenta em +25% para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "antenas":{
         "id": "47",
-        "nome": "",
-        "descricao": "",
+        "nome": "Antenas",
+        "descricao": "Você recebe +1 em testes de Iniciativa, Percepção e Vontade. Este bônus aumenta em +1 para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "armamento_aberrante":{
         "id": "48",
-        "nome": "",
-        "descricao": "",
+        "nome": "Armamento Aberrante",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para produzir uma arma orgânica macabra — ela brota do seu braço, ombro ou costas como uma planta grotesca e então se desprende. Você pode produzir qualquer arma corpo a corpo ou de arremesso com a qual seja proficiente. O dano da arma aumenta em uma categoria de tamanho para cada dois outros talentos da Tormenta que você possui. A arma dura pela cena, então se desfaz numa poça de gosma.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Outro talento da Tormenta."
     },
-    "":{
+    "articulacoes_flexiveis":{
         "id": "49",
-        "nome": "",
-        "descricao": "",
+        "nome": "Articulações Flexíveis",
+        "descricao": "Você recebe +1 em testes de Acrobacia, Furtividade e Reflexos. Este bônus aumenta em +1 para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "asas_insetoides":{
         "id": "50",
-        "nome": "",
-        "descricao": "",
+        "nome": "Asas Insetóides",
+        "descricao": "Você pode gastar 1 PM para receber deslocamento de voo 9m até o fim da rodada. O deslocamento aumenta em 1,5m para cada outro talento da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Quatro outros talentos da Tormenta."
     },
-    "":{
+    "carapaca":{
         "id": "51",
-        "nome": "",
-        "descricao": "",
+        "nome": "Carapaça",
+        "descricao": "Sua pele é recoberta por placas quitinosas. Você recebe +1 na CA. Este bônus aumenta em +1 para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "corpo_aberrante":{
         "id": "52",
-        "nome": "",
-        "descricao": "",
+        "nome": "Corpo Aberrante",
+        "descricao": "Crostas vermelhas em várias partes de seu corpo tornam seus ataques mais perigosos. Seu dano desarmado aumenta em uma categoria de tamanho, mais uma categoria para cada quatro outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Outro talento da Tormenta."
     },
-    "":{
+    "dentes_aftados":{
         "id": "53",
-        "nome": "",
-        "descricao": "",
+        "nome": "Dentes Aftados",
+        "descricao": "Você recebe um ataque natural de mordida (dano 1d4, crítico x2, corte). Quando usa a ação ataque, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "empunhadura_rubra":{
         "id": "54",
-        "nome": "",
-        "descricao": "",
+        "nome": "Empunhadura Rubra",
+        "descricao": "Você pode gastar 1 PM para cobrir sua mão com uma carapaça rubra que aumenta a potência de seus golpes. Até o final da cena, você recebe +1 em testes de Luta. Este bônus aumenta em +1 para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "maos_membranosas":{
         "id": "55",
-        "nome": "",
-        "descricao": "",
+        "nome": "Mãos Membranosas",
+        "descricao": "Você recebe +1 em testes de Atletismo, Fortitude e agarrar. Este bônus aumenta em +1 para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "olhos_vermelhos":{
         "id": "56",
-        "nome": "",
-        "descricao": "",
+        "nome": "Olhos Vermelhos",
+        "descricao": "Você recebe visão no escuro e +1 em testes de Intimidação. Este bônus aumenta em +1 para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "pelo_corrompida":{
         "id": "57",
-        "nome": "",
-        "descricao": "",
+        "nome": "Pelo Corrompida",
+        "descricao": "Sua carne foi mesclada à matéria vermelha. Você recebe resistência a ácido, eletricidade, fogo, frio, trevas e trovão 2. Esta RD aumenta em +2 para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "sangue_acido":{
         "id": "58",
-        "nome": "",
-        "descricao": "",
+        "nome": "Sangue Ácido",
+        "descricao": "Quando você sofre dano por um ataque corpo a corpo, o atacante sofre 1d4 pontos de dano de ácido. Este dano aumenta em uma categoria de tamanho para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     },
-    "":{
+    "visco_rubro":{
         "id": "59",
-        "nome": "",
-        "descricao": "",
+        "nome": "Visco Rubro",
+        "descricao": "Você pode gastar 1 PM para cobrir sua mão com um líquido escuro, grosso e corrosivo. Até o final da cena, você recebe +1 nas rolagens de dano corpo a corpo. Este bônus aumenta em +1 para cada dois outros talentos da Tormenta que você possui.",
         "tipo": "tormenta",
-        "pre_requisito": ""
+        "pre_requisito": "Nenhum."
     }
 }

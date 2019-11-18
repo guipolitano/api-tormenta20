@@ -6,6 +6,7 @@ const HabilidadesController = require('./controllers/HabilidadesController');
 const DivindadesController = require('./controllers/DivindadesController');
 const PericiasController = require('./controllers/PericiasController');
 const OrigensController = require('./controllers/OrigensController');
+const TalentosController = require('./controllers/TalentosController');
 const routes = express.Router();
 
 //Classes
@@ -25,10 +26,6 @@ routes.get("/api/habilidades", HabilidadesController.getHabilidades);
 routes.get("/api/habilidades/:habilidade", HabilidadesController.getHabilidadesByName);
 routes.get("/api/habilidades/classe/:classe", HabilidadesController.getHabilidadesByClasse);
 
-//Racas
-routes.get("/api/racas", RacasController.getRacas);
-routes.get("/api/racas/:raca", RacasController.getRacasByName);
-
 //Origens
 routes.get("/api/origens", OrigensController.getOrigens);
 routes.get("/api/origens/:origem", OrigensController.getOrigensByName);
@@ -37,5 +34,14 @@ routes.get("/api/origens/:origem", OrigensController.getOrigensByName);
 routes.get("/api/pericias", PericiasController.getPericias);
 routes.get("/api/pericias/:pericia", PericiasController.getPericiasByName);
 // routes.get("/api/classes/:id/habilidades", ClassesController.getHabilidadesClasse);
+
+//Racas
+routes.get("/api/racas", RacasController.getRacas);
+routes.get("/api/racas/:raca", RacasController.getRacasByName);
+
+//Talentos
+routes.get("/api/talentos", TalentosController.getTalentos);
+routes.get("/api/talentos/:talento", TalentosController.getTalentosByName);
+routes.get("/api/talentos/tipo/:tipo", TalentosController.getTalentosByTipo);
 
 module.exports = routes;

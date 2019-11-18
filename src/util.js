@@ -8,4 +8,7 @@ module.exports = {
     getDataByClasse(data, req) {
         return Object.entries(data).filter(([key, value]) => value.classe === (req.params.classe).toLowerCase());
     },
+    getDataByTipo(data, req) {
+        return Object.entries(data).filter(([key, value]) => value.tipo === (req.params.tipo).toLowerCase());
+    },
 }
