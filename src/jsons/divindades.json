@@ -1,67 +1,117 @@
 {
+    "aharadak" : {
+        "nome": "Aharadak",
+        "crencas_objetivos": "Reverenciar a Tormenta, apregoar a inevitabilidade de sua chegada ao mundo. Praticar a devassidão e a perversão. Deturpar tudo que é correto, desfigurar tudo que é normal. Abraçar a agonia, crueldade e loucura.",
+        "devotos_permitidos": "Quaisquer. A Tormenta aceita tudo e todos.",
+        "simbolo_sagrado": "Um olho macabro de pupila vertical e cercado de espinhos.",
+        "canalizar_energia": "Negativa",
+        "arma_preferida": "Corrente de Espinhos",
+        "obrigacoes_restricoes": {
+            "0": "Quase todos os cultistas de Aharadak são maníacos insanos, compelidos a praticar os atos mais abomináveis. No entanto, talvez devido à própria natureza alienígena e incompreensível deste deus, uns poucos devotos conseguem se resguardar. Conseguem preservar sua preciosa humanidade, abstendo-se de cometer crimes ou profanações. Ainda assim, o devoto de Aharadak deve pagar um preço. No início de qualquer cena de ação, role 1d6. Com um resultado ímpar, você fica fascinado na primeira rodada, perdido em devaneios sobre a futilidade da vida."
+        },
+        "poderes_concedidos": [
+            { "nome": "Afinidade com a Tormenta", "descricao": "Você recebe +10 em testes de resistência contra efeitos da Tormenta e de suas criaturas." },
+            { "nome": "Percepção Temporal", "descricao": "Você pode gastar 3 PM para adicionar seu bônus de Sabedoria (mínimo +1, limitado por seu nível) a seus ataques, Defesa e testes de Reflexos até o fim da cena."},
+            { "nome": "Rejeição Divina", "descricao": "Você recebe +5 em testes de resistência contra magias divinas." }
+        ]
+    },
     "allihanna" : {
         "nome": "Allihanna",
-        "crencas_objetivos": "Reverenciar os seres da natureza. Proteger a vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equi- líbrio natural.",
+        "crencas_objetivos": "Reverenciar os seres da natureza. Proteger a vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equilíbrio natural.",
         "devotos_permitidos": "Dahllan, elfos, bárbaros, caçadores, druidas.",
         "simbolo_sagrado":"Para bárbaros e outros adoradores de animais, o símbolo corresponde ao respectivo animal. Para outros, uma pequena árvore.",
+        "canalizar_energia": "Positiva",
         "arma_preferida": "Bordão",
         "obrigacoes_restricoes": {
             "0":"Devotos de Allihanna não podem usar armaduras e escudos feitos de metal. Assim, você só pode usar armadura acolchoada, arma- dura de couro, gibão de peles e escudo leve.",
             "1":"Devotos de Allihanna não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana). Por isso, sempre preferem o relento a um quarto de estalagem."
         },
-        "poderes_concedidos": {
-            "0": "Descanso naturaL - Para você, dormir ao relento conta como uma estalagem confortável.",
-            "1": "Domínio dos animais - Você aprende e pode lançar Magnetismo Animal.",
-            "2": "Domínio das Plantas - Você aprende e pode lançar Controlar Plantas.",
-            "3": "Voz de Allihanna - Você está sempre sob efeito da magia Voz Divina, apenas para falar com animais."
-        }
+        "poderes_concedidos": [
+            { "nome": "Dedo Verde", "descricao": "Você aprende e pode lançar Controlar Plantas." },
+            { "nome": "Descanso Natural", "descricao": "Para você, dormir ao relento conta como uma estalagem confortável."},
+            { "nome": "Voz da Natureza", "descricao": "Você pode falar com animais (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra animais." } 
+        ]
+    },
+    "arsenal" : {
+        "nome": "Arsenal",
+        "crencas_objetivos": "Promover a guerra e o conflito. Vencer a qualquer custo, pela força ou estratégia. Jamais oferecer ou aceitar rendição. Eliminar as próprias fraquezas. Conhecer o inimigo como a si mesmo. Sempre encontrar condições de vitória; quando não existirem, criá-las.",
+        "devotos_permitidos": "Anões, minotauros, bárbaros, cavaleiros, guerreiros, lutadores.",
+        "simbolo_sagrado": "Um martelo de guerra e uma espada longa cruzados sobre um escudo.",
+        "canalizar_energia": "Negativa",
+        "arma_preferida": "Martelo de Guerra",
+        "obrigacoes_restricoes": {
+            "0": "Um devoto de Arsenal é proibido de ser derrotado em qualquer tipo de combate ou disputa (como um teste oposto para ver quem é mais forte). Caso seu grupo seja derrotado, isso também constitui uma violação das obrigações."
+        },
+        "poderes_concedidos": [
+            { "nome": "Conjurar Arma", "descricao": "Você pode gastar 1 PM para invocar uma arma corpo a corpo ou de arremesso com a qual seja profi-ciente. A arma surge em sua mão, recebe um bônus de +1 em testes de ataque e rolagens de dano e dura pela cena. Você não pode criar armas de disparo, mas pode criar 20 projéteis (flechas, virotes etc.)." },
+            { "nome": "Coragem Total", "descricao": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros)."},
+            { "nome": "Sangue de Ferro", "descricao": "Você pode pagar 2 PM para receber +2 em rolagens de dano e resistência a dano 5 até o fim da cena." } 
+        ]
     },
     "azgher" : {
         "nome": "Azgher",
         "crencas_objetivos": "Praticar a gratidão pela proteção e generosidade do sol. Promover a honesti- dade, expor embustes e mentiras. Praticar a caridade e altruísmo. Proteger os necessitados. Oferecer clemência, perdão e redenção. Combater o mal.",
-        "devotos_permitidos": "Qareen, bárbaros, caçadores, cavaleiros, guerreiros, nobres.",
+        "devotos_permitidos": "Aggelus, qareen, arcanistas, bárbaros, caçadores, cavaleiros, guerreiros, nobres, paladinos.",
         "simbolo_sagrado":"Um sol dourado.",
-        "arma_preferida": "Cimitarra.",
+        "canalizar_energia": "Positiva",
+        "arma_preferida": "Cimitarra",
         "obrigacoes_restricoes": {
             "0": "O devoto de Azgher deve manter o rosto sempre coberto (com uma máscara, capuz ou trapos). Sua face pode ser revelada apenas ao sumo-sacerdote, ou em seu funeral.",
-            "1": "Devotos do Sol também devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doa- ção deve ser feita em ouro, seja na forma de moedas ou itens."
+            "1": "Devotos do Sol também devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doação deve ser feita em ouro, seja na forma de moedas ou itens."
         },
-        "poderes_concedidos": {
-            "0": "Espada em Chamas (1 PM) - Você pode fazer com que sua espada (ou outra arma corpo a corpo de corte) adquira as propriedades de uma arma mágica flamejante (dano +1d6 por fogo). O efeito dura até o fim da cena.",
-            "1": "Imunidade ao Calor - Você sempre recebe dano mínimo por fogo e calor (incluindo clima quente).",
-            "2": "Inimigo  de  tenebra. Todos  os  seus  ataques, poderes e magias causam +1d6 pontos de dano contra mortos-vivos.",
-            "3": "Verter água (1 PM) - Você enche um odre (ou outro recipiente pequeno, como um jarro) com água pura e potável."
-        }
+        "poderes_concedidos": [
+            { "nome": "Espada Solar", "descricao": "Você pode gastar 1 PM para fazer uma arma corpo a corpo de corte que esteja empunhando causar +1d6 de dano por fogo até o fim da cena." },
+            { "nome": "Habitante do Deserto", "descricao": "Você recebe resistência a fogo 5 e pode pagar 1 PM para criar água pura e potável suficiente para um odre (ou outro recipiente pequeno)."},
+            { "nome": "Inimigo de Tenebra", "descricao": "Seus ataques e habilidades causam +1d6 pontos de dano contra mortos-vivos." } 
+        ]
     },
-    "keen" : {
-        "nome": "Keen",
-        "crencas_objetivos": "Promover a guerra e conflito. Vencer a qualquer custo, pela força ou estratégia. Jamais oferecer ou aceitar rendição. Eliminar as próprias fraquezas.",
-        "devotos_permitidos": "Bárbaros, cavaleiros, guer- reiros, lutadores.",
-        "simbolo_sagrado":"Escudo cruzado por espada longa, martelo de guerra e machado de batalha.",
-        "arma_preferida": "Machado de batalha.",
+    "hyninn" : {
+        "nome": "Hyninn",
+        "crencas_objetivos": "Praticar a astúcia e a esperteza. Demonstrar que honestidade e sinceridade levam ao fracasso. Desafiar a lei e a ordem. Ser vitorioso sem seguir regras. Fazer aos outros antes que façam a você. Levar vantagem em tudo.",
+        "devotos_permitidos": "Hynne, goblins, sílfides, bardos, bucaneiros, ladinos, inventores, nobres.",
+        "simbolo_sagrado":"Uma adaga atravessando uma máscara, ou uma raposa.",
+        "canalizar_energia": "Qualquer",
+        "arma_preferida": "Adaga",
         "obrigacoes_restricoes": {
-            "0":"Um devoto de Keenn jamais se rende ou desiste de um combate, mesmo quando a chance de vitória é pequena. Além disso, um devoto de Keenn não lança (e nem aceita receber) magias de cura durante um combate."
+            "0": "Um devoto de Hyninn não recusa participação em um golpe, trapaça ou artimanha (o que muitas vezes inclui missões para roubar... hã, resgatar tesouros), exceto quando prejudica seus próprios companheiros.",
+            "1": "O devoto também deve fazer um ato furtivo, ousado ou proibido por dia (ou por sessão de jogo, o que demorar mais), como oferenda a Hyninn. Roubar uma bolsa, enganar um miliciano, invadir o quarto de um nobre... Em termos de jogo, uma ação exigindo um teste de Enganação ou Ladinagem com CD mínima 15 + metade do seu nível."
         },
-        "poderes_concedidos": {
-            "0": "Conjurar Arma (1 PM) - Você pode gastar uma ação de movimento para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma recebe um bônus de +1 em testes de ataque e rolagens de dano. A arma dura pela cena, então desaparece. Você não pode criar armas de disparo, mas pode criar 10 projéteis (flechas, virotes, etc.).",
-            "1": "Coragem Total - Você  é  imune  a  efeitos  de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros) ou causadas por loucura, mas oferece +4 em testes de Vontade contra elas.",
-            "2": "Sangue de Ferro (2 PM) - Você recebe +2 em rolagens de dano e resistência a dano 5 até o fim da cena."
-        }
+        "poderes_concedidos": [
+            { "nome": "Farsa do Fingidor", "descricao": "Você aprende e pode lançar Criar Ilusão." },
+            { "nome": "Forma de Macaco", "descricao": "Você pode gastar uma ação completa e 2 PM para se transformar em um macaco. Você adquire tamanho Minúsculo (o que fornece +5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalar 9m. Seu equipamento desaparece (e você perde seus benefícios) até você voltar ao normal, mas suas outras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso você faça um ataque, lance uma magia ou sofra dano."},
+            { "nome": "Golpista Divino", "descricao": "Você recebe +2 em Enganação e Ladinagem." } 
+        ]
+    },
+    "kallyadranoch" : {
+        "nome": "Kallyadranoch",
+        "crencas_objetivos": "Praticar a soberania. Demonstrar orgulho, superioridade, majestade. Praticar o acúmulo de riquezas. Proteger suas posses e sua dignidade. Ser implacável com seus inimigos. Reverenciar os dragões e suas crias.",
+        "devotos_permitidos": "Elfos, medusas, sulfure, arcanistas, cavaleiros, guerreiros, lutadores, nobres.",
+        "simbolo_sagrado": "Escamas de cinco cores diferentes.",
+        "canalizar_energia": "Negativa",
+        "arma_preferida": "Lança",
+        "obrigacoes_restricoes": {
+            "0": "Para subir de nível, além de acumular XP suficiente, o devoto de Kallyadranoch deve realizar uma oferenda em tesouro. O valor é igual à metade da diferença do dinheiro inicial do nível que vai alcançar para o nível atual (por exemplo, T$ 200 para subir para o 4° nível). Sabe-se, também, de devotos malignos que sacrificam vítimas a Kallyadranoch (não permitido para personagens jogadores)."
+        },
+        "poderes_concedidos": [
+            { "nome": "Aura de Medo", "descricao": "Você pode gastar 2 PM para gerar uma aura de medo com alcance curto e duração até o fim da cena. Todos os inimigos que entrem na aura devem fazer um teste de Vontade (CD Car) ou ficam abalados até o fim da cena. Uma criatura que passe no teste de Vontade fica imune a esta habilidade por um dia." },
+            { "nome": "Escamas Dracônicas", "descricao": "Você recebe +1 na Defesa."},
+            { "nome": "Servos do Dragão", "descricao": "Você pode gastar uma ação completa e 2 PM para invocar 2d4+1 kobolds em espaços desocupados em alcance curto. Você pode usar uma ação de movimento para fazer os kobolds andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6–1 pontos de dano de perfuração cada). Os kobolds têm For 8, Des 14, 1 PV, não têm valor de Defesa ou testes de resistência e falham automaticamente em qualquer teste oposto. Eles desaparecem quando morrem ou no fim da cena. Os kobolds não agem sem receber uma ordem. Usos criativos para criaturas invocadas fora de combate ficam a critério do mestre." } 
+        ]
     },
     "khalmyr" : {
         "nome": "Khalmyr",
         "crencas_objetivos": "Praticar a caridade e altruísmo. Proteger a lei e ordem. Proteger os necessitados. Combater a mentira, o crime e o mal. Oferecer clemência, perdão e redenção. Lutar o bom combate.",
-        "devotos_permitidos": "Anões, cavaleiros, guerreiros, nobres.",
+        "devotos_permitidos": "Aggelus, anões, cavaleiros, guerreiros, nobres, paladinos.",
         "simbolo_sagrado":"Espada sobreposta a uma balança.",
-        "arma_preferida": "Espada longa.",
+        "arma_preferida": "Espada Longa",
         "obrigacoes_restricoes": {
-            "0": "Devotos de Khalmyr são proibidos de recusar um pedido sincero de ajuda. Também devem sempre cumprir as ordens de devotos superiores na hierarquia da igreja (qualquer outro devoto de Khalmyr de nível maior). Além disso, devotos de Khalmyr nunca usam itens mágicos, exceto aqueles de natureza divina (itens litúrgicos)."
+            "0": "Devotos de Khalmyr não podem recusar pedidos de ajuda feitos por pessoas inocentes. Também devem cumprir as ordens de superiores na hierarquia da igreja (qualquer devoto do Deus da Justiça de nível maior) e só podem usar itens mágicos criados por devotos do mesmo deus."
         },
-        "poderes_concedidos": {
-            "0": "Arma Sagrada (1-5 PM) - Ao empunhar a arma preferida de seu deus (espada longa) e gastar pontos de mana, ela se torna uma arma mágica com bônus igual ao número de PM gastos, até o fim da cena. Este poder não é cumulativo com armas mágicas.",
-            "1": "Coragem Total - Você  é  imune  a  efeitos  de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros) ou causadas por loucura, mas oferece +4 em testes de Vontade contra elas.",
-            "2": "Dom da Verdade (1 PM) - Você recebe +5 em testes de Intuição contra uma criatura até o fim da cena."
-        }
+        "poderes_concedidos": [
+            { "nome": "Coragem Total", "descricao": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros)."},
+            { "nome": "Dom da Verdade", "descricao": "Você pode pagar 1 PM para receber +5 em testes de Intuição até o fim da cena."},
+            { "nome": "Espada Justiceira", "descricao": "Você pode gastar 1 PM para encantar sua espada (ou outra arma corpo a corpo de corte que esteja empunhando). Ela recebe +1 em testes de ataque e rolagens de dano até o fim da cena." } 
+        ]
     }, 
     "lena" : {
         "nome": "Lena",
