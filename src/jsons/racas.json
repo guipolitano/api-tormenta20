@@ -1,114 +1,315 @@
 {
-    "anao": {
-        "id": "1",
-        "nome": "Anão",
-        "bonus": {
-            "car": 0,
-            "sab": 2,
-            "int": 0,
-            "con": 4,
-            "des": -2,
-            "for": 0
-        },
-        "ca": 0
-    },
-
-    "dahllan": {
-        "id": "2",
-        "nome": "Dahllan",
-        "bonus": {
-            "car": 0,
-            "sab": 4,
-            "int": -2,
-            "con": 0,
-            "des": 2,
-            "for": 0
-        },
-        "ca": 0
-    },
-
-    "elfo": {
-        "id": "3",
-        "nome": "Elfo",
-        "bonus": {
-            "car": 0,
-            "sab": 0,
-            "int": 4,
-            "con": -2,
-            "des": 2,
-            "for": 0
-        },
-        "ca": 0
-    },
-
-    "goblin": {
-        "id": "4",
-        "nome": "Goblin",
-        "bonus": {
-            "car": -2,
-            "sab": 0,
-            "int": 0,
-            "con": 2,
-            "des": 4,
-            "for": 0
-        },
-        "ca": 0
-    },
-
     "humano": {
-        "id": "5",
+        "id": 1,
         "nome": "Humano",
         "bonus": {
-            "car": 0,
-            "sab": 0,
-            "int": 0,
-            "con": 0,
+            "for": 0,
             "des": 0,
-            "for": 0
+            "con": 0,
+            "int": 0,
+            "sab": 0,
+            "car": 0
         },
-        "ca": 0
+        "habilidades_de_raca": [
+            { "nome": "+2 em Três Atributos Diferentes", "descricao": "Filhos de Valkaria, Deusa da Ambição, humanos podem se destacar em qualquer caminho que escolherem." },
+            { "nome": "Versátil", "descricao": "Você se torna treinado em duas perícias a sua escolha (não precisam ser da sua classe). Você pode trocar uma dessas perícias por um poder geral a sua escolha." }
+        ]
     },
-
+    "anao": {
+        "id": 2,
+        "nome": "Anão",
+        "bonus": {
+            "for": 0,
+            "des": -2,
+            "con": 4,
+            "int": 0,
+            "sab": 2,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            { "nome": "Conhecimento das Rochas", "descricao": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo." },
+            { "nome": "Devagar e Sempre", "descricao": "Seu deslocamento é 6m (em vez de 9m). Porém, seu deslocamento não é reduzido por uso de armadura ou excesso de carga." },
+            { "nome": "Duro como Pedra", "descricao": "Você recebe +3 pontos de vida no 1º nível e +1 por nível seguinte."},
+            { "nome": "Tradição de Heredrimm", "descricao": " Você é perito nas armas tradicionais anãs, seja por ter treinado com elas, seja por usá-las como ferramentas de ofício. Para você, todos os machados, martelos, marretas e picaretas são armas simples. Você recebe +2 em ataques com essas armas."}
+        ]
+    },
+    "dahllan": {
+        "id": 3,
+        "nome": "Dahllan",
+        "bonus": {
+            "for": 0,
+            "des": 2,
+            "con": 0,
+            "int": -2,
+            "sab": 4,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            { "nome": "Amiga das Plantas", "descricao": "Você pode lançar a magia Controlar Plantas (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM." },
+            { "nome": "Armadura de Allihanna", "descricao": "Você pode gastar uma ação de movimento e 1 PM para transformar sua pele em casca de árvore, recebendo +2 na Defesa até o fim da cena." },
+            { "nome": "Empatia Selvagem", "descricao": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e pedir favores de animais (veja Diplomacia, na página 117). Caso receba esta habilidade novamente, recebe +2 em Adestramento."}
+        ]
+    },
+    "elfo": {
+        "id": 4,
+        "nome": "Elfo",
+        "bonus": {
+            "for": 0,
+            "des": 2,
+            "con": -2,
+            "int": 4,
+            "sab": 0,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            { "nome": "Graça de Glórienn", "descricao": "Seu deslocamento é 12m (em vez de 9m)." },
+            { "nome": "Herança Feérica", "descricao": "Você recebe +1 ponto de mana por nível." },
+            { "nome": "Sentidos Élficos", "descricao": "Você recebe visão na penumbra e +2 em Misticismo e Percepção."}
+        ]
+    },
+    "goblin": {
+        "id": 5,
+        "nome": "Goblin",
+        "bonus": {
+            "for": 0,
+            "des": 4,
+            "con": 0,
+            "int": 2,
+            "sab": 0,
+            "car": -2
+        },
+        "habilidades_de_raca": [
+            { "nome": "Engenhoso", "descricao": "Você não sofre penalidades em testes de perícia por não usar kits. Se usar o kit, recebe +2 no teste de perícia." },
+            { "nome": "Espelunqueiro", "descricao": "Você recebe visão no escuro e deslocamento de escalada igual ao seu deslocamento terrestre." },
+            { "nome": "Peste Esguia", "descricao": "Seu tamanho é Pequeno (veja a página 106), mas seu deslocamento se mantém 9m. Apesar de pequenos, goblins são rápidos."},
+            { "nome": "Rato das Ruas", "descricao": "Você recebe +2 em Fortitude e sua recuperação de PV e PM nunca é inferior ao seu nível."}
+        ]
+    },
     "lefou": {
-        "id": "6",
+        "id": 6,
         "nome": "Lefou",
         "bonus": {
-            "car": 0,
-            "sab": 0,
-            "int": 0,
-            "con": 0,
+            "for": 0,
             "des": 0,
-            "for": 0
+            "con": 0,
+            "int": 0,
+            "sab": 0,
+            "car": -2
         },
-        "ca": 0
+        "habilidades_de_raca": [
+            { "nome": "+2 em Três Atributos Diferentes (exceto Carisma)", "descricao": "" },
+            { "nome": "Cria da Tormenta", "descricao": "Você é uma criatura do tipo monstro e recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta." },
+            { "nome": "Deformidade", "descricao": "Todo lefou possui defeitos físicos que, embora desagradáveis, conferem certas vantagens. Você recebe +2 em duas perícias a sua escolha. Cada um desses bônus conta como um poder da Tormenta. Você pode trocar um desses bônus por um poder da Tormenta a sua escolha. Esta habilidade não causa perda de Carisma."}
+        ]
     },
-    
     "minotauro": {
-        "id": "7",
+        "id": 7,
         "nome": "Minotauro",
         "bonus": {
-            "car": 0,
-            "sab": -2,
-            "int": 0,
-            "con": 2,
+            "for": 4,
             "des": 0,
-            "for": 4
+            "con": 2,
+            "int": 0,
+            "sab": -2,
+            "car": 0
         },
-        "ca": 0
+        "habilidades_de_raca": [
+            { "nome": "Chifres", "descricao": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres."},
+            { "nome": "Couro Rígido", "descricao": "Sua pele é dura como a de um touro. Você recebe +1 na Defesa." },
+            { "nome": "Faro", "descricao": "Você tem olfato apurado. Você não fica desprevenido e sofre apenas camuflagem (em vez de camuflagem total) contra inimigos em alcance curto que não possa ver."},
+            { "nome": "Medo de Altura", "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), você fica abalado."}
+        ]
     },
-
     "qareen": {
-        "id": "8",
+        "id": 8,
         "nome": "Qareen",
         "bonus": {
-            "car": 4,
-            "sab": -2,
-            "int": 2,
-            "con": 0,
+            "for": 0,
             "des": 0,
-            "for": 0
+            "con": 0,
+            "int": 2,
+            "sab": -2,
+            "car": 4
         },
-        "ca": 0
+        "habilidades_de_raca": [
+            { "nome": "Desejos", "descricao": "Se lançar uma magia que alguém tenha pedido desde seu último turno, o custo da magia diminui em –1 PM. Fazer um desejo ao qareen é uma ação livre."},
+            { "nome": "Resistência Elemental", "descricao": "Conforme sua ascendência, você recebe resistência 10 a um tipo de dano. Escolha uma: frio (qareen da água), eletricidade (do ar), fogo (do fogo), ácido (da terra), luz (da luz) ou trevas (qareen das trevas)." },
+            { "nome": "Tatuagem Mística", "descricao": "Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."}
+        ]
+    },
+    "golem": {
+        "id": 9,
+        "nome": "Golem",
+        "bonus": {
+            "for": 4,
+            "des": 0,
+            "con": 2,
+            "int": 0,
+            "sab": 0,
+            "car": -2
+        },
+        "habilidades_de_raca": [
+            { "nome": "Canalizar Reparos", "descricao": "Como uma ação completa, você pode gastar pontos de mana para recuperar pontos de vida, à taxa de 5 PV por PM."},
+            { "nome": "Chassi", "descricao": "Seu corpo artificial é resistente, mas rígido. Você recebe +2 na Defesa, mas possui penalidade de armadura –2 e seu deslocamento é 6m. Você leva um dia para vestir ou remover uma armadura (pois precisa acoplar as peças dela a seu chassi)." },
+            { "nome": "Criatura Artificial", "descricao": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a doenças, fadiga, sangramento, sono e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, não recupera pontos de vida por descanso e não se beneficia de habilidades de cura e itens ingeríveis (comidas, poções etc.). Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso)."},
+            { "nome": "Espírito Elemental", "descricao": "Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano causado por essa energia. Se fosse sofrer dano mágico dessa energia, em vez disso cura PV em quantida-de igual à metade do dano. Por exemplo, se um golem com espírito elemental do fogo é atingido por uma Bola de Fogo que causa 30 pontos de dano, em vez de sofrer esse dano, ele recupera 15 PV." },
+            { "nome": "Sem Origem", "descricao": "Como uma criatura artificial, você já foi construído “pronto”. Não teve uma infância — portanto, não tem direito a escolher uma origem e receber benefícios por ela."}
+        ]
+    },
+    "hynne": {
+        "id": 10,
+        "nome": "Hynne",
+        "bonus": {
+            "for": -2,
+            "des": 4,
+            "con": 0,
+            "int": 0,
+            "sab": 0,
+            "car": 2
+        },
+        "habilidades_de_raca": [
+            { "nome": "Arremessador", "descricao": "Quando faz um ataque à distância com uma funda ou uma arma de arremesso, seu dano aumenta em um passo."},
+            { "nome": "Pequeno e Rechonchudo", "descricao": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e usa o modifi-cador de Destreza para Atletismo (em vez de Força)." },
+            { "nome": "Sorte Salvadora", "descricao": "Quando faz um teste de resistência, você pode gastar 1 PM para rolar este teste novamente."}
+        ]
+    },
+    "kliren": {
+        "id": 11,
+        "nome": "Kliren",
+        "bonus": {
+            "for": -2,
+            "des": 0,
+            "con": 0,
+            "int": 4,
+            "sab": 0,
+            "car": 2
+        },
+        "habilidades_de_raca": [
+            { "nome": "Híbrido", "descricao": "Sua natureza multifacetada fez com que você aprendesse conhecimentos variados. Você se torna treinado em uma perícia a sua escolha (não precisa ser da sua classe)."},
+            { "nome": "Lógica Gnômica", "descricao": "Quando faz um teste de atributo ou perícia, você pode gastar 2 PM para subs-tituir o modificador de atributo utilizado por Inteli-gência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 2 PM para usar seu modificador de Inteligência em vez do modificador de Força." },
+            { "nome": "Ossos Frágeis", "descricao": "Você sofre 1 ponto de dano adicional por dado de dano de impacto. Por exemplo, se for atingido por uma clava (dano 1d6), sofre 1d6+1 pontos de dano. Se cair de 3m de altura (dano 2d6), sofre 2d6+2 pontos de dano."},
+            { "nome": "Vanguardista", "descricao": " Você recebe proficiência em armas de fogo e +2 em testes de Ofício (um qualquer, a sua escolha)."}
+        ]
+    },
+    "medusa": {
+        "id": 12,
+        "nome": "Medusa",
+        "bonus": {
+            "for": 0,
+            "des": 4,
+            "con": 0,
+            "int": 0,
+            "sab": 0,
+            "car": 2
+        },
+        "habilidades_de_raca": [
+            { "nome": "Cria de Megalokk", "descricao": "Você é uma criatura do tipo monstro e recebe visão no escuro."},
+            { "nome": "Natureza Venenosa", "descricao": "Você recebe resistência a veneno 5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja empunhando. A arma causa +1d12 pontos de dano de veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro)." },
+            { "nome": "Olhar Atordoante", "descricao": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica atordoada por 1 rodada. Se passar, fica imune a esta habilidade por um dia."}
+        ]
+    },
+    "osteon": {
+        "id": 13,
+        "nome": "Osteon",
+        "bonus": {
+            "for": 0,
+            "des": 0,
+            "con": -2,
+            "int": 0,
+            "sab": 0,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            { "nome": "+2 em Três Atributos Diferentes (exceto Constituição)", "descricao": "" },
+            { "nome": "Armadura Óssea", "descricao": "Você recebe resistência a corte, frio e perfuração 5."},
+            { "nome": "Memória Póstuma", "descricao": "Você se torna treinado em uma perícia (não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um osteon de outra raça humanoide que não humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho." },
+            { "nome": "Natureza Esquelética", "descricao": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a doenças, fadiga, sangramento, sono e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, habilidades mágicas de cura causam dano a você e você não se beneficia de itens ingeríveis (comidas, poções etc.), mas dano de trevas recupera seus PV."},
+            { "nome": "Preço da Não-Vida", "descricao": "Você precisa passar oito horas sob a luz de estrelas ou no subterrâneo. Se fizer isso, recupera PV e PM por descanso em condi-ções normais (osteon não são afetados por condições boas ou ruins de descanso). Caso contrário, sofre os efeitos de fome."}
+        ]
+    },
+     "sereia_tritao": {
+        "id": 14,
+        "nome": "Sereia/Tritão",
+        "bonus": {
+            "for": 0,
+            "des": 0,
+            "con": 0,
+            "int": 0,
+            "sab": 0,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            { "nome": "+2 em Três Atributos Diferentes.", "descricao": "" },
+            { "nome": "Canção dos Mares", "descricao": "Você pode lançar duas das magias a seguir: Amedrontar, Comando, Despedaçar, Enfeitiçar, Hipnotismo ou Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM."},
+            { "nome": "Mestre do Tridente", "descricao": "Para você, o tridente é uma arma simples. Além disso, você recebe +2 em rolagens de dano com azagaias, lanças e tridentes." },
+            { "nome": "Transformação Anfíbia", "descricao": "Você pode respirar debaixo d’água e possui uma cauda que fornece deslocamento de natação 12m. Quando fora d’água, sua cauda desaparece e dá lugar a pernas (deslocamento 9m). Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!)."}
+        ]
+    },
+    "silfide": {
+        "id": 15,
+        "nome": "Sílfide",
+        "bonus": {
+            "for": -4,
+            "des": 2,
+            "con": 0,
+            "int": 0,
+            "sab": 0,
+            "car": 4
+        },
+        "habilidades_de_raca": [
+            { "nome": "Asas de Borboleta", "descricao": "Seu tamanho é Minúsculo. Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m." },
+            { "nome": "Espírito da Natureza", "descricao": "Você é uma criatura do tipo espírito, recebe visão na penumbra e pode falar com animais livremente."},
+            { "nome": "Magia das Fadas", "descricao": "Você pode lançar duas das magias a seguir (todas atributo-chave Carisma): Criar Ilusão, Enfeitiçar, Luz (como uma magia arcana) e Sono. Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM." }
+        ]
+    },
+    "suraggel_aggelus": {
+        "id": 16,
+        "nome": "Suraggel (Aggelus)",
+        "bonus": {
+            "for": 0,
+            "des": 2,
+            "con": 0,
+            "int": 0,
+            "sab": 4,
+            "car": 2
+        },
+        "habilidades_de_raca": [
+            { "nome": "Herança Divina", "descricao": "Você é uma criatura do tipo espírito e recebe visão no escuro." },
+            { "nome": "Luz Sagrada", "descricao": "Você recebe +2 em Diplomacia e Intuição. Além disso, pode lançar Luz(como uma magia divina; atributo-chave Carisma). Caso aprenda novamente essa magia, o custo para lançá-la diminui em –1 PM."}
+        ]
+    },
+    "suraggel_sulfure": {
+        "id": 17,
+        "nome": "Suraggel (Sulfure)",
+        "bonus": {
+            "for": 0,
+            "des": 4,
+            "con": 0,
+            "int": 2,
+            "sab": 0,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            { "nome": "Herança Divina", "descricao": "Você é uma criatura do tipo espírito e recebe visão no escuro." },
+            { "nome": "Sombras Profanas", "descricao": "Você recebe +2 em Enganação e Furtividade. Além disso, pode lançar Escuridão (como uma magia divina; atributo-chave Inteligência). Caso aprenda novamente essa magia, o custo para lançá-la diminui em –1 PM."}
+        ]
+    },
+    "trog": {
+        "id": 18,
+        "nome": "Trog",
+        "bonus": {
+            "for": 2,
+            "des": 0,
+            "con": 4,
+            "int": -2,
+            "sab": 0,
+            "car": 0
+        },
+        "habilidades_de_raca": [
+            { "nome": "Mau Cheiro", "descricao": "Você pode gastar uma ação padrão e 2 PM para expelir um gás fétido. Todas as criaturas (exceto trogs) em alcance curto devem passar em um teste de Fortitude contra veneno (CD Con) ou ficarão enjoadas durante 1d6 rodadas. Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia." },
+            { "nome": "Mordida", "descricao": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."},
+            { "nome": "Reptiliano", "descricao": "Você é uma criatura do tipo monstro e recebe visão no escuro, +1 na Defesa e, se estiver sem armadura ou roupas pesadas, +5 em Furtividade." },
+            { "nome": "Sangue Frio", "descricao": " Você sofre 1 ponto de dano adicional por dado de dano de frio." }
+        ]
     }
-
 }
