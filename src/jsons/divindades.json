@@ -18,7 +18,7 @@
     "allihanna" : {
         "nome": "Allihanna",
         "crencas_objetivos": "Reverenciar os seres da natureza. Proteger a vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equilíbrio natural.",
-        "devotos_permitidos": "Dahllan, elfos, bárbaros, caçadores, druidas.",
+        "devotos_permitidos": "Dahllan, elfos, sílfides, bárbaros, caçadores, druidas.",
         "simbolo_sagrado":"Para bárbaros e outros adoradores de animais, o símbolo corresponde ao respectivo animal. Para outros, uma pequena árvore.",
         "canalizar_energia": "Positiva",
         "arma_preferida": "Bordão",
@@ -103,6 +103,7 @@
         "crencas_objetivos": "Praticar a caridade e altruísmo. Proteger a lei e ordem. Proteger os necessitados. Combater a mentira, o crime e o mal. Oferecer clemência, perdão e redenção. Lutar o bom combate.",
         "devotos_permitidos": "Aggelus, anões, cavaleiros, guerreiros, nobres, paladinos.",
         "simbolo_sagrado":"Espada sobreposta a uma balança.",
+        "canalizar_energia": "Positiva",
         "arma_preferida": "Espada Longa",
         "obrigacoes_restricoes": {
             "0": "Devotos de Khalmyr não podem recusar pedidos de ajuda feitos por pessoas inocentes. Também devem cumprir as ordens de superiores na hierarquia da igreja (qualquer devoto do Deus da Justiça de nível maior) e só podem usar itens mágicos criados por devotos do mesmo deus."
@@ -115,38 +116,90 @@
     }, 
     "lena" : {
         "nome": "Lena",
-        "crencas_objetivos": "Reverenciar e proteger a vida em todas as suas formas. Reverenciar a fecundidade, a maternidade e a infância. Praticar a caridade e altruísmo. Oferecer clemência, perdão e redenção. Aliviar a dor e sofrimento, seja físico, mental ou espiritual.",
-        "devotos_permitidos": "Dahllan, qareen, nobres.",
+        "crencas_objetivos": "Reverenciar e proteger a vida em todas as suas formas. Reverenciar a fecundidade, a maternidade e a infância. Praticar a caridade e altruísmo. Oferecer clemência, perdão e redenção. Aliviar a dor e sofrimento físico, mental ou espiritual.",
+        "devotos_permitidos": "Dahllan, qareen, nobres, paladinos.",
         "simbolo_sagrado":"Lua crescente prateada.",
+        "canalizar_energia": "Positiva",
         "arma_preferida": "Não há. Servos desta deusa não podem lançar a magia arma espiritual e similares.",
         "obrigacoes_restricoes": {
-             "0": "Apenas mulheres podem ser devotas de Lena. Uma devota precisa dar à luz pelo menos uma vez antes de receber seus poderes divinos. A fecundação é um mistério bem guardado pelas sacerdotisas; conta-se que a própria deusa vem semear suas discípulas.",
-            "1": "Devotas de Lena são proibidas de causar dano, seja com armas ou magias. Em combate, podem apenas proteger ou curar (magias que aumentem o dano causado por seus aliados também são proibidas). Diante de um inimigo superior, podem apenas fugir, render-se ou aceitar a morte; para uma devota de Lena, é preferível perder a própria vida a tirá-la de outros.",
-            "2": "Os raros paladinos de Lena (únicos devotos masculinos permitidos) são permitidos a lutar, mas só podem causar dano não letal."
+            "0": "Devotos de Lena não podem causar dano letal a criaturas vivas (habilidades que aumentem o dano letal causado por seus aliados também são proibidas). Podem causar dano não letal e prejudicar seus inimigos (em termos de jogo, impondo condições), desde que não causem dano letal. Para um devoto de Lena, é preferível perder a própria vida a tirá-la de outros.",
+            "1": "Apenas mulheres podem ser devotas de Lena. Uma clériga precisa dar à luz pelo menos uma vez antes de receber seus poderes divinos. A fecundação é um mistério bem guardado pelas sacerdotisas; conta-se que a própria deusa vem semear suas discípulas. Paladinos de Lena podem ser homens (são os únicos devotos masculinos permitidos) ou mulheres."
         },
-        "poderes_concedidos": {
-            "0": "Ataque Piedoso - Você  pode  usar  armas  de corpo-a-corpo para causar dano não-letal sem sofrer a penalidade padrão (–5) no teste de ataque. Apenas paladinos de Lena recebem este poder.",
-            "1": "Aura Restauradora - Aliados repousando junto de você recuperam duas vezes mais pontos de vida com descanso. Você também recebe estes benefícios.",
-            "2": "Curandeira Perfeita - Você sempre pode escolher 10 em testes de Cura, mesmo sob pressão. Além disso, pode usar esta perícia mesmo sem um kit de medicamentos.",
-            "3": "Cura Gentil - Você adiciona seu modificador de Carisma (mínimo +1) aos pontos de vida restaurados por suas magias de cura. Personagens que não lançam magias de cura não recebem este poder."
-        }
+        "poderes_concedidos": [
+            { "nome": "Ataque Piedoso", "descricao": "Você pode usar armas de corpo a corpo para causar dano não letal sem sofrer a penalidade de –5 no teste de ataque." },
+            { "nome": "Aura Restauradora", "descricao": "Você e seus aliados em alcance curto recuperam duas vezes mais pontos de vida por descanso." },
+            { "nome": "Curandeira Perfeita", "descricao": "Você sempre pode escolher 10 em testes de Cura. Além disso, pode usar essa perícia mesmo sem um kit de medicamentos. Se usar o kit, recebe +2 no teste de Cura." },
+            { "nome": "Cura Gentil", "descricao": "Você adiciona seu bônus de Carisma (mínimo +1) aos PV restaurados por suas magias de cura." }
+        ]
+    },
+    "lin-wu": {
+        "nome": "Lin-Wu",
+        "crencas_objetivos": "Promover a honra acima de tudo. Proteger Tamu-ra e o Reinado de Arton. Praticar honestidade, coragem, cortesia e compaixão. Demonstrar integridade e dignidade. Ser leal a seus companheiros. Buscar redenção após cometer desonra.",
+        "devotos_permitidos": "Anões, cavaleiros, guerreiros, nobres, paladinos.",
+        "simbolo_sagrado":"Placa de metal com a silhueta de um dragão-serpente celestial.",
+        "canalizar_energia": "Qualquer",
+        "arma_preferida": "Katana.",
+        "obrigacoes_restricoes": {
+            "0": "Antigas proibições quanto a devotos estrangeiros ou do gênero feminino não mais se aplicam. No entanto, devotos de Lin-Wu ainda devem demonstrar comportamento honrado, jamais recorrendo a mentiras e subterfúgios. Em termos de jogo, são proibidos de tentar qualquer ação que exigiria um teste de Enganação, Furtividade ou Ladinagem."
+        },
+        "poderes_concedidos": [
+            { "nome": "Coragem Total", "descricao": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros)."},
+            { "nome": "Kiai Divino", "descricao": "Quando faz um ataque corpo a corpo, você pode pagar 2 PM. Se acertar o ataque, causa dano máximo."},
+            { "nome": "Mente Vazia", "descricao": "Você recebe +2 em Iniciativa e Vontade."}
+        ]
+    },
+    "marah": {
+        "nome": "Marah",
+        "crencas_objetivos": "Praticar o amor e a gratidão pela vida, pela bondade dos deuses. Promover a paz, harmonia e felicidade. Aliviar a dor e o sofrimento, trazer conforto aos aflitos. Praticar a caridade e o altruísmo. Oferecer clemência, perdão e redenção.",
+        "devotos_permitidos": "Aggelus, elfos, hynne, qareen, bardos, nobres, paladinos.",
+        "simbolo_sagrado":"Um coração vermelho.",
+        "canalizar_energia": "Positiva",
+        "arma_preferida": "Não há. Devotos desta deusa não podem lançar a magia Arma Espiritual e similares.",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Marah não podem causar dano e impor condições a criaturas, exceto fascinado e pasmo (habilidades que aumentem o dano causado por seus aliados também são proibidas). Em combate, só podem recorrer a ações como proteger ou curar — ou então fugir, render-se ou aceitar a morte. Um devoto de Marah jamais vai causar violência, nem mesmo para se salvar."
+        },
+        "poderes_concedidos": [
+            { "nome": "Aura de Paz", "descricao": "Você pode gastar 2 PM para gerar uma aura de paz com alcance curto e duração de uma cena. Qualquer inimigo dentro da aura que tente fazer uma ação hostil contra você deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Se passar, fica imune a esta habilidade por um dia."},
+            { "nome": "Palavras de Bondade", "descricao": "Você aprende e pode lançar Enfeitiçar."},
+            { "nome": "Talento Artístico", "descricao": "Você recebe +2 em Atuação e Diplomacia."}
+        ]
+    },
+    "megalokk": {
+        "nome": "Megalokk",
+        "crencas_objetivos": "Praticar a violência, a soberania do mais forte. Jamais reprimir os próprios instintos e desejos. Jamais ser domado, desafiar qualquer forma de controle. Jamais oferecer perdão ou rendição. Eliminar os fracos. Destruir seus inimigos.",
+        "devotos_permitidos": "Goblins, medusas, minotauros, sulfure, trogs, bárbaros, caçadores, druidas, lutadores.",
+        "simbolo_sagrado":"A garra de um monstro.",
+        "canalizar_energia": "Negativa",
+        "arma_preferida": "Maça",
+        "obrigacoes_restricoes": {
+            "0": "Devotos de Megalokk devem entregar-se à ferocidade, descontrole e impaciência. Você é proibido de tentar ações que exigem calma ou foco, como preparar uma ação, escolher 10 ou 20 em um teste ou lançar uma magia sustentada.",
+            "1": "O devoto também é obrigado a rejeitar os modos civilizados. Você é proibido de tentar qualquer teste de perícia baseada em Inteligência ou Carisma (exceto Intimidação)."
+        },
+        "poderes_concedidos": [
+            { "nome": "Olhar Amedrontador", "descricao": "Você aprende e pode lançar Amedrontar."},
+            { "nome": "Urro Divino", "descricao": "Quando faz um ataque ou lança uma magia, você pode pagar 1 PM para somar seu modificador de Constituição (mínimo +1) à rolagem de dano desse ataque ou magia."},
+            { "nome": "Voz dos Monstros", "descricao": "Você conhece os idiomas de todos os monstros inteligentes (criaturas do tipo monstro com Int 3 ou mais) e pode se comunicar livremente com monstros não inteligentes (Int 1 ou 2), como se estivesse sob efeito da magia Voz Divina."}
+        ]
     },
     "nimb" : {
         "nome": "Nimb",
         "crencas_objetivos": "Reverenciar o caos, a aleatoriedade, a sorte e azar. Praticar a ousadia e rebeldia, desafiar regras e leis. Rejeitar o bom senso. Tornar o mundo mais interessante. Ou divertido. Ou terrível. Ou não.",
-        "devotos_permitidos": "Goblins, qareen, bárbaros, bardos, bucaneiros, inventores, ladinos.",
+        "devotos_permitidos": "Goblins, qareen, sílfides, arcanistas, bárbaros, bardos, bucaneiros, inventores, ladinos.",
         "simbolo_sagrado":"Um dado de seis faces.",
-        "arma_preferida": "Nenhuma e todas! Ao usar a magia arma espiritual, qualquer arma (ou outro objeto!) pode aparecer, determinada ao acaso pelo mestre.",
+        "canalizar_energia": "Qualquer",
+        "arma_preferida": "Nenhuma e todas! Ao usar um efeito que dependa de arma preferida, qualquer arma (ou outro objeto!) pode aparecer, de acordo com o mestre",
         "obrigacoes_restricoes": {
-             "0": "Por  serem  incapazes de seguir regras, estes devotos não têm “obrigações” verdadeiras (portanto, nunca perdem seus poderes concedidos). No entanto, sofrem certas restrições que não podem escolher ignorar.",
+            "0": "Por  serem  incapazes de seguir regras, estes devotos não têm “obrigações” verdadeiras (portanto, nunca perdem seus poderes concedidos). No entanto, sofrem certas restrições que não podem escolher ignorar.",
             "1": "Devotos de Nimb são loucos (ou agem como se fossem), não conseguindo convencer ninguém de coisa alguma. Você sofre um severo redutor de –5 em todos os testes de perícias baseadas em Carisma.",
             "2": "Além disso, sempre que você entra em combate, role 1d6. Com um resultado 1, você fica confuso até o fim da cena."
         },
-        "poderes_concedidos": {
-            "0": "Sortudo (3 PM) - Você pode rolar novamente um teste recém realizado.",
-            "1": "Poder Oculto (2 PM) - Com  uma  ação  de movimento, você pode invocar a força, rapidez ou vigor dos loucos. Role 1d6 para receber +4 em Força (1 ou 2), Destreza (3 ou 4) ou Constituição (5 ou 6) até o fim da cena. Você pode invocar este poder várias vezes, cada vez gastando um movimento e 2 PM.",
-            "2": "Tranmissão da Loucura - Você aprende e pode lançar Aura de Loucura."
-        }
+        "poderes_concedidos": [
+            { "nome": "Poder Oculto", "descricao": "Você pode gastar uma ação de movimento e 2 PM para invocar a força, a rapidez ou o vigor dos loucos. Role 1d6 para receber +4 em Força (1 ou 2), Destreza (3 ou 4) ou Constituição (5 ou 6) até o fim da cena. Você pode usar este poder várias vezes, cada vez gastando uma ação de movimento e 2 PM." },
+            { "nome": "Sorte dos Loucos", "descricao": "Você pode pagar 1 PM para rolar novamente um teste recém realizado. Se ainda assim falhar no teste, você perde 1d6 PM." },
+            { "nome": "Transmissão da Loucura", "descricao": "Você pode lançar Sussurros Insanos (CD Car)." }
+        ]
+    },
+    "oceano": {
     },
     "sszzaas" : {
         "nome": "Sszzaas",
@@ -195,6 +248,10 @@
             "2": "Visão nas Trevas - Você enxerga perfeitamente no escuro, incluindo magias de escuridão."
         }
     },
+    "thwor": {
+    },
+    "thyatis": {
+    },
     "valkaria" : {
         "nome": "Valkaria",
         "crencas_objetivos": "Praticar o otimismo, a evolução, a rebeldia. Desafiar limites, almejar o impos-sível. Combater o mal, a opressão e a tirania. Proteger a liberdade. Aceitar e adaptar-se ao novo e diferente. Demonstrar ambição, paixão e coragem. Desfrutar e amar a vida.",
@@ -210,5 +267,7 @@
             "1": "Coragem Total - Você  é  imune  a  efeitos  de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros) ou causadas por loucura, mas oferece +4 em testes de Vontade contra elas.",
             "2": "Liberadade Divina (2 PM) - Você lança libertação, mas apenas em si mesmo e com duração de uma rodada."
         }
+    },
+    "wynna": {
     }
 }
